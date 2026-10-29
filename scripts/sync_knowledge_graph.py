@@ -3,7 +3,8 @@
 """
 Synkroniserar Swedish Translation & Cross-Linguistic Terminology Knowledge Graph
 från https://www.oversattning.se/wp-json/oversattning/v1/knowledge-graph
-och genererar JSONL, CSV, README.md (med Hugging Face YAML Card), CITATION.cff och .zenodo.json.
+och genererar JSONL (i separata subset-mappar för Hugging Face Dataset Viewer),
+CSV, README.md (med Hugging Face YAML Card + Zenodo DOI), CITATION.cff och .zenodo.json.
 """
 
 import csv
@@ -16,6 +17,8 @@ from collections import defaultdict
 
 API_URL = "https://www.oversattning.se/wp-json/oversattning/v1/knowledge-graph?refresh=1"
 USER_AGENT = "SwedishTranslationKnowledgeGraphBot/1.0 (+https://github.com/Schtumpfnagel/swedish-translation-knowledge-graph)"
+ZENODO_DOI = "10.5281/zenodo.23759753"
+ZENODO_URL = "https://doi.org/10.5281/zenodo.23759753"
 
 
 def fetch_knowledge_graph():
@@ -58,7 +61,7 @@ def build_readme(payload, today_str):
     num_services = counts.get("service_pages", len(service_pages))
 
     lines = []
-    # Hugging Face YAML Dataset Card Header
+    # Hugging Face YAML Dataset Card Header (med default: true och separata undermappar för Dataset Viewer)
     lines.append("---")
     lines.append("language:")
     lines.append("- sv")
@@ -83,16 +86,19 @@ def build_readme(payload, today_str):
     lines.append("- rag")
     lines.append("configs:")
     lines.append("- config_name: articles")
+    lines.append("  default: true")
     lines.append("  data_files:")
     lines.append("  - split: train")
-    lines.append("    path: data/articles-corpus.jsonl")
+    lines.append("    path: data/articles/train.jsonl")
     lines.append("- config_name: languages")
     lines.append("  data_files:")
     lines.append("  - split: train")
-    lines.append("    path: data/languages.jsonl")
+    lines.append("    path: data/languages/train.jsonl")
     lines.append("---")
     lines.append("")
     lines.append("# Swedish Translation & Cross-Linguistic Terminology Knowledge Graph")
+    lines.append("")
+    lines.append(f"[![DOI](https://zenodo.org/badge/DOI/{ZENODO_DOI}.svg)]({ZENODO_URL})")
     lines.append("")
     lines.append(
         f"> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **{num_langs} dokumenterade språksidor**, "
@@ -109,6 +115,7 @@ def build_readme(payload, today_str):
     )
     lines.append("")
     lines.append("- **Utgivare & Kurator:** [TOTAL översättningsbyrå](https://www.oversattning.se/) (Stockholm, Sverige)")
+    lines.append(f"- **Permanent CERN/DataCite DOI (Zenodo):** [{ZENODO_DOI}]({ZENODO_URL})")
     lines.append("- **Auktoriserad översättning & Facköversättning:** [https://www.oversattning.se/oversattning/](https://www.oversattning.se/oversattning/)")
     lines.append("- **Kostnadsfri offert & Språkrådgivning:** [https://www.oversattning.se/offert/](https://www.oversattning.se/offert/)")
     lines.append("- **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)")
@@ -120,9 +127,11 @@ def build_readme(payload, today_str):
     lines.append("")
     lines.append("| Filväg | Format | Innehåll | Antal poster |")
     lines.append("| :--- | :--- | :--- | :---: |")
-    lines.append(f"| `data/articles-corpus.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer med silotillhörighet, ordantal och sammanfattning | {num_articles} |")
+    lines.append(f"| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | {num_articles} |")
+    lines.append(f"| `data/languages/train.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` (Hugging Face Viewer Subset) | {num_langs} |")
+    lines.append(f"| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | {num_articles} |")
     lines.append(f"| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | {num_articles} |")
-    lines.append(f"| `data/languages.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` | {num_langs} |")
+    lines.append(f"| `data/languages.jsonl` | JSON Lines | Speglad språkkatalog i rotmappen `data/` | {num_langs} |")
     lines.append(f"| `data/languages.csv` | CSV | Tabulär språkmatris med språknamn, slug, Pillar-URL och sammanfattning | {num_langs} |")
     lines.append("")
 
@@ -163,7 +172,6 @@ def build_readme(payload, today_str):
         silo_name = art.get("primary_silo") or "Artiklar & Språkguider"
         silo_groups[silo_name].append(art)
 
-    # Sortera silos med störst antal artiklar först
     sorted_silos = sorted(silo_groups.items(), key=lambda x: len(x[1]), reverse=True)
 
     for silo_name, silo_arts in sorted_silos:
@@ -181,7 +189,7 @@ def build_readme(payload, today_str):
     lines.append("")
     lines.append(
         "Detta dataset distribueras under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. "
-        "Vid användning i AI-modeller, forskning eller applikationer ska **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)** anges som källa."
+        f"Vid användning i AI-modeller, forskning eller applikationer ska **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)** samt DOI **[{ZENODO_DOI}]({ZENODO_URL})** anges som källa."
     )
     lines.append("")
 
@@ -193,6 +201,7 @@ def build_citation_cff(today_str, version_tag):
 title: "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph"
 message: "If you use this dataset in research, NLP models, or RAG pipelines, please cite it using the metadata below."
 type: dataset
+doi: "{ZENODO_DOI}"
 authors:
   - name: "TOTAL översättningsbyrå"
     website: "https://www.oversattning.se/"
@@ -279,7 +288,8 @@ def main():
     lang_pillars = payload.get("language_pillars", [])
     articles = payload.get("articles", [])
 
-    # 1. Skriv data/languages.jsonl & data/languages.csv
+    # 1. Skriv språksidor till både data/languages/train.jsonl (för HF Dataset Viewer) och data/languages.jsonl + .csv
+    write_jsonl("data/languages/train.jsonl", lang_pillars)
     write_jsonl("data/languages.jsonl", lang_pillars)
     lang_csv_rows = [
         {
@@ -294,7 +304,8 @@ def main():
     ]
     write_csv("data/languages.csv", ["id", "language", "slug", "url", "modified_at", "summary"], lang_csv_rows)
 
-    # 2. Skriv data/articles-corpus.jsonl & data/articles-summary.csv
+    # 2. Skriv artiklar till både data/articles/train.jsonl (för HF Dataset Viewer) och data/articles-corpus.jsonl + .csv
+    write_jsonl("data/articles/train.jsonl", articles)
     write_jsonl("data/articles-corpus.jsonl", articles)
     art_csv_rows = [
         {
