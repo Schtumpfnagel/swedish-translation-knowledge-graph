@@ -2,6 +2,7 @@ cff-version: 1.2.0
 title: "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph"
 message: "If you use this dataset in research, NLP models, or RAG pipelines, please cite it using the metadata below."
 type: dataset
+doi: "10.5281/zenodo.23759753"
 authors:
   - name: "TOTAL översättningsbyrå"
     website: "https://www.oversattning.se/"
