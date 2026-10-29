@@ -1,0 +1,82 @@
+name: Sync Knowledge Graph to GitHub, Hugging Face & Zenodo
+
+on:
+  schedule:
+    # Körs automatiskt måndag–fredag kl. 16:30 UTC (efter dagens nya artikel och uppdateringar)
+    - cron: "30 16 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-dataset:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Hugging Face Hub CLI
+        run: pip install --upgrade huggingface_hub
+
+      - name: Fetch Knowledge Graph from oversattning.se & Build Dataset
+        run: python3 scripts/sync_knowledge_graph.py
+
+      - name: Commit and Push Updates to GitHub
+        id: git_commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ README.md CITATION.cff .zenodo.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Inga innehållsändringar sedan senaste körningen."
+          else
+            git commit -m "chore(dataset): sync knowledge graph $(date -u +'%Y-%m-%d')"
+            git push origin HEAD:main
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Mirror Dataset to Hugging Face (Schtumpfnagel/swedish-translation-knowledge-graph)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python3 -c '
+          import os
+          from huggingface_hub import HfApi
+          token = os.environ.get("HF_TOKEN")
+          if not token:
+              raise RuntimeError("HF_TOKEN saknas i GitHub Secrets!")
+          api = HfApi(token=token)
+          api.upload_folder(
+              folder_path=".",
+              repo_id="Schtumpfnagel/swedish-translation-knowledge-graph",
+              repo_type="dataset",
+              ignore_patterns=[".git/*", ".github/*", "scripts/*", "__pycache__/*"],
+              commit_message="Sync Swedish Translation Knowledge Graph dataset"
+          )
+          print("Speglat till Hugging Face Datasets!")
+          '
+
+      - name: Create GitHub Release for Zenodo DOI Archiving (Weekly on Fridays or First Run)
+        if: steps.git_commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG_NAME="v$(date -u +'%Y.%m.%d')"
+          DAY_OF_WEEK="$(date -u +'%u')"
+          EXISTING_RELEASES="$(gh release list --limit 1)"
+          # Skapa alltid den allra första releasen direkt (för att få Zenodo DOI), och därefter varje fredag (dag 5)
+          if [ -z "$EXISTING_RELEASES" ] || [ "$DAY_OF_WEEK" = "5" ]; then
+            if ! gh release view "$TAG_NAME" >/dev/null 2>&1; then
+              gh release create "$TAG_NAME" \
+                --title "Swedish Translation Knowledge Graph $TAG_NAME" \
+                --notes "Automated dataset release synchronized from https://www.oversattning.se/ covering 170+ languages and 2,300+ translation & localization articles."
+              echo "Skapade ny GitHub Release ($TAG_NAME) -> Zenodo DOI genereras!"
+            fi
+          fi
