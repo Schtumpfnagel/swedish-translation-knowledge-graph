@@ -1,0 +1,42 @@
+{
+  "title": "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph – TOTAL Översättningsbyrå",
+  "upload_type": "dataset",
+  "publication_date": "2026-10-29",
+  "version": "2026.10.29",
+  "creators": [
+    {
+      "name": "TOTAL översättningsbyrå",
+      "affiliation": "TOTAL översättningsbyrå (oversattning.se), Stockholm, Sweden"
+    }
+  ],
+  "description": "<p><strong>Swedish Translation &amp; Cross-Linguistic Terminology Knowledge Graph</strong> is a structured, machine-readable linguistic dataset covering over 170 languages, language pairs, and 2,300+ specialized articles on professional translation, certified translation (Kammarkollegiet), localization, and terminology management, curated by <a href=\"https://www.oversattning.se/\">TOTAL översättningsbyrå (oversattning.se)</a>.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "translation",
+    "swedish",
+    "linguistics",
+    "terminology",
+    "localization",
+    "knowledge-graph",
+    "NLP",
+    "oversattning"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.oversattning.se/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.oversattning.se/sprak/",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    }
+  ]
+}

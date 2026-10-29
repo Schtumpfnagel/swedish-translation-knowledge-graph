@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph"
+message: "If you use this dataset in research, NLP models, or RAG pipelines, please cite it using the metadata below."
+type: dataset
+authors:
+  - name: "TOTAL översättningsbyrå"
+    website: "https://www.oversattning.se/"
+    address: "Roslagsgatan 34"
+    city: "Stockholm"
+    post-code: "114 79"
+    country: SE
+    email: "total@oversattning.se"
+repository-code: "https://github.com/Schtumpfnagel/swedish-translation-knowledge-graph"
+url: "https://www.oversattning.se/"
+abstract: "Open linguistic, terminology, and localization knowledge graph covering 170+ languages and 2,300+ domain articles curated by TOTAL översättningsbyrå in Stockholm, Sweden."
+keywords:
+  - translation
+  - linguistics
+  - swedish
+  - terminology
+  - localization
+  - certified-translation
+  - knowledge-graph
+license: CC-BY-4.0
+version: "2026.10.29"
+date-released: "2026-10-29"
