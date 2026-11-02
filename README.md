@@ -36,7 +36,7 @@ configs:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23759753.svg)](https://doi.org/10.5281/zenodo.23759753)
 
-> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2378 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
+> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2379 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
 
 ## Översikt & Syfte (RAG / NLP / Lingvistisk Referensdata)
 
@@ -49,16 +49,16 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)
 - **Utökad AI-korpus (`llms-full.txt`):** [https://www.oversattning.se/llms-full.txt](https://www.oversattning.se/llms-full.txt)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph](https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph)
-- **Senast synkroniserad:** `2026-10-30`
+- **Senast synkroniserad:** `2026-11-02`
 
 ## Filer i Datasetet
 
 | Filväg | Format | Innehåll | Antal poster |
 | :--- | :--- | :--- | :---: |
-| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2378 |
+| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2379 |
 | `data/languages/train.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` (Hugging Face Viewer Subset) | 176 |
-| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2378 |
-| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2378 |
+| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2379 |
+| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2379 |
 | `data/languages.jsonl` | JSON Lines | Speglad språkkatalog i rotmappen `data/` | 176 |
 | `data/languages.csv` | CSV | Tabulär språkmatris med språknamn, slug, Pillar-URL och sammanfattning | 176 |
 
@@ -261,7 +261,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 | **[Yoruba](https://www.oversattning.se/sprak/yoruba/)** | `https://www.oversattning.se/sprak/yoruba/` |  |
 | **[Zulu](https://www.oversattning.se/sprak/zulu/)** | `https://www.oversattning.se/sprak/zulu/` |  |
 
-## 3. Fackartiklar, Språkguider & Språkkombinationer (2378 Artiklar per Ämnessilo)
+## 3. Fackartiklar, Språkguider & Språkkombinationer (2379 Artiklar per Ämnessilo)
 
 ### Artiklar &amp; Språkguider (424 artiklar)
 
@@ -1162,6 +1162,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Arabiska (44 artiklar)
 
+- [Översättning av pass och ID-kort till arabiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-arabiska/) *(Uppdaterad: 2026-11-02 | 1159 ord)*
 - [Vilka språk talar man i Syrien?](https://www.oversattning.se/vilka-sprak-talar-man-i-syrien/) *(Uppdaterad: 2025-09-16 | 1276 ord)*
 - [Arabiska - Professionell översättning till och från arabiska](https://www.oversattning.se/arabiska-oversattning-till-och-fran-arabiska/) *(Uppdaterad: 2025-09-16 | 795 ord)*
 - [5 av de svåraste språken att översätta (och vad som gör dem svåra)](https://www.oversattning.se/5-av-de-svaraste-spraken-att-oversatta-och-vad-som-gor-dem-svara/) *(Uppdaterad: 2025-09-16 | 2499 ord)*
@@ -1198,7 +1199,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av födelsebevis till arabiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-arabiska/) *(Uppdaterad: 2025-09-16 | 933 ord)*
 - [Översättning av registerutdrag till arabiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-arabiska/) *(Uppdaterad: 2025-09-16 | 925 ord)*
 - [Översättning av vigselbevis till arabiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-arabiska/) *(Uppdaterad: 2025-09-16 | 864 ord)*
-- [Översättning av pass och ID-kort till arabiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-arabiska/) *(Uppdaterad: 2025-09-16 | 938 ord)*
 - [Så hälsar du på arabiska: En guide till första intrycket](https://www.oversattning.se/sa-halsar-du-pa-arabiska-en-guide-till-forsta-intrycket/) *(Uppdaterad: 2025-09-16 | 1282 ord)*
 - [Arabiska ord och fraser som är bra att kunna](https://www.oversattning.se/arabiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-16 | 1896 ord)*
 - [Översättning från svenska till arabiska](https://www.oversattning.se/oversattning-fran-svenska-till-arabiska/) *(Uppdaterad: 2025-09-10 | 940 ord)*
@@ -1572,6 +1572,25 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vett och etikett i Argentina - Din utförliga guide till landets alla hörn](https://www.oversattning.se/vett-och-etikett-i-argentina/) *(Uppdaterad: 2025-09-03 | 1712 ord)*
 - [Vett och etikett i Albanien - En guide till vardagsliv, högtider och affärer](https://www.oversattning.se/vett-och-etikett-i-albanien-en-guide-till-vardagsliv-hogtider-och-affarer/) *(Uppdaterad: 2025-09-03 | 1456 ord)*
 
+### Albanska (16 artiklar)
+
+- [Översättning av pass och ID-kort till albanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-albanska/) *(Uppdaterad: 2026-11-02 | 1231 ord)*
+- [Albanska - Professionell översättning till och från albanska](https://www.oversattning.se/albanska-oversattning-till-och-fran-albanska/) *(Uppdaterad: 2025-09-16 | 852 ord)*
+- [Vilka språk talar man i Albanien?](https://www.oversattning.se/vilka-sprak-talar-man-i-albanien/) *(Uppdaterad: 2025-09-16 | 1293 ord)*
+- [10 intressanta fakta om det albanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-albanska-spraket/) *(Uppdaterad: 2025-09-16 | 1420 ord)*
+- [Är albanska svårt att lära sig?](https://www.oversattning.se/ar-albanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-16 | 906 ord)*
+- [Översättning av personbevis till albanska](https://www.oversattning.se/oversattning-av-personbevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 757 ord)*
+- [Översättning av födelsebevis till albanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 848 ord)*
+- [Översättning av registerutdrag till albanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-albanska/) *(Uppdaterad: 2025-09-16 | 879 ord)*
+- [Översättning av vigselbevis till albanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 733 ord)*
+- [Hur du hälsar och säger "Hej" på albanska – en komplett guide](https://www.oversattning.se/hur-du-halsar-och-sager-hej-pa-albanska-en-komplett-guide/) *(Uppdaterad: 2025-09-16 | 1318 ord)*
+- [Albanska ord och fraser som är bra att kunna](https://www.oversattning.se/albanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-16 | 2021 ord)*
+- [Översättning från svenska till albanska](https://www.oversattning.se/oversattning-fran-svenska-till-albanska/) *(Uppdaterad: 2025-09-10 | 1144 ord)*
+- [Översättning från engelska till albanska](https://www.oversattning.se/oversattning-fran-engelska-till-albanska/) *(Uppdaterad: 2025-09-09 | 983 ord)*
+- [Översättning från albanska till svenska](https://www.oversattning.se/oversattning-fran-albanska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1237 ord)*
+- [Översättning från albanska till engelska](https://www.oversattning.se/oversattning-fran-albanska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1118 ord)*
+- [BBC stänger ner sändningar på albanska](https://www.oversattning.se/bbc-stanger-ner-sandningar-pa-albanska/) *(Uppdaterad: 2025-09-05 | 262 ord)*
+
 ### Bulgariska (16 artiklar)
 
 - [Översättning av pass och ID-kort till bulgariska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bulgariska/) *(Uppdaterad: 2026-10-30 | 1108 ord)*
@@ -1705,24 +1724,41 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från svenska till ukrainska](https://www.oversattning.se/oversattning-fran-svenska-till-ukrainska/) *(Uppdaterad: 2025-09-10 | 1189 ord)*
 - [Översättning från engelska till ukrainska](https://www.oversattning.se/oversattning-fran-engelska-till-ukrainska/) *(Uppdaterad: 2025-09-10 | 868 ord)*
 
-### Albanska (16 artiklar)
+### Ungerska (15 artiklar)
 
-- [Albanska - Professionell översättning till och från albanska](https://www.oversattning.se/albanska-oversattning-till-och-fran-albanska/) *(Uppdaterad: 2025-09-16 | 852 ord)*
-- [Vilka språk talar man i Albanien?](https://www.oversattning.se/vilka-sprak-talar-man-i-albanien/) *(Uppdaterad: 2025-09-16 | 1293 ord)*
-- [10 intressanta fakta om det albanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-albanska-spraket/) *(Uppdaterad: 2025-09-16 | 1420 ord)*
-- [Är albanska svårt att lära sig?](https://www.oversattning.se/ar-albanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-16 | 906 ord)*
-- [Översättning av personbevis till albanska](https://www.oversattning.se/oversattning-av-personbevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 757 ord)*
-- [Översättning av födelsebevis till albanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 848 ord)*
-- [Översättning av registerutdrag till albanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-albanska/) *(Uppdaterad: 2025-09-16 | 879 ord)*
-- [Översättning av vigselbevis till albanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-albanska/) *(Uppdaterad: 2025-09-16 | 733 ord)*
-- [Översättning av pass och ID-kort till albanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-albanska/) *(Uppdaterad: 2025-09-16 | 739 ord)*
-- [Hur du hälsar och säger "Hej" på albanska – en komplett guide](https://www.oversattning.se/hur-du-halsar-och-sager-hej-pa-albanska-en-komplett-guide/) *(Uppdaterad: 2025-09-16 | 1318 ord)*
-- [Albanska ord och fraser som är bra att kunna](https://www.oversattning.se/albanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-16 | 2021 ord)*
-- [Översättning från svenska till albanska](https://www.oversattning.se/oversattning-fran-svenska-till-albanska/) *(Uppdaterad: 2025-09-10 | 1144 ord)*
-- [Översättning från engelska till albanska](https://www.oversattning.se/oversattning-fran-engelska-till-albanska/) *(Uppdaterad: 2025-09-09 | 983 ord)*
-- [Översättning från albanska till svenska](https://www.oversattning.se/oversattning-fran-albanska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1237 ord)*
-- [Översättning från albanska till engelska](https://www.oversattning.se/oversattning-fran-albanska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1118 ord)*
-- [BBC stänger ner sändningar på albanska](https://www.oversattning.se/bbc-stanger-ner-sandningar-pa-albanska/) *(Uppdaterad: 2025-09-05 | 262 ord)*
+- [Översättning av pass och ID-kort till ungerska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-ungerska/) *(Uppdaterad: 2026-11-02 | 1275 ord)*
+- [Ungerska ord och fraser som är bra att kunna](https://www.oversattning.se/ungerska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 2897 ord)*
+- [Ungerska - Professionell översättning till och från ungerska](https://www.oversattning.se/ungerska-oversattning-till-och-fran-ungerska/) *(Uppdaterad: 2025-10-02 | 951 ord)*
+- [Vilka språk talar man i Ungern?](https://www.oversattning.se/vilka-sprak-talar-man-i-ungern/) *(Uppdaterad: 2025-10-02 | 907 ord)*
+- [10 intressanta fakta om det ungerska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-ungerska-spraket/) *(Uppdaterad: 2025-10-02 | 1311 ord)*
+- [Är ungerska svårt att lära sig?](https://www.oversattning.se/ar-ungerska-svart-att-lara-sig/) *(Uppdaterad: 2025-10-02 | 865 ord)*
+- [Översättning av personbevis till ungerska](https://www.oversattning.se/oversattning-av-personbevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 824 ord)*
+- [Översättning av födelsebevis till ungerska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 859 ord)*
+- [Översättning av registerutdrag till ungerska](https://www.oversattning.se/oversattning-av-registerutdrag-till-ungerska/) *(Uppdaterad: 2025-10-02 | 768 ord)*
+- [Översättning av vigselbevis till ungerska](https://www.oversattning.se/oversattning-av-vigselbevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 890 ord)*
+- [Så hälsar du på ungerska – en guide till artighet, vardag och värme i Centraleuropas unika språk](https://www.oversattning.se/sa-halsar-du-pa-ungerska-en-guide-till-artighet-vardag-och-varme-i-centraleuropas-unika-sprak/) *(Uppdaterad: 2025-10-02 | 1266 ord)*
+- [Översättning från ungerska till svenska](https://www.oversattning.se/oversattning-fran-ungerska-till-svenska/) *(Uppdaterad: 2025-09-10 | 963 ord)*
+- [Översättning från ungerska till engelska](https://www.oversattning.se/oversattning-fran-ungerska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1051 ord)*
+- [Översättning från svenska till ungerska](https://www.oversattning.se/oversattning-fran-svenska-till-ungerska/) *(Uppdaterad: 2025-09-10 | 1138 ord)*
+- [Översättning från engelska till ungerska](https://www.oversattning.se/oversattning-fran-engelska-till-ungerska/) *(Uppdaterad: 2025-09-10 | 960 ord)*
+
+### Bosniska (15 artiklar)
+
+- [Översättning av pass och ID-kort till bosniska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bosniska/) *(Uppdaterad: 2026-11-02 | 1413 ord)*
+- [Vilka språk talar man i Bosnien?](https://www.oversattning.se/vilka-sprak-talar-man-i-bosnien/) *(Uppdaterad: 2025-09-21 | 1275 ord)*
+- [Bosniska - Professionell översättning till och från bosniska](https://www.oversattning.se/bosniska-oversattning-till-och-fran-bosniska/) *(Uppdaterad: 2025-09-17 | 828 ord)*
+- [10 intressanta fakta om det bosniska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-bosniska-spraket/) *(Uppdaterad: 2025-09-17 | 1284 ord)*
+- [Är bosniska svårt att lära sig?](https://www.oversattning.se/ar-bosniska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-17 | 1086 ord)*
+- [Översättning av personbevis till bosniska](https://www.oversattning.se/oversattning-av-personbevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 923 ord)*
+- [Översättning av födelsebevis till bosniska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 814 ord)*
+- [Översättning av registerutdrag till bosniska](https://www.oversattning.se/oversattning-av-registerutdrag-till-bosniska/) *(Uppdaterad: 2025-09-17 | 960 ord)*
+- [Översättning av vigselbevis till bosniska](https://www.oversattning.se/oversattning-av-vigselbevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 859 ord)*
+- [Hur du säger hej på bosniska: En detaljerad guide till Bosniens hjärtliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-bosniska-en-detaljerad-guide-till-bosniens-hjartliga-halsningskultur/) *(Uppdaterad: 2025-09-17 | 1170 ord)*
+- [Bosniska ord och fraser som är bra att kunna](https://www.oversattning.se/bosniska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1816 ord)*
+- [Översättning från bosniska till svenska](https://www.oversattning.se/oversattning-fran-bosniska-till-svenska/) *(Uppdaterad: 2025-09-10 | 927 ord)*
+- [Översättning från svenska till bosniska](https://www.oversattning.se/oversattning-fran-svenska-till-bosniska/) *(Uppdaterad: 2025-09-10 | 976 ord)*
+- [Översättning från engelska till bosniska](https://www.oversattning.se/oversattning-fran-engelska-till-bosniska/) *(Uppdaterad: 2025-09-09 | 1090 ord)*
+- [Översättning från bosniska till engelska](https://www.oversattning.se/oversattning-fran-bosniska-till-engelska/) *(Uppdaterad: 2025-09-09 | 953 ord)*
 
 ### Turkiska (15 artiklar)
 
@@ -1886,42 +1922,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från litauiska till engelska](https://www.oversattning.se/oversattning-fran-litauiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 832 ord)*
 - [Översättning från engelska till litauiska](https://www.oversattning.se/oversattning-fran-engelska-till-litauiska/) *(Uppdaterad: 2025-09-09 | 930 ord)*
 
-### Ungerska (15 artiklar)
-
-- [Ungerska ord och fraser som är bra att kunna](https://www.oversattning.se/ungerska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 2897 ord)*
-- [Ungerska - Professionell översättning till och från ungerska](https://www.oversattning.se/ungerska-oversattning-till-och-fran-ungerska/) *(Uppdaterad: 2025-10-02 | 951 ord)*
-- [Vilka språk talar man i Ungern?](https://www.oversattning.se/vilka-sprak-talar-man-i-ungern/) *(Uppdaterad: 2025-10-02 | 907 ord)*
-- [10 intressanta fakta om det ungerska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-ungerska-spraket/) *(Uppdaterad: 2025-10-02 | 1311 ord)*
-- [Är ungerska svårt att lära sig?](https://www.oversattning.se/ar-ungerska-svart-att-lara-sig/) *(Uppdaterad: 2025-10-02 | 865 ord)*
-- [Översättning av personbevis till ungerska](https://www.oversattning.se/oversattning-av-personbevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 824 ord)*
-- [Översättning av födelsebevis till ungerska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 859 ord)*
-- [Översättning av registerutdrag till ungerska](https://www.oversattning.se/oversattning-av-registerutdrag-till-ungerska/) *(Uppdaterad: 2025-10-02 | 768 ord)*
-- [Översättning av vigselbevis till ungerska](https://www.oversattning.se/oversattning-av-vigselbevis-till-ungerska/) *(Uppdaterad: 2025-10-02 | 890 ord)*
-- [Översättning av pass och ID-kort till ungerska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-ungerska/) *(Uppdaterad: 2025-10-02 | 848 ord)*
-- [Så hälsar du på ungerska – en guide till artighet, vardag och värme i Centraleuropas unika språk](https://www.oversattning.se/sa-halsar-du-pa-ungerska-en-guide-till-artighet-vardag-och-varme-i-centraleuropas-unika-sprak/) *(Uppdaterad: 2025-10-02 | 1266 ord)*
-- [Översättning från ungerska till svenska](https://www.oversattning.se/oversattning-fran-ungerska-till-svenska/) *(Uppdaterad: 2025-09-10 | 963 ord)*
-- [Översättning från ungerska till engelska](https://www.oversattning.se/oversattning-fran-ungerska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1051 ord)*
-- [Översättning från svenska till ungerska](https://www.oversattning.se/oversattning-fran-svenska-till-ungerska/) *(Uppdaterad: 2025-09-10 | 1138 ord)*
-- [Översättning från engelska till ungerska](https://www.oversattning.se/oversattning-fran-engelska-till-ungerska/) *(Uppdaterad: 2025-09-10 | 960 ord)*
-
-### Bosniska (15 artiklar)
-
-- [Vilka språk talar man i Bosnien?](https://www.oversattning.se/vilka-sprak-talar-man-i-bosnien/) *(Uppdaterad: 2025-09-21 | 1275 ord)*
-- [Bosniska - Professionell översättning till och från bosniska](https://www.oversattning.se/bosniska-oversattning-till-och-fran-bosniska/) *(Uppdaterad: 2025-09-17 | 828 ord)*
-- [10 intressanta fakta om det bosniska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-bosniska-spraket/) *(Uppdaterad: 2025-09-17 | 1284 ord)*
-- [Är bosniska svårt att lära sig?](https://www.oversattning.se/ar-bosniska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-17 | 1086 ord)*
-- [Översättning av personbevis till bosniska](https://www.oversattning.se/oversattning-av-personbevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 923 ord)*
-- [Översättning av födelsebevis till bosniska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 814 ord)*
-- [Översättning av registerutdrag till bosniska](https://www.oversattning.se/oversattning-av-registerutdrag-till-bosniska/) *(Uppdaterad: 2025-09-17 | 960 ord)*
-- [Översättning av vigselbevis till bosniska](https://www.oversattning.se/oversattning-av-vigselbevis-till-bosniska/) *(Uppdaterad: 2025-09-17 | 859 ord)*
-- [Översättning av pass och ID-kort till bosniska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bosniska/) *(Uppdaterad: 2025-09-17 | 802 ord)*
-- [Hur du säger hej på bosniska: En detaljerad guide till Bosniens hjärtliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-bosniska-en-detaljerad-guide-till-bosniens-hjartliga-halsningskultur/) *(Uppdaterad: 2025-09-17 | 1170 ord)*
-- [Bosniska ord och fraser som är bra att kunna](https://www.oversattning.se/bosniska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1816 ord)*
-- [Översättning från bosniska till svenska](https://www.oversattning.se/oversattning-fran-bosniska-till-svenska/) *(Uppdaterad: 2025-09-10 | 927 ord)*
-- [Översättning från svenska till bosniska](https://www.oversattning.se/oversattning-fran-svenska-till-bosniska/) *(Uppdaterad: 2025-09-10 | 976 ord)*
-- [Översättning från engelska till bosniska](https://www.oversattning.se/oversattning-fran-engelska-till-bosniska/) *(Uppdaterad: 2025-09-09 | 1090 ord)*
-- [Översättning från bosniska till engelska](https://www.oversattning.se/oversattning-fran-bosniska-till-engelska/) *(Uppdaterad: 2025-09-09 | 953 ord)*
-
 ### Maskinöversättning (15 artiklar)
 
 - [Vetenskapsmännen som knäckte Google Översätt för valsång](https://www.oversattning.se/vetenskapsmannen-som-knackte-google-oversatt-for-valsang/) *(Uppdaterad: 2025-09-09 | 2043 ord)*
@@ -1942,6 +1942,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Mongoliska (14 artiklar)
 
+- [Översättning av vigselbevis till mongoliska](https://www.oversattning.se/oversattning-av-vigselbevis-till-mongoliska/) *(Uppdaterad: 2026-11-02 | 1149 ord)*
 - [Översättning av pass och ID-kort till mongoliska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-mongoliska/) *(Uppdaterad: 2026-10-22 | 1044 ord)*
 - [Mongoliska - Professionell översättning till och från mongoliska](https://www.oversattning.se/mongoliska-oversattning-till-och-fran-mongoliska/) *(Uppdaterad: 2025-09-23 | 656 ord)*
 - [Vilka språk talar man i Mongoliet?](https://www.oversattning.se/vilka-sprak-talar-man-i-mongoliet/) *(Uppdaterad: 2025-09-23 | 970 ord)*
@@ -1950,7 +1951,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till mongoliska](https://www.oversattning.se/oversattning-av-personbevis-till-mongoliska/) *(Uppdaterad: 2025-09-23 | 912 ord)*
 - [Översättning av födelsebevis till mongoliska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-mongoliska/) *(Uppdaterad: 2025-09-23 | 901 ord)*
 - [Översättning av registerutdrag till mongoliska](https://www.oversattning.se/oversattning-av-registerutdrag-till-mongoliska/) *(Uppdaterad: 2025-09-23 | 750 ord)*
-- [Översättning av vigselbevis till mongoliska](https://www.oversattning.se/oversattning-av-vigselbevis-till-mongoliska/) *(Uppdaterad: 2025-09-23 | 821 ord)*
 - [Hur du säger hej på mongoliska: En komplett guide till Mongoliets vänliga och traditionella hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-mongoliska-en-komplett-guide-till-mongoliets-vanliga-och-traditionella-halsningskultur/) *(Uppdaterad: 2025-09-23 | 1203 ord)*
 - [Mongoliska ord och fraser som är bra att kunna](https://www.oversattning.se/mongoliska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-23 | 1822 ord)*
 - [Översättning från svenska till mongoliska](https://www.oversattning.se/oversattning-fran-svenska-till-mongoliska/) *(Uppdaterad: 2025-09-10 | 993 ord)*
@@ -2931,6 +2931,12 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Är akan svårt att lära sig?](https://www.oversattning.se/ar-akan-svart-att-lara-sig/) *(Uppdaterad: 2025-09-16 | 936 ord)*
 - [Ord och fraser på akan som är bra att kunna](https://www.oversattning.se/ord-och-fraser-pa-akan-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-16 | 2387 ord)*
 
+### Allmänt (3 artiklar)
+
+- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
+- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
+- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
+
 ### Ilokano (3 artiklar)
 
 - [Hur du säger hej på ilokano: En komplett guide till Nordfilippinernas hjärtliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-ilokano-en-komplett-guide-till-nordfilippinernas-hjartliga-halsningskultur/) *(Uppdaterad: 2026-10-16 | 1304 ord)*
@@ -3098,11 +3104,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vad talar man för språk och dialekter i Malmö?](https://www.oversattning.se/vad-talar-man-for-sprak-och-dialekter-i-malmo/) *(Uppdaterad: 2025-05-27 | 1435 ord)*
 - [Vad talar man för språk och dialekter i Eskilstuna?](https://www.oversattning.se/vad-talar-man-for-sprak-och-dialekter-i-eskilstuna/) *(Uppdaterad: 2025-05-14 | 2004 ord)*
 - [Vad talar man för språk och dialekter i Borås?](https://www.oversattning.se/vad-talar-man-for-sprak-och-dialekter-i-boras/) *(Uppdaterad: 2025-05-11 | 1053 ord)*
-
-### Allmänt (2 artiklar)
-
-- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
-- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
 
 ### Sango (2 artiklar)
 
