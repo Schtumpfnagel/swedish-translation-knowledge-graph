@@ -36,7 +36,7 @@ configs:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23759753.svg)](https://doi.org/10.5281/zenodo.23759753)
 
-> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2380 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
+> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2381 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
 
 ## Översikt & Syfte (RAG / NLP / Lingvistisk Referensdata)
 
@@ -49,16 +49,16 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)
 - **Utökad AI-korpus (`llms-full.txt`):** [https://www.oversattning.se/llms-full.txt](https://www.oversattning.se/llms-full.txt)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph](https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph)
-- **Senast synkroniserad:** `2026-11-03`
+- **Senast synkroniserad:** `2026-11-04`
 
 ## Filer i Datasetet
 
 | Filväg | Format | Innehåll | Antal poster |
 | :--- | :--- | :--- | :---: |
-| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2380 |
+| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2381 |
 | `data/languages/train.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` (Hugging Face Viewer Subset) | 176 |
-| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2380 |
-| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2380 |
+| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2381 |
+| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2381 |
 | `data/languages.jsonl` | JSON Lines | Speglad språkkatalog i rotmappen `data/` | 176 |
 | `data/languages.csv` | CSV | Tabulär språkmatris med språknamn, slug, Pillar-URL och sammanfattning | 176 |
 
@@ -261,7 +261,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 | **[Yoruba](https://www.oversattning.se/sprak/yoruba/)** | `https://www.oversattning.se/sprak/yoruba/` |  |
 | **[Zulu](https://www.oversattning.se/sprak/zulu/)** | `https://www.oversattning.se/sprak/zulu/` |  |
 
-## 3. Fackartiklar, Språkguider & Språkkombinationer (2380 Artiklar per Ämnessilo)
+## 3. Fackartiklar, Språkguider & Språkkombinationer (2381 Artiklar per Ämnessilo)
 
 ### Artiklar &amp; Språkguider (424 artiklar)
 
@@ -1442,31 +1442,9 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vanligaste språkmissarna på svenska företags hemsidor – har du gjort dessa fel?](https://www.oversattning.se/vanligaste-sprakmissarna-pa-svenska-foretags-hemsidor-har-du-gjort-dessa-fel/) *(Uppdaterad: 2025-09-09 | 1933 ord)*
 - [Översättning från engelska till svenska](https://www.oversattning.se/oversattning-fran-engelska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1007 ord)*
 
-### Rumänska (20 artiklar)
-
-- [Översättning av pass och ID-kort till rumänska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-rumanska/) *(Uppdaterad: 2026-10-27 | 1118 ord)*
-- [Rumänska - Professionell översättning till och från rumänska](https://www.oversattning.se/rumanska-oversattning-till-och-fran-rumanska/) *(Uppdaterad: 2025-09-26 | 802 ord)*
-- [Vilka språk talar man i Moldavien?](https://www.oversattning.se/vilka-sprak-talar-man-i-moldavien/) *(Uppdaterad: 2025-09-26 | 972 ord)*
-- [Vilka språk talar man i Rumänien?](https://www.oversattning.se/vilka-sprak-talar-man-i-rumanien/) *(Uppdaterad: 2025-09-26 | 941 ord)*
-- [10 intressanta fakta om det rumänska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-rumanska-spraket/) *(Uppdaterad: 2025-09-26 | 1191 ord)*
-- [Är rumänska svårt att lära sig?](https://www.oversattning.se/ar-rumanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-26 | 923 ord)*
-- [Översättning av personbevis till rumänska](https://www.oversattning.se/oversattning-av-personbevis-till-rumanska/) *(Uppdaterad: 2025-09-26 | 785 ord)*
-- [Översättning av födelsebevis till rumänska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-rumanska/) *(Uppdaterad: 2025-09-26 | 848 ord)*
-- [Översättning av registerutdrag till rumänska](https://www.oversattning.se/oversattning-av-registerutdrag-till-rumanska/) *(Uppdaterad: 2025-09-26 | 868 ord)*
-- [Översättning av vigselbevis till rumänska](https://www.oversattning.se/oversattning-av-vigselbevis-till-rumanska/) *(Uppdaterad: 2025-09-26 | 807 ord)*
-- [Hur du säger hej på rumänska: En komplett guide till Rumäniens varma och respektfulla hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-rumanska-en-komplett-guide-till-rumaniens-varma-och-respektfulla-halsningskultur/) *(Uppdaterad: 2025-09-26 | 1100 ord)*
-- [Rumänska ord och fraser som är bra att kunna](https://www.oversattning.se/rumanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-26 | 1099 ord)*
-- [Översättning från svenska till rumänska](https://www.oversattning.se/oversattning-fran-svenska-till-rumanska/) *(Uppdaterad: 2025-09-10 | 1014 ord)*
-- [Översättning från svenska till moldaviska](https://www.oversattning.se/oversattning-fran-svenska-till-moldaviska/) *(Uppdaterad: 2025-09-10 | 999 ord)*
-- [Översättning från rumänska till svenska](https://www.oversattning.se/oversattning-fran-rumanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 776 ord)*
-- [Översättning från rumänska till engelska](https://www.oversattning.se/oversattning-fran-rumanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 986 ord)*
-- [Översättning från moldaviska till svenska](https://www.oversattning.se/oversattning-fran-moldaviska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1103 ord)*
-- [Översättning från moldaviska till engelska](https://www.oversattning.se/oversattning-fran-moldaviska-till-engelska/) *(Uppdaterad: 2025-09-10 | 908 ord)*
-- [Översättning från engelska till rumänska](https://www.oversattning.se/oversattning-fran-engelska-till-rumanska/) *(Uppdaterad: 2025-09-09 | 1047 ord)*
-- [Översättning från engelska till moldaviska](https://www.oversattning.se/oversattning-fran-engelska-till-moldaviska/) *(Uppdaterad: 2025-09-09 | 1076 ord)*
-
 ### Kinesiska (20 artiklar)
 
+- [Översättning av vigselbevis till kinesiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kinesiska/) *(Uppdaterad: 2026-11-04 | 1203 ord)*
 - [Översättning av pass och ID-kort till kinesiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kinesiska/) *(Uppdaterad: 2026-10-26 | 1095 ord)*
 - [Översättning av pass och ID-kort till kroatiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kroatiska/) *(Uppdaterad: 2026-10-22 | 1464 ord)*
 - [6 dolda betydelser i kinesiska affärsgåvor och visitkort](https://www.oversattning.se/6-dolda-betydelser-i-kinesiska-affarsgavor-och-visitkort/) *(Uppdaterad: 2026-10-22 | 2161 ord)*
@@ -1479,7 +1457,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till kinesiska](https://www.oversattning.se/oversattning-av-personbevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 780 ord)*
 - [Översättning av födelsebevis till kinesiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 803 ord)*
 - [Översättning av registerutdrag till kinesiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 694 ord)*
-- [Översättning av vigselbevis till kinesiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 727 ord)*
 - [Hur du säger hej på kinesiska: En komplett guide till Kinas artiga och mångfasetterade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-kinesiska-en-komplett-guide-till-kinas-artiga-och-mangfasetterade-halsningskultur/) *(Uppdaterad: 2025-09-21 | 1199 ord)*
 - [Kinesiska ord och fraser som är bra att kunna](https://www.oversattning.se/kinesiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1998 ord)*
 - [Översättning från svenska till kinesiska](https://www.oversattning.se/oversattning-fran-svenska-till-kinesiska/) *(Uppdaterad: 2025-09-10 | 1197 ord)*
@@ -1487,6 +1464,29 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från kinesiska till engelska](https://www.oversattning.se/oversattning-fran-kinesiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1120 ord)*
 - [Översättning från engelska till kinesiska](https://www.oversattning.se/oversattning-fran-engelska-till-kinesiska/) *(Uppdaterad: 2025-09-09 | 984 ord)*
 - [Brist på engelska, kinesiska och arabiska tolkar och översättare i EU](https://www.oversattning.se/brist-pa-engelska-kinesiska-och-arabiska-tolkar-och-oversattare-i-eu/) *(Uppdaterad: 2025-09-06 | 437 ord)*
+
+### Rumänska (20 artiklar)
+
+- [Översättning av vigselbevis till rumänska](https://www.oversattning.se/oversattning-av-vigselbevis-till-rumanska/) *(Uppdaterad: 2026-11-04 | 1533 ord)*
+- [Översättning av pass och ID-kort till rumänska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-rumanska/) *(Uppdaterad: 2026-10-27 | 1118 ord)*
+- [Rumänska - Professionell översättning till och från rumänska](https://www.oversattning.se/rumanska-oversattning-till-och-fran-rumanska/) *(Uppdaterad: 2025-09-26 | 802 ord)*
+- [Vilka språk talar man i Moldavien?](https://www.oversattning.se/vilka-sprak-talar-man-i-moldavien/) *(Uppdaterad: 2025-09-26 | 972 ord)*
+- [Vilka språk talar man i Rumänien?](https://www.oversattning.se/vilka-sprak-talar-man-i-rumanien/) *(Uppdaterad: 2025-09-26 | 941 ord)*
+- [10 intressanta fakta om det rumänska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-rumanska-spraket/) *(Uppdaterad: 2025-09-26 | 1191 ord)*
+- [Är rumänska svårt att lära sig?](https://www.oversattning.se/ar-rumanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-26 | 923 ord)*
+- [Översättning av personbevis till rumänska](https://www.oversattning.se/oversattning-av-personbevis-till-rumanska/) *(Uppdaterad: 2025-09-26 | 785 ord)*
+- [Översättning av födelsebevis till rumänska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-rumanska/) *(Uppdaterad: 2025-09-26 | 848 ord)*
+- [Översättning av registerutdrag till rumänska](https://www.oversattning.se/oversattning-av-registerutdrag-till-rumanska/) *(Uppdaterad: 2025-09-26 | 868 ord)*
+- [Hur du säger hej på rumänska: En komplett guide till Rumäniens varma och respektfulla hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-rumanska-en-komplett-guide-till-rumaniens-varma-och-respektfulla-halsningskultur/) *(Uppdaterad: 2025-09-26 | 1100 ord)*
+- [Rumänska ord och fraser som är bra att kunna](https://www.oversattning.se/rumanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-26 | 1099 ord)*
+- [Översättning från svenska till rumänska](https://www.oversattning.se/oversattning-fran-svenska-till-rumanska/) *(Uppdaterad: 2025-09-10 | 1014 ord)*
+- [Översättning från svenska till moldaviska](https://www.oversattning.se/oversattning-fran-svenska-till-moldaviska/) *(Uppdaterad: 2025-09-10 | 999 ord)*
+- [Översättning från rumänska till svenska](https://www.oversattning.se/oversattning-fran-rumanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 776 ord)*
+- [Översättning från rumänska till engelska](https://www.oversattning.se/oversattning-fran-rumanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 986 ord)*
+- [Översättning från moldaviska till svenska](https://www.oversattning.se/oversattning-fran-moldaviska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1103 ord)*
+- [Översättning från moldaviska till engelska](https://www.oversattning.se/oversattning-fran-moldaviska-till-engelska/) *(Uppdaterad: 2025-09-10 | 908 ord)*
+- [Översättning från engelska till rumänska](https://www.oversattning.se/oversattning-fran-engelska-till-rumanska/) *(Uppdaterad: 2025-09-09 | 1047 ord)*
+- [Översättning från engelska till moldaviska](https://www.oversattning.se/oversattning-fran-engelska-till-moldaviska/) *(Uppdaterad: 2025-09-09 | 1076 ord)*
 
 ### Persiska (19 artiklar)
 
@@ -1534,6 +1534,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Ryska (17 artiklar)
 
+- [Översättning av vigselbevis till ryska](https://www.oversattning.se/oversattning-av-vigselbevis-till-ryska/) *(Uppdaterad: 2026-11-04 | 1122 ord)*
 - [Översättning av pass och ID-kort till ryska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-ryska/) *(Uppdaterad: 2026-10-27 | 1183 ord)*
 - [Talar ukrainare och ryssar samma språk?](https://www.oversattning.se/talar-ukrainare-och-ryssar-samma-sprak/) *(Uppdaterad: 2025-10-02 | 911 ord)*
 - [Ryska - Professionell översättning till och från ryska](https://www.oversattning.se/ryska-oversattning-till-och-fran-ryska/) *(Uppdaterad: 2025-09-26 | 740 ord)*
@@ -1543,7 +1544,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till ryska](https://www.oversattning.se/oversattning-av-personbevis-till-ryska/) *(Uppdaterad: 2025-09-26 | 728 ord)*
 - [Översättning av födelsebevis till ryska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-ryska/) *(Uppdaterad: 2025-09-26 | 877 ord)*
 - [Översättning av registerutdrag till ryska](https://www.oversattning.se/oversattning-av-registerutdrag-till-ryska/) *(Uppdaterad: 2025-09-26 | 875 ord)*
-- [Översättning av vigselbevis till ryska](https://www.oversattning.se/oversattning-av-vigselbevis-till-ryska/) *(Uppdaterad: 2025-09-26 | 807 ord)*
 - [Hur du säger hej på ryska: En komplett guide till Rysslands artiga och traditionsrika hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-ryska-en-komplett-guide-till-rysslands-artiga-och-traditionsrika-halsningskultur/) *(Uppdaterad: 2025-09-26 | 1219 ord)*
 - [Ryska ord och fraser som är bra att kunna](https://www.oversattning.se/ryska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-26 | 1644 ord)*
 - [Vilka språk talar man i Ryssland?](https://www.oversattning.se/vilka-sprak-talar-man-i-ryssland/) *(Uppdaterad: 2025-09-16 | 924 ord)*
@@ -1571,6 +1571,25 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vett och etikett i Brasilien - Så uppför du dig med stil i Sydamerikas största land](https://www.oversattning.se/vett-och-etikett-i-brasilien-sa-uppfor-du-dig-med-stil-i-sydamerikas-storsta-land/) *(Uppdaterad: 2025-09-03 | 1830 ord)*
 - [Vett och etikett i Argentina - Din utförliga guide till landets alla hörn](https://www.oversattning.se/vett-och-etikett-i-argentina/) *(Uppdaterad: 2025-09-03 | 1712 ord)*
 - [Vett och etikett i Albanien - En guide till vardagsliv, högtider och affärer](https://www.oversattning.se/vett-och-etikett-i-albanien-en-guide-till-vardagsliv-hogtider-och-affarer/) *(Uppdaterad: 2025-09-03 | 1456 ord)*
+
+### Japanska (16 artiklar)
+
+- [Översättning av vigselbevis till japanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-japanska/) *(Uppdaterad: 2026-11-04 | 1154 ord)*
+- [Översättning av pass och ID-kort till japanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-japanska/) *(Uppdaterad: 2026-10-27 | 1060 ord)*
+- [Japanska - Professionell översättning till och från japanska](https://www.oversattning.se/japanska-oversattning-till-och-fran-japanska/) *(Uppdaterad: 2025-09-20 | 796 ord)*
+- [Vilka språk talar man i Japan?](https://www.oversattning.se/vilka-sprak-talar-man-i-japan/) *(Uppdaterad: 2025-09-20 | 1125 ord)*
+- [10 intressanta fakta om det japanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-japanska-spraket/) *(Uppdaterad: 2025-09-20 | 1270 ord)*
+- [Riktig översättning med Word Lens på japanska](https://www.oversattning.se/riktig-oversattning-med-word-lens-pa-japanska/) *(Uppdaterad: 2025-09-20 | 609 ord)*
+- [Är japanska svårt att lära sig?](https://www.oversattning.se/ar-japanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-20 | 959 ord)*
+- [Översättning av personbevis till japanska](https://www.oversattning.se/oversattning-av-personbevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 745 ord)*
+- [Översättning av födelsebevis till japanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 686 ord)*
+- [Översättning av registerutdrag till japanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-japanska/) *(Uppdaterad: 2025-09-20 | 697 ord)*
+- [Hur du säger hej på japanska: En komplett guide till Japans artiga och nyanserade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-japanska-en-komplett-guide-till-japans-artiga-och-nyanserade-halsningskultur/) *(Uppdaterad: 2025-09-20 | 1276 ord)*
+- [Japanska ord och fraser som är bra att kunna](https://www.oversattning.se/japanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-20 | 2085 ord)*
+- [Översättning från svenska till japanska](https://www.oversattning.se/oversattning-fran-svenska-till-japanska/) *(Uppdaterad: 2025-09-10 | 1185 ord)*
+- [Översättning från japanska till svenska](https://www.oversattning.se/oversattning-fran-japanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1065 ord)*
+- [Översättning från japanska till engelska](https://www.oversattning.se/oversattning-fran-japanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 961 ord)*
+- [Översättning från engelska till japanska](https://www.oversattning.se/oversattning-fran-engelska-till-japanska/) *(Uppdaterad: 2025-09-09 | 1149 ord)*
 
 ### Polska (16 artiklar)
 
@@ -1685,25 +1704,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från serbiska till svenska](https://www.oversattning.se/oversattning-fran-serbiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 932 ord)*
 - [Översättning från serbiska till engelska](https://www.oversattning.se/oversattning-fran-serbiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1009 ord)*
 - [Översättning från engelska till serbiska](https://www.oversattning.se/oversattning-fran-engelska-till-serbiska/) *(Uppdaterad: 2025-09-09 | 1121 ord)*
-
-### Japanska (16 artiklar)
-
-- [Översättning av pass och ID-kort till japanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-japanska/) *(Uppdaterad: 2026-10-27 | 1060 ord)*
-- [Japanska - Professionell översättning till och från japanska](https://www.oversattning.se/japanska-oversattning-till-och-fran-japanska/) *(Uppdaterad: 2025-09-20 | 796 ord)*
-- [Vilka språk talar man i Japan?](https://www.oversattning.se/vilka-sprak-talar-man-i-japan/) *(Uppdaterad: 2025-09-20 | 1125 ord)*
-- [10 intressanta fakta om det japanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-japanska-spraket/) *(Uppdaterad: 2025-09-20 | 1270 ord)*
-- [Riktig översättning med Word Lens på japanska](https://www.oversattning.se/riktig-oversattning-med-word-lens-pa-japanska/) *(Uppdaterad: 2025-09-20 | 609 ord)*
-- [Är japanska svårt att lära sig?](https://www.oversattning.se/ar-japanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-20 | 959 ord)*
-- [Översättning av personbevis till japanska](https://www.oversattning.se/oversattning-av-personbevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 745 ord)*
-- [Översättning av födelsebevis till japanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 686 ord)*
-- [Översättning av registerutdrag till japanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-japanska/) *(Uppdaterad: 2025-09-20 | 697 ord)*
-- [Översättning av vigselbevis till japanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 738 ord)*
-- [Hur du säger hej på japanska: En komplett guide till Japans artiga och nyanserade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-japanska-en-komplett-guide-till-japans-artiga-och-nyanserade-halsningskultur/) *(Uppdaterad: 2025-09-20 | 1276 ord)*
-- [Japanska ord och fraser som är bra att kunna](https://www.oversattning.se/japanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-20 | 2085 ord)*
-- [Översättning från svenska till japanska](https://www.oversattning.se/oversattning-fran-svenska-till-japanska/) *(Uppdaterad: 2025-09-10 | 1185 ord)*
-- [Översättning från japanska till svenska](https://www.oversattning.se/oversattning-fran-japanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1065 ord)*
-- [Översättning från japanska till engelska](https://www.oversattning.se/oversattning-fran-japanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 961 ord)*
-- [Översättning från engelska till japanska](https://www.oversattning.se/oversattning-fran-engelska-till-japanska/) *(Uppdaterad: 2025-09-09 | 1149 ord)*
 
 ### Ukrainska (16 artiklar)
 
@@ -1940,6 +1940,23 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Exaktare, mer flytande meningar i Google Translate](https://www.oversattning.se/exaktare-mer-flytande-meningar-i-google-translate/) *(Uppdaterad: 2025-09-06 | 479 ord)*
 - [Allt du behöver veta om Google Översätt](https://www.oversattning.se/allt-du-behover-veta-om-google-oversatt/) *(Uppdaterad: 2025-09-05 | 1495 ord)*
 
+### Kroatiska (14 artiklar)
+
+- [Översättning av vigselbevis till kroatiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kroatiska/) *(Uppdaterad: 2026-11-04 | 1104 ord)*
+- [Kroatiska - Professionell översättning till och från kroatiska](https://www.oversattning.se/kroatiska-oversattning-till-och-fran-kroatiska/) *(Uppdaterad: 2025-09-21 | 873 ord)*
+- [Vilka språk talar man i Kroatien?](https://www.oversattning.se/vilka-sprak-talar-man-i-kroatien/) *(Uppdaterad: 2025-09-21 | 893 ord)*
+- [10 intressanta fakta om det kroatiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-kroatiska-spraket/) *(Uppdaterad: 2025-09-21 | 1094 ord)*
+- [Är kroatiska svårt att lära sig?](https://www.oversattning.se/ar-kroatiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-21 | 857 ord)*
+- [Översättning av personbevis till kroatiska](https://www.oversattning.se/oversattning-av-personbevis-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 637 ord)*
+- [Översättning av födelsebevis till kroatiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 700 ord)*
+- [Översättning av registerutdrag till kroatiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 887 ord)*
+- [Hur du säger hej på kroatiska: En komplett guide till Kroatiens vänliga och traditionsrika hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-kroatiska-en-komplett-guide-till-kroatiens-vanliga-och-traditionsrika-halsningskultur/) *(Uppdaterad: 2025-09-21 | 1087 ord)*
+- [Kroatiska ord och fraser som är bra att kunna](https://www.oversattning.se/kroatiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1473 ord)*
+- [Översättning från svenska till kroatiska](https://www.oversattning.se/oversattning-fran-svenska-till-kroatiska/) *(Uppdaterad: 2025-09-10 | 1372 ord)*
+- [Översättning från kroatiska till svenska](https://www.oversattning.se/oversattning-fran-kroatiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1052 ord)*
+- [Översättning från kroatiska till engelska](https://www.oversattning.se/oversattning-fran-kroatiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 965 ord)*
+- [Översättning från engelska till kroatiska](https://www.oversattning.se/oversattning-fran-engelska-till-kroatiska/) *(Uppdaterad: 2025-09-09 | 1276 ord)*
+
 ### Mongoliska (14 artiklar)
 
 - [Översättning av vigselbevis till mongoliska](https://www.oversattning.se/oversattning-av-vigselbevis-till-mongoliska/) *(Uppdaterad: 2026-11-02 | 1149 ord)*
@@ -1956,23 +1973,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från svenska till mongoliska](https://www.oversattning.se/oversattning-fran-svenska-till-mongoliska/) *(Uppdaterad: 2025-09-10 | 993 ord)*
 - [Översättning från mongoliska till svenska](https://www.oversattning.se/oversattning-fran-mongoliska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1000 ord)*
 - [Översättning från mongoliska till engelska](https://www.oversattning.se/oversattning-fran-mongoliska-till-engelska/) *(Uppdaterad: 2025-09-10 | 933 ord)*
-
-### Kroatiska (14 artiklar)
-
-- [Kroatiska - Professionell översättning till och från kroatiska](https://www.oversattning.se/kroatiska-oversattning-till-och-fran-kroatiska/) *(Uppdaterad: 2025-09-21 | 873 ord)*
-- [Vilka språk talar man i Kroatien?](https://www.oversattning.se/vilka-sprak-talar-man-i-kroatien/) *(Uppdaterad: 2025-09-21 | 893 ord)*
-- [10 intressanta fakta om det kroatiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-kroatiska-spraket/) *(Uppdaterad: 2025-09-21 | 1094 ord)*
-- [Är kroatiska svårt att lära sig?](https://www.oversattning.se/ar-kroatiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-21 | 857 ord)*
-- [Översättning av personbevis till kroatiska](https://www.oversattning.se/oversattning-av-personbevis-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 637 ord)*
-- [Översättning av födelsebevis till kroatiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 700 ord)*
-- [Översättning av registerutdrag till kroatiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 887 ord)*
-- [Översättning av vigselbevis till kroatiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kroatiska/) *(Uppdaterad: 2025-09-21 | 933 ord)*
-- [Hur du säger hej på kroatiska: En komplett guide till Kroatiens vänliga och traditionsrika hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-kroatiska-en-komplett-guide-till-kroatiens-vanliga-och-traditionsrika-halsningskultur/) *(Uppdaterad: 2025-09-21 | 1087 ord)*
-- [Kroatiska ord och fraser som är bra att kunna](https://www.oversattning.se/kroatiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1473 ord)*
-- [Översättning från svenska till kroatiska](https://www.oversattning.se/oversattning-fran-svenska-till-kroatiska/) *(Uppdaterad: 2025-09-10 | 1372 ord)*
-- [Översättning från kroatiska till svenska](https://www.oversattning.se/oversattning-fran-kroatiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1052 ord)*
-- [Översättning från kroatiska till engelska](https://www.oversattning.se/oversattning-fran-kroatiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 965 ord)*
-- [Översättning från engelska till kroatiska](https://www.oversattning.se/oversattning-fran-engelska-till-kroatiska/) *(Uppdaterad: 2025-09-09 | 1276 ord)*
 
 ### Khmer (14 artiklar)
 
@@ -2541,6 +2541,14 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Hur du säger hej på katalanska: En komplett guide till Kataloniens stolta hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-katalanska-en-komplett-guide-till-kataloniens-stolta-halsningskultur/) *(Uppdaterad: 2025-09-20 | 1014 ord)*
 - [Katalanska ord och fraser som är bra att kunna](https://www.oversattning.se/katalanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-20 | 1585 ord)*
 
+### Allmänt (5 artiklar)
+
+- [Hur grammatiska genus formar vår syn på objekt](https://www.oversattning.se/hur-grammatiska-genus-formar-var-syn-pa-objekt/) *(Uppdaterad: 2026-11-04 | 1472 ord)*
+- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
+- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
+- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
+- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
+
 ### Flamländska (5 artiklar)
 
 - [Hur du säger hej på flamländska: En grundlig guide till Belgiens vänliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-flamlandska-en-grundlig-guide-till-belgiens-vanliga-halsningskultur/) *(Uppdaterad: 2026-10-16 | 1479 ord)*
@@ -2748,13 +2756,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [10 intressanta fakta om det arameiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-arameiska-spraket/) *(Uppdaterad: 2025-09-16 | 1637 ord)*
 - [Är arameiska svårt att lära sig?](https://www.oversattning.se/ar-arameiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-16 | 1087 ord)*
 - [Arameiska ord och fraser som är bra att kunna](https://www.oversattning.se/arameiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-16 | 1447 ord)*
-
-### Allmänt (4 artiklar)
-
-- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
-- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
-- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
-- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
 
 ### Meänkieli (4 artiklar)
 
