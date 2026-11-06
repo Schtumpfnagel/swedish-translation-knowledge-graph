@@ -36,7 +36,7 @@ configs:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23759753.svg)](https://doi.org/10.5281/zenodo.23759753)
 
-> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2382 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
+> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2384 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
 
 ## Översikt & Syfte (RAG / NLP / Lingvistisk Referensdata)
 
@@ -49,16 +49,16 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)
 - **Utökad AI-korpus (`llms-full.txt`):** [https://www.oversattning.se/llms-full.txt](https://www.oversattning.se/llms-full.txt)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph](https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph)
-- **Senast synkroniserad:** `2026-11-05`
+- **Senast synkroniserad:** `2026-11-06`
 
 ## Filer i Datasetet
 
 | Filväg | Format | Innehåll | Antal poster |
 | :--- | :--- | :--- | :---: |
-| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2382 |
+| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2384 |
 | `data/languages/train.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` (Hugging Face Viewer Subset) | 176 |
-| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2382 |
-| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2382 |
+| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2384 |
+| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2384 |
 | `data/languages.jsonl` | JSON Lines | Speglad språkkatalog i rotmappen `data/` | 176 |
 | `data/languages.csv` | CSV | Tabulär språkmatris med språknamn, slug, Pillar-URL och sammanfattning | 176 |
 
@@ -261,7 +261,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 | **[Yoruba](https://www.oversattning.se/sprak/yoruba/)** | `https://www.oversattning.se/sprak/yoruba/` |  |
 | **[Zulu](https://www.oversattning.se/sprak/zulu/)** | `https://www.oversattning.se/sprak/zulu/` |  |
 
-## 3. Fackartiklar, Språkguider & Språkkombinationer (2382 Artiklar per Ämnessilo)
+## 3. Fackartiklar, Språkguider & Språkkombinationer (2384 Artiklar per Ämnessilo)
 
 ### Artiklar &amp; Språkguider (424 artiklar)
 
@@ -1209,6 +1209,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Engelska (41 artiklar)
 
+- [Översättning av vigselbevis till engelska](https://www.oversattning.se/oversattning-av-vigselbevis-till-engelska/) *(Uppdaterad: 2026-11-06 | 1466 ord)*
 - [Översättning av pass och ID-kort till engelska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-engelska/) *(Uppdaterad: 2026-10-29 | 1361 ord)*
 - [Språkliga lån som formade svenskan: Från medeltida tyska till modern tech-engelska](https://www.oversattning.se/sprakliga-lan-som-formade-svenskan-fran-medeltida-tyska-till-modern-tech-engelska/) *(Uppdaterad: 2026-10-09 | 2806 ord)*
 - [Den mexikanska staten Tamaulipas är den första att deklarera tvåspråkighet](https://www.oversattning.se/den-mexikanska-staten-tamaulipas-ar-den-forsta-att-deklarera-tvasprakighet/) *(Uppdaterad: 2025-09-28 | 825 ord)*
@@ -1243,7 +1244,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till engelska](https://www.oversattning.se/oversattning-av-personbevis-till-engelska/) *(Uppdaterad: 2025-09-18 | 860 ord)*
 - [Översättning av födelsebevis till engelska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-engelska/) *(Uppdaterad: 2025-09-18 | 934 ord)*
 - [Översättning av registerutdrag till engelska](https://www.oversattning.se/oversattning-av-registerutdrag-till-engelska/) *(Uppdaterad: 2025-09-18 | 927 ord)*
-- [Översättning av vigselbevis till engelska](https://www.oversattning.se/oversattning-av-vigselbevis-till-engelska/) *(Uppdaterad: 2025-09-18 | 890 ord)*
 - [Hur du säger hej på engelska: En omfattande guide till den globala hälsningskulturen](https://www.oversattning.se/hur-du-sager-hej-pa-engelska-en-omfattande-guide-till-den-globala-halsningskulturen/) *(Uppdaterad: 2025-09-18 | 1490 ord)*
 - [Engelska ord och fraser som är bra att kunna](https://www.oversattning.se/engelska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-18 | 2257 ord)*
 - [Vilka språk talar man i Trinidad och Tobago?](https://www.oversattning.se/vilka-sprak-talar-man-i-trinidad-och-tobago/) *(Uppdaterad: 2025-09-16 | 1503 ord)*
@@ -1253,6 +1253,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Spanska (38 artiklar)
 
+- [Översättning av vigselbevis till spanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-spanska/) *(Uppdaterad: 2026-11-06 | 1409 ord)*
 - [Översättning av pass och ID-kort till spanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-spanska/) *(Uppdaterad: 2026-10-29 | 1425 ord)*
 - [Spanska - Professionell översättning till och från spanska](https://www.oversattning.se/spanska-oversattning-till-och-fran-spanska/) *(Uppdaterad: 2025-09-28 | 1248 ord)*
 - [Latinamerikansk spanska - Professionell översättning till och från latinamerikansk spanska](https://www.oversattning.se/latinamerikansk-spanska-oversattning-till-och-fran-latinamerikansk-spanska/) *(Uppdaterad: 2025-09-28 | 782 ord)*
@@ -1279,7 +1280,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till spanska](https://www.oversattning.se/oversattning-av-personbevis-till-spanska/) *(Uppdaterad: 2025-09-28 | 779 ord)*
 - [Översättning av födelsebevis till spanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-spanska/) *(Uppdaterad: 2025-09-28 | 840 ord)*
 - [Översättning av registerutdrag till spanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-spanska/) *(Uppdaterad: 2025-09-28 | 934 ord)*
-- [Översättning av vigselbevis till spanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-spanska/) *(Uppdaterad: 2025-09-28 | 858 ord)*
 - [Hur du säger hej på spanska: En komplett guide till Spaniens och Latinamerikas vänliga och uttrycksfulla hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-spanska-en-komplett-guide-till-spaniens-och-latinamerikas-vanliga-och-uttrycksfulla-halsningskultur/) *(Uppdaterad: 2025-09-28 | 1148 ord)*
 - [Spanska ord och fraser som är bra att kunna](https://www.oversattning.se/spanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-28 | 1047 ord)*
 - [Vilka språk talar man i Argentina?](https://www.oversattning.se/vilka-sprak-talar-man-i-argentina/) *(Uppdaterad: 2025-09-19 | 1289 ord)*
@@ -1334,6 +1334,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Franska (35 artiklar)
 
+- [Översättning av vigselbevis till franska](https://www.oversattning.se/oversattning-av-vigselbevis-till-franska/) *(Uppdaterad: 2026-11-06 | 1407 ord)*
 - [Översättning av pass och ID-kort till franska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-franska/) *(Uppdaterad: 2026-10-28 | 1028 ord)*
 - [När franska lånord definierar svensk lyx och gastronomi](https://www.oversattning.se/nar-franska-lanord-definierar-svensk-lyx-och-gastronomi/) *(Uppdaterad: 2026-10-28 | 1360 ord)*
 - [Franska - Professionell översättning till och från franska](https://www.oversattning.se/franska-oversattning-till-och-fran-franska/) *(Uppdaterad: 2025-09-19 | 874 ord)*
@@ -1355,7 +1356,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av personbevis till franska](https://www.oversattning.se/oversattning-av-personbevis-till-franska/) *(Uppdaterad: 2025-09-19 | 632 ord)*
 - [Översättning av födelsebevis till franska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-franska/) *(Uppdaterad: 2025-09-19 | 891 ord)*
 - [Översättning av registerutdrag till franska](https://www.oversattning.se/oversattning-av-registerutdrag-till-franska/) *(Uppdaterad: 2025-09-19 | 675 ord)*
-- [Översättning av vigselbevis till franska](https://www.oversattning.se/oversattning-av-vigselbevis-till-franska/) *(Uppdaterad: 2025-09-19 | 696 ord)*
 - [Hur du säger hej på franska: En komplett guide till Frankrikes artiga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-franska-en-komplett-guide-till-frankrikes-artiga-halsningskultur/) *(Uppdaterad: 2025-09-19 | 1063 ord)*
 - [Franska ord och fraser som är bra att kunna](https://www.oversattning.se/franska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-19 | 2049 ord)*
 - [Vilka språk talar man i Togo?](https://www.oversattning.se/vilka-sprak-talar-man-i-togo/) *(Uppdaterad: 2025-09-18 | 1238 ord)*
@@ -1369,6 +1369,30 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från franska till svenska](https://www.oversattning.se/oversattning-fran-franska-till-svenska/) *(Uppdaterad: 2025-09-10 | 991 ord)*
 - [Översättning från franska till engelska](https://www.oversattning.se/oversattning-fran-franska-till-engelska/) *(Uppdaterad: 2025-09-10 | 984 ord)*
 - [Översättning från engelska till franska](https://www.oversattning.se/oversattning-fran-engelska-till-franska/) *(Uppdaterad: 2025-09-09 | 1068 ord)*
+
+### Svenska (21 artiklar)
+
+- [Översättning av vigselbevis till svenska](https://www.oversattning.se/oversattning-av-vigselbevis-till-svenska/) *(Uppdaterad: 2026-11-06 | 1341 ord)*
+- [Översättning av pass och ID-kort till svenska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-svenska/) *(Uppdaterad: 2026-10-29 | 1405 ord)*
+- [Svenska - Professionell översättning till och från svenska](https://www.oversattning.se/svenska-oversattning-till-och-fran-svenska/) *(Uppdaterad: 2025-09-28 | 865 ord)*
+- [Esquire tillkännager den senaste tekniken inom pennskanning](https://www.oversattning.se/esquire-tillkannager-den-senaste-tekniken-inom-pennskanning/) *(Uppdaterad: 2025-09-28 | 608 ord)*
+- [Skånska språket på utdöende enligt UNESCO](https://www.oversattning.se/skanska-spraket-pa-utdoende-enligt-unesco/) *(Uppdaterad: 2025-09-28 | 650 ord)*
+- [Engelskt plural ger svenskan bättre flyt](https://www.oversattning.se/engelskt-plural-ger-svenskan-battre-flyt/) *(Uppdaterad: 2025-09-28 | 579 ord)*
+- [Språk skapar ambassadörer](https://www.oversattning.se/sprak-skapar-ambassadorer/) *(Uppdaterad: 2025-09-28 | 689 ord)*
+- [Forskare: Svenska väldigt känt språk i världen](https://www.oversattning.se/forskare-svenska-valdigt-kant-sprak-i-varlden/) *(Uppdaterad: 2025-09-28 | 596 ord)*
+- [Svenska är näst största språket på Wikipedia](https://www.oversattning.se/svenska-ar-nast-storsta-spraket-pa-wikipedia/) *(Uppdaterad: 2025-09-28 | 617 ord)*
+- [Svårt att vara artig på svenska](https://www.oversattning.se/svart-att-vara-artig-pa-svenska/) *(Uppdaterad: 2025-09-28 | 643 ord)*
+- [Tre röster om svenska språkets framtid](https://www.oversattning.se/tre-roster-om-svenska-sprakets-framtid/) *(Uppdaterad: 2025-09-28 | 904 ord)*
+- [Amazon hånas på grund av knapphändig översättning vid lansering av den svenska hemsidan](https://www.oversattning.se/amazon-hanas-pa-grund-av-knapphandig-oversattning-vid-lansering-av-den-svenska-hemsidan/) *(Uppdaterad: 2025-09-28 | 564 ord)*
+- [10 intressanta fakta om det svenska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-svenska-spraket/) *(Uppdaterad: 2025-09-28 | 1237 ord)*
+- [Översättning av personbevis till svenska](https://www.oversattning.se/oversattning-av-personbevis-till-svenska/) *(Uppdaterad: 2025-09-28 | 729 ord)*
+- [Översättning av födelsebevis till svenska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-svenska/) *(Uppdaterad: 2025-09-28 | 593 ord)*
+- [Översättning av registerutdrag till svenska](https://www.oversattning.se/oversattning-av-registerutdrag-till-svenska/) *(Uppdaterad: 2025-09-28 | 786 ord)*
+- [Hur du säger hej på svenska: En komplett guide till Sveriges artiga och avslappnade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-svenska-en-komplett-guide-till-sveriges-artiga-och-avslappnade-halsningskultur/) *(Uppdaterad: 2025-09-28 | 1301 ord)*
+- [Vilka språk talar man i Sverige?](https://www.oversattning.se/vilka-sprak-talar-man-i-sverige/) *(Uppdaterad: 2025-09-18 | 1181 ord)*
+- [Danska är mycket svårare än norska och svenska, säger språkexperter](https://www.oversattning.se/danska-ar-mycket-svarare-an-norska-och-svenska-sager-sprakexperter/) *(Uppdaterad: 2025-09-18 | 678 ord)*
+- [Vanligaste språkmissarna på svenska företags hemsidor – har du gjort dessa fel?](https://www.oversattning.se/vanligaste-sprakmissarna-pa-svenska-foretags-hemsidor-har-du-gjort-dessa-fel/) *(Uppdaterad: 2025-09-09 | 1933 ord)*
+- [Översättning från engelska till svenska](https://www.oversattning.se/oversattning-fran-engelska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1007 ord)*
 
 ### Portugisiska (21 artiklar)
 
@@ -1417,30 +1441,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från tyska till engelska](https://www.oversattning.se/oversattning-fran-tyska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1046 ord)*
 - [Översättning från svenska till tyska](https://www.oversattning.se/oversattning-fran-svenska-till-tyska/) *(Uppdaterad: 2025-09-10 | 1000 ord)*
 - [Översättning från engelska till tyska](https://www.oversattning.se/oversattning-fran-engelska-till-tyska/) *(Uppdaterad: 2025-09-10 | 1151 ord)*
-
-### Svenska (21 artiklar)
-
-- [Översättning av pass och ID-kort till svenska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-svenska/) *(Uppdaterad: 2026-10-29 | 1405 ord)*
-- [Svenska - Professionell översättning till och från svenska](https://www.oversattning.se/svenska-oversattning-till-och-fran-svenska/) *(Uppdaterad: 2025-09-28 | 865 ord)*
-- [Esquire tillkännager den senaste tekniken inom pennskanning](https://www.oversattning.se/esquire-tillkannager-den-senaste-tekniken-inom-pennskanning/) *(Uppdaterad: 2025-09-28 | 608 ord)*
-- [Skånska språket på utdöende enligt UNESCO](https://www.oversattning.se/skanska-spraket-pa-utdoende-enligt-unesco/) *(Uppdaterad: 2025-09-28 | 650 ord)*
-- [Engelskt plural ger svenskan bättre flyt](https://www.oversattning.se/engelskt-plural-ger-svenskan-battre-flyt/) *(Uppdaterad: 2025-09-28 | 579 ord)*
-- [Språk skapar ambassadörer](https://www.oversattning.se/sprak-skapar-ambassadorer/) *(Uppdaterad: 2025-09-28 | 689 ord)*
-- [Forskare: Svenska väldigt känt språk i världen](https://www.oversattning.se/forskare-svenska-valdigt-kant-sprak-i-varlden/) *(Uppdaterad: 2025-09-28 | 596 ord)*
-- [Svenska är näst största språket på Wikipedia](https://www.oversattning.se/svenska-ar-nast-storsta-spraket-pa-wikipedia/) *(Uppdaterad: 2025-09-28 | 617 ord)*
-- [Svårt att vara artig på svenska](https://www.oversattning.se/svart-att-vara-artig-pa-svenska/) *(Uppdaterad: 2025-09-28 | 643 ord)*
-- [Tre röster om svenska språkets framtid](https://www.oversattning.se/tre-roster-om-svenska-sprakets-framtid/) *(Uppdaterad: 2025-09-28 | 904 ord)*
-- [Amazon hånas på grund av knapphändig översättning vid lansering av den svenska hemsidan](https://www.oversattning.se/amazon-hanas-pa-grund-av-knapphandig-oversattning-vid-lansering-av-den-svenska-hemsidan/) *(Uppdaterad: 2025-09-28 | 564 ord)*
-- [10 intressanta fakta om det svenska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-svenska-spraket/) *(Uppdaterad: 2025-09-28 | 1237 ord)*
-- [Översättning av personbevis till svenska](https://www.oversattning.se/oversattning-av-personbevis-till-svenska/) *(Uppdaterad: 2025-09-28 | 729 ord)*
-- [Översättning av födelsebevis till svenska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-svenska/) *(Uppdaterad: 2025-09-28 | 593 ord)*
-- [Översättning av registerutdrag till svenska](https://www.oversattning.se/oversattning-av-registerutdrag-till-svenska/) *(Uppdaterad: 2025-09-28 | 786 ord)*
-- [Översättning av vigselbevis till svenska](https://www.oversattning.se/oversattning-av-vigselbevis-till-svenska/) *(Uppdaterad: 2025-09-28 | 751 ord)*
-- [Hur du säger hej på svenska: En komplett guide till Sveriges artiga och avslappnade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-svenska-en-komplett-guide-till-sveriges-artiga-och-avslappnade-halsningskultur/) *(Uppdaterad: 2025-09-28 | 1301 ord)*
-- [Vilka språk talar man i Sverige?](https://www.oversattning.se/vilka-sprak-talar-man-i-sverige/) *(Uppdaterad: 2025-09-18 | 1181 ord)*
-- [Danska är mycket svårare än norska och svenska, säger språkexperter](https://www.oversattning.se/danska-ar-mycket-svarare-an-norska-och-svenska-sager-sprakexperter/) *(Uppdaterad: 2025-09-18 | 678 ord)*
-- [Vanligaste språkmissarna på svenska företags hemsidor – har du gjort dessa fel?](https://www.oversattning.se/vanligaste-sprakmissarna-pa-svenska-foretags-hemsidor-har-du-gjort-dessa-fel/) *(Uppdaterad: 2025-09-09 | 1933 ord)*
-- [Översättning från engelska till svenska](https://www.oversattning.se/oversattning-fran-engelska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1007 ord)*
 
 ### Kinesiska (20 artiklar)
 
@@ -1572,6 +1572,25 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vett och etikett i Argentina - Din utförliga guide till landets alla hörn](https://www.oversattning.se/vett-och-etikett-i-argentina/) *(Uppdaterad: 2025-09-03 | 1712 ord)*
 - [Vett och etikett i Albanien - En guide till vardagsliv, högtider och affärer](https://www.oversattning.se/vett-och-etikett-i-albanien-en-guide-till-vardagsliv-hogtider-och-affarer/) *(Uppdaterad: 2025-09-03 | 1456 ord)*
 
+### Bulgariska (16 artiklar)
+
+- [Översättning av vigselbevis till bulgariska](https://www.oversattning.se/oversattning-av-vigselbevis-till-bulgariska/) *(Uppdaterad: 2026-11-06 | 1183 ord)*
+- [Översättning av pass och ID-kort till bulgariska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bulgariska/) *(Uppdaterad: 2026-10-30 | 1108 ord)*
+- [Hur du säger hej på bulgariska: Din fullständiga guide till Bulgariens hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-bulgariska-din-fullstandiga-guide-till-bulgariens-halsningskultur/) *(Uppdaterad: 2026-10-19 | 1327 ord)*
+- [Bulgariska - Professionell översättning till och från bulgariska](https://www.oversattning.se/bulgariska-oversattning-till-och-fran-bulgariska/) *(Uppdaterad: 2025-09-17 | 709 ord)*
+- [Vilka språk talar man i Bulgarien?](https://www.oversattning.se/vilka-sprak-talar-man-i-bulgarien/) *(Uppdaterad: 2025-09-17 | 1155 ord)*
+- [10 intressanta fakta om det bulgariska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-bulgariska-spraket/) *(Uppdaterad: 2025-09-17 | 1668 ord)*
+- [Är bulgariska svårt att lära sig?](https://www.oversattning.se/ar-bulgariska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-17 | 944 ord)*
+- [Översättning av personbevis till bulgariska](https://www.oversattning.se/oversattning-av-personbevis-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 834 ord)*
+- [Översättning av födelsebevis till bulgariska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 834 ord)*
+- [Översättning av registerutdrag till bulgariska](https://www.oversattning.se/oversattning-av-registerutdrag-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 775 ord)*
+- [Bulgariska ord och fraser som är bra att kunna](https://www.oversattning.se/bulgariska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1774 ord)*
+- [Översättning från svenska till bulgariska](https://www.oversattning.se/oversattning-fran-svenska-till-bulgariska/) *(Uppdaterad: 2025-09-10 | 1051 ord)*
+- [Översättning från engelska till bulgariska](https://www.oversattning.se/oversattning-fran-engelska-till-bulgariska/) *(Uppdaterad: 2025-09-09 | 1095 ord)*
+- [Översättning från bulgariska till svenska](https://www.oversattning.se/oversattning-fran-bulgariska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1011 ord)*
+- [Översättning från bulgariska till engelska](https://www.oversattning.se/oversattning-fran-bulgariska-till-engelska/) *(Uppdaterad: 2025-09-09 | 936 ord)*
+- [Bulgariska talas av 15 miljoner människor runt hela världen](https://www.oversattning.se/bulgariska-talas-av-15-miljoner-manniskor-runt-hela-varlden/) *(Uppdaterad: 2025-09-06 | 420 ord)*
+
 ### Grekiska (16 artiklar)
 
 - [Översättning av vigselbevis till grekiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-grekiska/) *(Uppdaterad: 2026-11-05 | 1102 ord)*
@@ -1686,25 +1705,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från albanska till engelska](https://www.oversattning.se/oversattning-fran-albanska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1118 ord)*
 - [BBC stänger ner sändningar på albanska](https://www.oversattning.se/bbc-stanger-ner-sandningar-pa-albanska/) *(Uppdaterad: 2025-09-05 | 262 ord)*
 
-### Bulgariska (16 artiklar)
-
-- [Översättning av pass och ID-kort till bulgariska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bulgariska/) *(Uppdaterad: 2026-10-30 | 1108 ord)*
-- [Hur du säger hej på bulgariska: Din fullständiga guide till Bulgariens hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-bulgariska-din-fullstandiga-guide-till-bulgariens-halsningskultur/) *(Uppdaterad: 2026-10-19 | 1327 ord)*
-- [Bulgariska - Professionell översättning till och från bulgariska](https://www.oversattning.se/bulgariska-oversattning-till-och-fran-bulgariska/) *(Uppdaterad: 2025-09-17 | 709 ord)*
-- [Vilka språk talar man i Bulgarien?](https://www.oversattning.se/vilka-sprak-talar-man-i-bulgarien/) *(Uppdaterad: 2025-09-17 | 1155 ord)*
-- [10 intressanta fakta om det bulgariska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-bulgariska-spraket/) *(Uppdaterad: 2025-09-17 | 1668 ord)*
-- [Är bulgariska svårt att lära sig?](https://www.oversattning.se/ar-bulgariska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-17 | 944 ord)*
-- [Översättning av personbevis till bulgariska](https://www.oversattning.se/oversattning-av-personbevis-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 834 ord)*
-- [Översättning av födelsebevis till bulgariska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 834 ord)*
-- [Översättning av registerutdrag till bulgariska](https://www.oversattning.se/oversattning-av-registerutdrag-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 775 ord)*
-- [Översättning av vigselbevis till bulgariska](https://www.oversattning.se/oversattning-av-vigselbevis-till-bulgariska/) *(Uppdaterad: 2025-09-17 | 797 ord)*
-- [Bulgariska ord och fraser som är bra att kunna](https://www.oversattning.se/bulgariska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1774 ord)*
-- [Översättning från svenska till bulgariska](https://www.oversattning.se/oversattning-fran-svenska-till-bulgariska/) *(Uppdaterad: 2025-09-10 | 1051 ord)*
-- [Översättning från engelska till bulgariska](https://www.oversattning.se/oversattning-fran-engelska-till-bulgariska/) *(Uppdaterad: 2025-09-09 | 1095 ord)*
-- [Översättning från bulgariska till svenska](https://www.oversattning.se/oversattning-fran-bulgariska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1011 ord)*
-- [Översättning från bulgariska till engelska](https://www.oversattning.se/oversattning-fran-bulgariska-till-engelska/) *(Uppdaterad: 2025-09-09 | 936 ord)*
-- [Bulgariska talas av 15 miljoner människor runt hela världen](https://www.oversattning.se/bulgariska-talas-av-15-miljoner-manniskor-runt-hela-varlden/) *(Uppdaterad: 2025-09-06 | 420 ord)*
-
 ### Ukrainska (16 artiklar)
 
 - [Ukrainska ord och fraser som är bra att kunna](https://www.oversattning.se/ukrainska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 2922 ord)*
@@ -1723,6 +1723,78 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från ukrainska till engelska](https://www.oversattning.se/oversattning-fran-ukrainska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1121 ord)*
 - [Översättning från svenska till ukrainska](https://www.oversattning.se/oversattning-fran-svenska-till-ukrainska/) *(Uppdaterad: 2025-09-10 | 1189 ord)*
 - [Översättning från engelska till ukrainska](https://www.oversattning.se/oversattning-fran-engelska-till-ukrainska/) *(Uppdaterad: 2025-09-10 | 868 ord)*
+
+### Danska (15 artiklar)
+
+- [Översättning av vigselbevis till danska](https://www.oversattning.se/oversattning-av-vigselbevis-till-danska/) *(Uppdaterad: 2026-11-06 | 1131 ord)*
+- [Översättning av pass och ID-kort till danska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-danska/) *(Uppdaterad: 2026-10-30 | 1130 ord)*
+- [Danska - Professionell översättning till och från danska](https://www.oversattning.se/danska-oversattning-till-och-fran-danska/) *(Uppdaterad: 2025-09-18 | 1172 ord)*
+- [Vilka språk talar man i Danmark?](https://www.oversattning.se/vilka-sprak-talar-man-i-danmark/) *(Uppdaterad: 2025-09-18 | 1262 ord)*
+- [10 intressanta fakta om det danska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-danska-spraket/) *(Uppdaterad: 2025-09-18 | 1632 ord)*
+- [Är danska svårt att lära sig?](https://www.oversattning.se/ar-danska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 928 ord)*
+- [Översättning av personbevis till danska](https://www.oversattning.se/oversattning-av-personbevis-till-danska/) *(Uppdaterad: 2025-09-18 | 870 ord)*
+- [Översättning av födelsebevis till danska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-danska/) *(Uppdaterad: 2025-09-18 | 935 ord)*
+- [Översättning av registerutdrag till danska](https://www.oversattning.se/oversattning-av-registerutdrag-till-danska/) *(Uppdaterad: 2025-09-18 | 859 ord)*
+- [Hur du säger hej på danska: En fullständig guide till Danmarks vänliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-danska-en-fullstandig-guide-till-danmarks-vanliga-halsningskultur/) *(Uppdaterad: 2025-09-17 | 1005 ord)*
+- [Danska ord och fraser som är bra att kunna](https://www.oversattning.se/danska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1739 ord)*
+- [Översättning från svenska till danska](https://www.oversattning.se/oversattning-fran-svenska-till-danska/) *(Uppdaterad: 2025-09-10 | 991 ord)*
+- [Översättning från engelska till danska](https://www.oversattning.se/oversattning-fran-engelska-till-danska/) *(Uppdaterad: 2025-09-09 | 1172 ord)*
+- [Översättning från danska till svenska](https://www.oversattning.se/oversattning-fran-danska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1037 ord)*
+- [Översättning från danska till engelska](https://www.oversattning.se/oversattning-fran-danska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1105 ord)*
+
+### Tjeckiska (15 artiklar)
+
+- [Översättning av vigselbevis till tjeckiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-tjeckiska/) *(Uppdaterad: 2026-11-06 | 1181 ord)*
+- [Översättning av pass och ID-kort till tjeckiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-tjeckiska/) *(Uppdaterad: 2026-10-30 | 1414 ord)*
+- [Tjeckiska ord och fraser som är bra att kunna](https://www.oversattning.se/tjeckiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 3575 ord)*
+- [Tjeckiska - Professionell översättning till och från tjeckiska](https://www.oversattning.se/tjeckiska-professionell-oversattning-till-och-fran-tjeckiska/) *(Uppdaterad: 2025-09-30 | 832 ord)*
+- [Vilka språk talar man i Tjeckien?](https://www.oversattning.se/vilka-sprak-talar-man-i-tjeckien/) *(Uppdaterad: 2025-09-30 | 1048 ord)*
+- [10 intressanta fakta om det tjeckiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-tjeckiska-spraket/) *(Uppdaterad: 2025-09-30 | 1204 ord)*
+- [Är tjeckiska svårt att lära sig?](https://www.oversattning.se/ar-tjeckiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-30 | 983 ord)*
+- [Översättning av personbevis till tjeckiska](https://www.oversattning.se/oversattning-av-personbevis-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 915 ord)*
+- [Översättning av födelsebevis till tjeckiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 864 ord)*
+- [Översättning av registerutdrag till tjeckiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 755 ord)*
+- [Så hälsar du på tjeckiska – lär dig säga "hej" med rätt ton, artighet och känsla](https://www.oversattning.se/sa-halsar-du-pa-tjeckiska-lar-dig-saga-hej-med-ratt-ton-artighet-och-kansla/) *(Uppdaterad: 2025-09-30 | 1278 ord)*
+- [Översättning från tjeckiska till svenska](https://www.oversattning.se/oversattning-fran-tjeckiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 994 ord)*
+- [Översättning från tjeckiska till engelska](https://www.oversattning.se/oversattning-fran-tjeckiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1094 ord)*
+- [Översättning från svenska till tjeckiska](https://www.oversattning.se/oversattning-fran-svenska-till-tjeckiska/) *(Uppdaterad: 2025-09-10 | 1023 ord)*
+- [Översättning från engelska till tjeckiska](https://www.oversattning.se/oversattning-fran-engelska-till-tjeckiska/) *(Uppdaterad: 2025-09-10 | 1019 ord)*
+
+### Estniska (15 artiklar)
+
+- [Översättning av vigselbevis till estniska](https://www.oversattning.se/oversattning-av-vigselbevis-till-estniska/) *(Uppdaterad: 2026-11-06 | 1133 ord)*
+- [Översättning av pass och ID-kort till estniska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-estniska/) *(Uppdaterad: 2026-10-29 | 1087 ord)*
+- [Estniska - Professionell översättning till och från estniska](https://www.oversattning.se/estniska-oversattning-till-och-fran-estniska/) *(Uppdaterad: 2025-09-18 | 942 ord)*
+- [Vilka språk talar man i Estland?](https://www.oversattning.se/vilka-sprak-talar-man-i-estland/) *(Uppdaterad: 2025-09-18 | 1233 ord)*
+- [10 intressanta fakta om det estniska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-estniska-spraket/) *(Uppdaterad: 2025-09-18 | 1612 ord)*
+- [Är estniska svårt att lära sig?](https://www.oversattning.se/ar-estniska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 898 ord)*
+- [Översättning av personbevis till estniska](https://www.oversattning.se/oversattning-av-personbevis-till-estniska/) *(Uppdaterad: 2025-09-18 | 802 ord)*
+- [Översättning av födelsebevis till estniska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-estniska/) *(Uppdaterad: 2025-09-18 | 885 ord)*
+- [Översättning av registerutdrag till estniska](https://www.oversattning.se/oversattning-av-registerutdrag-till-estniska/) *(Uppdaterad: 2025-09-18 | 835 ord)*
+- [Hur du säger hej på estniska: En komplett guide till Estlands vänliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-estniska-en-komplett-guide-till-estlands-vanliga-halsningskultur/) *(Uppdaterad: 2025-09-18 | 1108 ord)*
+- [Estniska ord och fraser som är bra att kunna](https://www.oversattning.se/estniska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-18 | 2556 ord)*
+- [Översättning från svenska till estniska](https://www.oversattning.se/oversattning-fran-svenska-till-estniska/) *(Uppdaterad: 2025-09-10 | 999 ord)*
+- [Översättning från estniska till svenska](https://www.oversattning.se/oversattning-fran-estniska-till-svenska/) *(Uppdaterad: 2025-09-10 | 757 ord)*
+- [Översättning från estniska till engelska](https://www.oversattning.se/oversattning-fran-estniska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1026 ord)*
+- [Översättning från engelska till estniska](https://www.oversattning.se/oversattning-fran-engelska-till-estniska/) *(Uppdaterad: 2025-09-09 | 1227 ord)*
+
+### Finska (15 artiklar)
+
+- [Översättning av vigselbevis till finska](https://www.oversattning.se/oversattning-av-vigselbevis-till-finska/) *(Uppdaterad: 2026-11-06 | 1084 ord)*
+- [Översättning av pass och ID-kort till finska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-finska/) *(Uppdaterad: 2026-10-29 | 1082 ord)*
+- [Vilka språk talar man i Finland?](https://www.oversattning.se/vilka-sprak-talar-man-i-finland/) *(Uppdaterad: 2025-09-19 | 1283 ord)*
+- [Nytt lyft för Sveriges minoritetsspråk](https://www.oversattning.se/nytt-lyft-for-sveriges-minoritetssprak/) *(Uppdaterad: 2025-09-18 | 707 ord)*
+- [10 intressanta fakta om det finska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-finska-spraket/) *(Uppdaterad: 2025-09-18 | 1239 ord)*
+- [Är finska svårt att lära sig?](https://www.oversattning.se/ar-finska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 1005 ord)*
+- [Översättning av personbevis till finska](https://www.oversattning.se/oversattning-av-personbevis-till-finska/) *(Uppdaterad: 2025-09-18 | 801 ord)*
+- [Översättning av födelsebevis till finska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-finska/) *(Uppdaterad: 2025-09-18 | 844 ord)*
+- [Översättning av registerutdrag till finska](https://www.oversattning.se/oversattning-av-registerutdrag-till-finska/) *(Uppdaterad: 2025-09-18 | 768 ord)*
+- [Hur du säger hej på finska: En grundlig guide till Finlands hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-finska-en-grundlig-guide-till-finlands-halsningskultur/) *(Uppdaterad: 2025-09-18 | 1046 ord)*
+- [Finska ord och fraser som är bra att kunna](https://www.oversattning.se/finska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-18 | 1561 ord)*
+- [Översättning från svenska till finska](https://www.oversattning.se/oversattning-fran-svenska-till-finska/) *(Uppdaterad: 2025-09-10 | 984 ord)*
+- [Översättning från finska till svenska](https://www.oversattning.se/oversattning-fran-finska-till-svenska/) *(Uppdaterad: 2025-09-10 | 988 ord)*
+- [Översättning från finska till engelska](https://www.oversattning.se/oversattning-fran-finska-till-engelska/) *(Uppdaterad: 2025-09-10 | 917 ord)*
+- [Översättning från engelska till finska](https://www.oversattning.se/oversattning-fran-engelska-till-finska/) *(Uppdaterad: 2025-09-09 | 1296 ord)*
 
 ### Somaliska (15 artiklar)
 
@@ -1850,78 +1922,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från svenska till turkiska](https://www.oversattning.se/oversattning-fran-svenska-till-turkiska/) *(Uppdaterad: 2025-09-10 | 1044 ord)*
 - [Översättning från engelska till turkiska](https://www.oversattning.se/oversattning-fran-engelska-till-turkiska/) *(Uppdaterad: 2025-09-10 | 1036 ord)*
 
-### Danska (15 artiklar)
-
-- [Översättning av pass och ID-kort till danska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-danska/) *(Uppdaterad: 2026-10-30 | 1130 ord)*
-- [Danska - Professionell översättning till och från danska](https://www.oversattning.se/danska-oversattning-till-och-fran-danska/) *(Uppdaterad: 2025-09-18 | 1172 ord)*
-- [Vilka språk talar man i Danmark?](https://www.oversattning.se/vilka-sprak-talar-man-i-danmark/) *(Uppdaterad: 2025-09-18 | 1262 ord)*
-- [10 intressanta fakta om det danska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-danska-spraket/) *(Uppdaterad: 2025-09-18 | 1632 ord)*
-- [Är danska svårt att lära sig?](https://www.oversattning.se/ar-danska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 928 ord)*
-- [Översättning av personbevis till danska](https://www.oversattning.se/oversattning-av-personbevis-till-danska/) *(Uppdaterad: 2025-09-18 | 870 ord)*
-- [Översättning av födelsebevis till danska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-danska/) *(Uppdaterad: 2025-09-18 | 935 ord)*
-- [Översättning av registerutdrag till danska](https://www.oversattning.se/oversattning-av-registerutdrag-till-danska/) *(Uppdaterad: 2025-09-18 | 859 ord)*
-- [Översättning av vigselbevis till danska](https://www.oversattning.se/oversattning-av-vigselbevis-till-danska/) *(Uppdaterad: 2025-09-18 | 789 ord)*
-- [Hur du säger hej på danska: En fullständig guide till Danmarks vänliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-danska-en-fullstandig-guide-till-danmarks-vanliga-halsningskultur/) *(Uppdaterad: 2025-09-17 | 1005 ord)*
-- [Danska ord och fraser som är bra att kunna](https://www.oversattning.se/danska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-17 | 1739 ord)*
-- [Översättning från svenska till danska](https://www.oversattning.se/oversattning-fran-svenska-till-danska/) *(Uppdaterad: 2025-09-10 | 991 ord)*
-- [Översättning från engelska till danska](https://www.oversattning.se/oversattning-fran-engelska-till-danska/) *(Uppdaterad: 2025-09-09 | 1172 ord)*
-- [Översättning från danska till svenska](https://www.oversattning.se/oversattning-fran-danska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1037 ord)*
-- [Översättning från danska till engelska](https://www.oversattning.se/oversattning-fran-danska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1105 ord)*
-
-### Tjeckiska (15 artiklar)
-
-- [Översättning av pass och ID-kort till tjeckiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-tjeckiska/) *(Uppdaterad: 2026-10-30 | 1414 ord)*
-- [Tjeckiska ord och fraser som är bra att kunna](https://www.oversattning.se/tjeckiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 3575 ord)*
-- [Tjeckiska - Professionell översättning till och från tjeckiska](https://www.oversattning.se/tjeckiska-professionell-oversattning-till-och-fran-tjeckiska/) *(Uppdaterad: 2025-09-30 | 832 ord)*
-- [Vilka språk talar man i Tjeckien?](https://www.oversattning.se/vilka-sprak-talar-man-i-tjeckien/) *(Uppdaterad: 2025-09-30 | 1048 ord)*
-- [10 intressanta fakta om det tjeckiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-tjeckiska-spraket/) *(Uppdaterad: 2025-09-30 | 1204 ord)*
-- [Är tjeckiska svårt att lära sig?](https://www.oversattning.se/ar-tjeckiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-30 | 983 ord)*
-- [Översättning av personbevis till tjeckiska](https://www.oversattning.se/oversattning-av-personbevis-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 915 ord)*
-- [Översättning av födelsebevis till tjeckiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 864 ord)*
-- [Översättning av registerutdrag till tjeckiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 755 ord)*
-- [Översättning av vigselbevis till tjeckiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-tjeckiska/) *(Uppdaterad: 2025-09-30 | 783 ord)*
-- [Så hälsar du på tjeckiska – lär dig säga "hej" med rätt ton, artighet och känsla](https://www.oversattning.se/sa-halsar-du-pa-tjeckiska-lar-dig-saga-hej-med-ratt-ton-artighet-och-kansla/) *(Uppdaterad: 2025-09-30 | 1278 ord)*
-- [Översättning från tjeckiska till svenska](https://www.oversattning.se/oversattning-fran-tjeckiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 994 ord)*
-- [Översättning från tjeckiska till engelska](https://www.oversattning.se/oversattning-fran-tjeckiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1094 ord)*
-- [Översättning från svenska till tjeckiska](https://www.oversattning.se/oversattning-fran-svenska-till-tjeckiska/) *(Uppdaterad: 2025-09-10 | 1023 ord)*
-- [Översättning från engelska till tjeckiska](https://www.oversattning.se/oversattning-fran-engelska-till-tjeckiska/) *(Uppdaterad: 2025-09-10 | 1019 ord)*
-
-### Estniska (15 artiklar)
-
-- [Översättning av pass och ID-kort till estniska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-estniska/) *(Uppdaterad: 2026-10-29 | 1087 ord)*
-- [Estniska - Professionell översättning till och från estniska](https://www.oversattning.se/estniska-oversattning-till-och-fran-estniska/) *(Uppdaterad: 2025-09-18 | 942 ord)*
-- [Vilka språk talar man i Estland?](https://www.oversattning.se/vilka-sprak-talar-man-i-estland/) *(Uppdaterad: 2025-09-18 | 1233 ord)*
-- [10 intressanta fakta om det estniska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-estniska-spraket/) *(Uppdaterad: 2025-09-18 | 1612 ord)*
-- [Är estniska svårt att lära sig?](https://www.oversattning.se/ar-estniska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 898 ord)*
-- [Översättning av personbevis till estniska](https://www.oversattning.se/oversattning-av-personbevis-till-estniska/) *(Uppdaterad: 2025-09-18 | 802 ord)*
-- [Översättning av födelsebevis till estniska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-estniska/) *(Uppdaterad: 2025-09-18 | 885 ord)*
-- [Översättning av registerutdrag till estniska](https://www.oversattning.se/oversattning-av-registerutdrag-till-estniska/) *(Uppdaterad: 2025-09-18 | 835 ord)*
-- [Översättning av vigselbevis till estniska](https://www.oversattning.se/oversattning-av-vigselbevis-till-estniska/) *(Uppdaterad: 2025-09-18 | 720 ord)*
-- [Hur du säger hej på estniska: En komplett guide till Estlands vänliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-estniska-en-komplett-guide-till-estlands-vanliga-halsningskultur/) *(Uppdaterad: 2025-09-18 | 1108 ord)*
-- [Estniska ord och fraser som är bra att kunna](https://www.oversattning.se/estniska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-18 | 2556 ord)*
-- [Översättning från svenska till estniska](https://www.oversattning.se/oversattning-fran-svenska-till-estniska/) *(Uppdaterad: 2025-09-10 | 999 ord)*
-- [Översättning från estniska till svenska](https://www.oversattning.se/oversattning-fran-estniska-till-svenska/) *(Uppdaterad: 2025-09-10 | 757 ord)*
-- [Översättning från estniska till engelska](https://www.oversattning.se/oversattning-fran-estniska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1026 ord)*
-- [Översättning från engelska till estniska](https://www.oversattning.se/oversattning-fran-engelska-till-estniska/) *(Uppdaterad: 2025-09-09 | 1227 ord)*
-
-### Finska (15 artiklar)
-
-- [Översättning av pass och ID-kort till finska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-finska/) *(Uppdaterad: 2026-10-29 | 1082 ord)*
-- [Vilka språk talar man i Finland?](https://www.oversattning.se/vilka-sprak-talar-man-i-finland/) *(Uppdaterad: 2025-09-19 | 1283 ord)*
-- [Nytt lyft för Sveriges minoritetsspråk](https://www.oversattning.se/nytt-lyft-for-sveriges-minoritetssprak/) *(Uppdaterad: 2025-09-18 | 707 ord)*
-- [10 intressanta fakta om det finska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-finska-spraket/) *(Uppdaterad: 2025-09-18 | 1239 ord)*
-- [Är finska svårt att lära sig?](https://www.oversattning.se/ar-finska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-18 | 1005 ord)*
-- [Översättning av personbevis till finska](https://www.oversattning.se/oversattning-av-personbevis-till-finska/) *(Uppdaterad: 2025-09-18 | 801 ord)*
-- [Översättning av födelsebevis till finska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-finska/) *(Uppdaterad: 2025-09-18 | 844 ord)*
-- [Översättning av registerutdrag till finska](https://www.oversattning.se/oversattning-av-registerutdrag-till-finska/) *(Uppdaterad: 2025-09-18 | 768 ord)*
-- [Översättning av vigselbevis till finska](https://www.oversattning.se/oversattning-av-vigselbevis-till-finska/) *(Uppdaterad: 2025-09-18 | 814 ord)*
-- [Hur du säger hej på finska: En grundlig guide till Finlands hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-finska-en-grundlig-guide-till-finlands-halsningskultur/) *(Uppdaterad: 2025-09-18 | 1046 ord)*
-- [Finska ord och fraser som är bra att kunna](https://www.oversattning.se/finska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-18 | 1561 ord)*
-- [Översättning från svenska till finska](https://www.oversattning.se/oversattning-fran-svenska-till-finska/) *(Uppdaterad: 2025-09-10 | 984 ord)*
-- [Översättning från finska till svenska](https://www.oversattning.se/oversattning-fran-finska-till-svenska/) *(Uppdaterad: 2025-09-10 | 988 ord)*
-- [Översättning från finska till engelska](https://www.oversattning.se/oversattning-fran-finska-till-engelska/) *(Uppdaterad: 2025-09-10 | 917 ord)*
-- [Översättning från engelska till finska](https://www.oversattning.se/oversattning-fran-engelska-till-finska/) *(Uppdaterad: 2025-09-09 | 1296 ord)*
-
 ### Maskinöversättning (15 artiklar)
 
 - [Vetenskapsmännen som knäckte Google Översätt för valsång](https://www.oversattning.se/vetenskapsmannen-som-knackte-google-oversatt-for-valsang/) *(Uppdaterad: 2025-09-09 | 2043 ord)*
@@ -1993,13 +1993,13 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 
 ### Kurdiska (13 artiklar)
 
+- [Översättning av vigselbevis till sorani](https://www.oversattning.se/oversattning-av-vigselbevis-till-sorani/) *(Uppdaterad: 2026-11-06 | 1088 ord)*
 - [Översättning av pass och ID-kort till sorani](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-sorani/) *(Uppdaterad: 2026-10-28 | 1122 ord)*
 - [10 intressanta fakta om det kurdiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-kurdiska-spraket/) *(Uppdaterad: 2025-09-21 | 1414 ord)*
 - [Är kurdiska svårt att lära sig?](https://www.oversattning.se/ar-kurdiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-21 | 956 ord)*
 - [Översättning av personbevis till sorani](https://www.oversattning.se/oversattning-av-personbevis-till-sorani/) *(Uppdaterad: 2025-09-21 | 653 ord)*
 - [Översättning av födelsebevis till sorani](https://www.oversattning.se/oversattning-av-fodelsebevis-till-sorani/) *(Uppdaterad: 2025-09-21 | 718 ord)*
 - [Översättning av registerutdrag till sorani](https://www.oversattning.se/oversattning-av-registerutdrag-till-sorani/) *(Uppdaterad: 2025-09-21 | 697 ord)*
-- [Översättning av vigselbevis till sorani](https://www.oversattning.se/oversattning-av-vigselbevis-till-sorani/) *(Uppdaterad: 2025-09-21 | 851 ord)*
 - [Hur du säger hej på kurdiska: En komplett guide till det mångfacetterade hälsningsbruket i Kurdistan](https://www.oversattning.se/hur-du-sager-hej-pa-kurdiska-en-komplett-guide-till-det-mangfacetterade-halsningsbruket-i-kurdistan/) *(Uppdaterad: 2025-09-21 | 1183 ord)*
 - [Kurdiska ord och fraser som är bra att kunna](https://www.oversattning.se/kurdiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1360 ord)*
 - [Översättning från svenska till kurdiska](https://www.oversattning.se/oversattning-fran-svenska-till-kurdiska/) *(Uppdaterad: 2025-09-10 | 1029 ord)*
@@ -2435,6 +2435,17 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning av Acrobat Reader-filer](https://www.oversattning.se/oversattning-av-acrobat-reader-filer/) *(Uppdaterad: 2025-09-05 | 904 ord)*
 - [Översättning av .ai-filer](https://www.oversattning.se/oversattning-av-ai-filer/) *(Uppdaterad: 2025-09-05 | 931 ord)*
 
+### Allmänt (8 artiklar)
+
+- [Navigera språkliga nyanser i Centralasien: Navigera affärskultur och lokalisering längs den moderna Sidenvägen](https://www.oversattning.se/navigera-sprakliga-nyanser-i-centralasien-navigera-affarskultur-och-lokalisering-langs-den-moderna-sidenvagen/) *(Uppdaterad: 2026-11-06 | 1324 ord)*
+- [Arbetsgången vid auktoriserad översättning av adoptionshandlingar och personbevis](https://www.oversattning.se/arbetsgangen-vid-auktoriserad-oversattning-av-adoptionshandlingar-och-personbevis/) *(Uppdaterad: 2026-11-06 | 1105 ord)*
+- [Varför isländskans purism är unik i en digitaliserad värld](https://www.oversattning.se/varfor-islandskans-purism-ar-unik-i-en-digitaliserad-varld/) *(Uppdaterad: 2026-11-05 | 1539 ord)*
+- [Hur grammatiska genus formar vår syn på objekt](https://www.oversattning.se/hur-grammatiska-genus-formar-var-syn-pa-objekt/) *(Uppdaterad: 2026-11-04 | 1472 ord)*
+- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
+- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
+- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
+- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
+
 ### Tamil (8 artiklar)
 
 - [10 intressanta fakta om språket tamil](https://www.oversattning.se/10-intressanta-fakta-om-spraket-tamil/) *(Uppdaterad: 2025-09-28 | 1447 ord)*
@@ -2477,15 +2488,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [10 intressanta fakta om det malajiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-malajiska-spraket/) *(Uppdaterad: 2025-09-22 | 1340 ord)*
 - [Är malajiska svårt att lära sig?](https://www.oversattning.se/ar-malajiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-22 | 1046 ord)*
 - [Malajiska ord och fraser som är bra att kunna](https://www.oversattning.se/malajiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-22 | 2944 ord)*
-
-### Allmänt (6 artiklar)
-
-- [Varför isländskans purism är unik i en digitaliserad värld](https://www.oversattning.se/varfor-islandskans-purism-ar-unik-i-en-digitaliserad-varld/) *(Uppdaterad: 2026-11-05 | 1539 ord)*
-- [Hur grammatiska genus formar vår syn på objekt](https://www.oversattning.se/hur-grammatiska-genus-formar-var-syn-pa-objekt/) *(Uppdaterad: 2026-11-04 | 1472 ord)*
-- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
-- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
-- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
-- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
 
 ### Turkmeniska (6 artiklar)
 
