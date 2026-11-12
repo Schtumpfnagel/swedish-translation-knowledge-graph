@@ -1,0 +1,61 @@
+{
+    "profile": "tabular-data-package",
+    "name": "swedish-translation-knowledge-graph",
+    "title": "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph",
+    "description": "Open multilingual knowledge graph and terminology dataset covering 70+ languages, certified translation standards, and cross-linguistic guides published by TOTAL översättningsbyrå (https://www.oversattning.se/).",
+    "homepage": "https://www.oversattning.se/",
+    "id": "https://doi.org/10.5281/zenodo.23759753",
+    "created": "2026-11-12T15:18:52Z",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "TOTAL översättningsbyrå",
+            "path": "https://www.oversattning.se/",
+            "role": "publisher"
+        }
+    ],
+    "resources": [
+        {
+            "name": "knowledge_graph",
+            "path": "knowledge_graph.json",
+            "format": "json",
+            "mediatype": "application/json"
+        },
+        {
+            "name": "languages",
+            "path": "data/languages/train.jsonl",
+            "format": "jsonl",
+            "mediatype": "application/jsonl"
+        },
+        {
+            "name": "services",
+            "path": "data/services/train.jsonl",
+            "format": "jsonl",
+            "mediatype": "application/jsonl"
+        },
+        {
+            "name": "articles",
+            "path": "data/articles/train.jsonl",
+            "format": "jsonl",
+            "mediatype": "application/jsonl"
+        },
+        {
+            "name": "llms_index",
+            "path": "llms.txt",
+            "format": "markdown",
+            "mediatype": "text/markdown"
+        },
+        {
+            "name": "llms_full",
+            "path": "llms-full.txt",
+            "format": "markdown",
+            "mediatype": "text/markdown"
+        }
+    ]
+}
