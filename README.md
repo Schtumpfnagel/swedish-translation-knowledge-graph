@@ -36,7 +36,7 @@ configs:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23759753.svg)](https://doi.org/10.5281/zenodo.23759753)
 
-> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2387 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
+> **Open Linguistic, Terminology & Localization Knowledge Graph** omfattande **176 dokumenterade språksidor**, **15 fack- och branschsidor** samt **2388 fackartiklar och språkkombinationer** från **[TOTAL översättningsbyrå (oversattning.se)](https://www.oversattning.se/)**.
 
 ## Översikt & Syfte (RAG / NLP / Lingvistisk Referensdata)
 
@@ -49,219 +49,219 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)
 - **Utökad AI-korpus (`llms-full.txt`):** [https://www.oversattning.se/llms-full.txt](https://www.oversattning.se/llms-full.txt)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph](https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph)
-- **Senast synkroniserad:** `2026-11-11`
+- **Senast synkroniserad:** `2026-11-12`
 
 ## Filer i Datasetet
 
 | Filväg | Format | Innehåll | Antal poster |
 | :--- | :--- | :--- | :---: |
-| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2387 |
+| `data/articles/train.jsonl` | JSON Lines | Samtliga fackartiklar, språkguider & språkkombinationer (Hugging Face Viewer Default) | 2388 |
 | `data/languages/train.jsonl` | JSON Lines | Komplett språkkatalog med kanoniska Pillar-URL:er under `/sprak/` (Hugging Face Viewer Subset) | 176 |
-| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2387 |
-| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2387 |
+| `data/articles-corpus.jsonl` | JSON Lines | Speglad korpusfil i rotmappen `data/` | 2388 |
+| `data/articles-summary.csv` | CSV | Tabulär översikt över alla artiklar, primär silo, kopplade språk och kanonisk URL | 2388 |
 | `data/languages.jsonl` | JSON Lines | Speglad språkkatalog i rotmappen `data/` | 176 |
 | `data/languages.csv` | CSV | Tabulär språkmatris med språknamn, slug, Pillar-URL och sammanfattning | 176 |
 
 ## 1. Kärntjänster, Fackområden & Lokala Kontor
 
 - **[Artiklar](https://www.oversattning.se/artiklar/)** – Kunskapsbanken En inblick i vårt ovärderliga artikelarkiv
-- **[Auktoriserad](https://www.oversattning.se/oversattning/auktoriserad/)** – Auktoriserad Stämplade översättningar utförda av statscertifierade translatorer Auktoriserade översättningar styrs av lokala bestämmelser i varje land. I en icke-auktoriserad översättning kan översättaren ibland översätta texten med en personlig stil och textton, i syfte att göra den lämpligare för målgruppen.Men när det gäller auktoriserade översättningar måste…
-- **[Branscher](https://www.oversattning.se/oversattning/branscher/)** – Branscher Branscher och ämnesområden vi specialiserar oss på Bilindustri Våra översättare är medvetna om kommunikationens kommersiella värde för bilindustrin och kan hantera alla slags tekniska dokument på fordonsområdet med hög kvalitet. Ekonomi Våra projekt inom ekonomiöversättning täcker allt från marknadsföringsmaterial och webbinnehåll till årsredovisningar, intern…
-- **[Kontakt](https://www.oversattning.se/kontakt/)** – Kontakt Ta det första steget till nya framgångar TOTAL Översättning Roslagsgatan 34113 55 Stockholm 08-55 11 07 00total@oversattning.se Har du något på hjärtat? Låt oss veta! Kontakta oss redan idag Vi ser fram emot att höra från dig!
-- **[Kvalitetssäkring](https://www.oversattning.se/oversattning/kvalitetssakring/)** – Kvalitetssäkring En inblick i vårt ovärderliga artikelarkiv På TOTAL översättningsbyrå är vi fast beslutna att leverera språktjänster av högsta kvalitet till våra kunder. Vi förstår att korrekta och kulturellt känsliga översättningar och andra språkrelaterade lösningar är avgörande för att företag och individer ska lyckas i…
+- **[Auktoriserad](https://www.oversattning.se/oversattning/auktoriserad/)** – Auktoriserad Stämplade översättningar utförda av statscertifierade translatorer Auktoriserade översättningar styrs av lokala bestämmelser i varje land. I en icke-auktoriserad översättning kan översättaren ibland översätta texten med en personlig stil och textton, i syfte att göra den lämpligare för målgruppen.Men när det gäller auktoriserade översättningar måste de vara exakta översättningar från källspråk till målspråk. De måste…
+- **[Branscher](https://www.oversattning.se/oversattning/branscher/)** – Branscher Branscher och ämnesområden vi specialiserar oss på Bilindustri Våra översättare är medvetna om kommunikationens kommersiella värde för bilindustrin och kan hantera alla slags tekniska dokument på fordonsområdet med hög kvalitet. Ekonomi Våra projekt inom ekonomiöversättning täcker allt från marknadsföringsmaterial och webbinnehåll till årsredovisningar, intern kommunikation, broschyrer, presentationer och kontrakt. Energi Våra översättningstjänster inbegriper det…
+- **[Kontakt](https://www.oversattning.se/kontakt/)** – Kontakt Ta det första steget till nya framgångar TOTAL Översättning Roslagsgatan 34113 55 Stockholm 08-55 11 07 00total@oversattning.se Kontakta oss redan idag Vi ser fram emot att höra från dig!
+- **[Kvalitetssäkring](https://www.oversattning.se/oversattning/kvalitetssakring/)** – Kvalitetssäkring 100 % detaljnoggrannhet På TOTAL översättningsbyrå är vi fast beslutna att leverera språktjänster av högsta kvalitet till våra kunder. Vi förstår att korrekta och kulturellt känsliga översättningar och andra språkrelaterade lösningar är avgörande för att företag och individer ska lyckas i dagens globaliserade värld. Därför har vi etablerat ett omfattande kvalitetsledningssystem som omfattar alla…
 - **[Lokalisering](https://www.oversattning.se/oversattning/lokalisering/)** – Lokalisering Tänk globalt, agera lokalt Fullständig lokal anpassning Nå ut till de utländska marknaderna
 - **[Maskinöversättning](https://www.oversattning.se/oversattning/maskinoversattning/)** – Maskinöversättning Har artificiell intelligens en plats i språkbranschen? Fullständig lokal anpassning Nå ut till de utländska marknaderna
-- **[Offert](https://www.oversattning.se/offert/)** – Gratis offert Få prisförslag och leveransdatum redan idag Har du ett projekt? Låt oss veta! Kostar det något att få ett kostnadsförslag för ett projekt? Nej, alla kostnadsförslag tillhandahålls gratis, inklusive alla eventuella påföljande ändringar i dem. Har TOTAL särskilda priser för brådskande arbeten? TOTAL…
-- **[Om oss](https://www.oversattning.se/om-oss/)** – Om oss Vi hjälper er kommunicera utan gränser Vägen som ledde fram till TOTAL översättningsbyrå har varit full av överraskningar, vändningar och anpassningar. Det har format oss till de vi är idag. Det har lärt oss att alltid ta problemen som de kommer, implementera lösningar…
-- **[Översättare](https://www.oversattning.se/oversattning/oversattare/)** – Översättare De bästa av de bästa språkproffsen Nyckeln till framgång för en bra översättningsbyrå är kvaliteten på dess översättare. Våra översättare är alltid professionellt meriterade språkexperter med målspråket som modersmål.Vi väljer ut översättare för individuella uppdrag inte bara efter språkpar utan även efter specialområden. Orsaken…
-- **[Översättning](https://www.oversattning.se/oversattning/)** – Översättning Till och från över 70 språk Med hjälp av ett dedikerat team av kvalificerade översättare och drivande projektledare kan vi konvertera era dokument till och från över 70 av världens språk. Våra professionella översättare är kvalificerade, tvåspråkiga personer, födda i det land där målspråket…
-- **[Översättningsbyrå](https://www.oversattning.se/)** – TOTAL översättningsbyrå Heltäckande lösningar inom språk och texthantering 1 Kontakta oss redan idag via telefon eller e-post 2 Ni får en gratis och tydlig offert med returdatum3 En detaljerad projektplan tas fram för arbetet 4 Våra duktiga experter utför uppdraget5 Hög kvalitet, nöjda kunder, fortsatt…
-- **[SEO-översättning](https://www.oversattning.se/oversattning/seo-oversattning/)** – SEO-översättning Av modersmålstalande SEO-experter Professionella SEO-översättningar handlar om mer än de bokstavliga orden på sidan. Innehållet måste inte bara översättas, utan lokaliseras – med hänsyn till alla sökmotorrelevanta nyanser. På TOTAL internationaliserar vi din webbplats och gör innehållet synligt för användarna på respektive målmarknads språk.En…
-- **[Språk](https://www.oversattning.se/sprak/)** – Språk Alla språk och dialekter vi översätter till och från A B C D E F G H I J K L M A Abchaziska • Acholi • Afar • Afrikaans • Akan • Albanska • Amhariska • Arabiska • Arameiska • Armeniska • Assamesiska…
-- **[Teknologi](https://www.oversattning.se/oversattning/teknologi/)** – Teknologi Spjutspetsteknologi i översättningsbranschen Vi har under många år använt teknologier för datorstödd översättning, som hjälper till att upprätthålla en hög standard samtidigt som de minskar leveranstider och kostnader. Datorstödd översättning (CAT, Computer Aided Translation) är en typ av översättning där den professionella översättaren använder…
+- **[Offert](https://www.oversattning.se/offert/)** – Gratis offert Få prisförslag och leveransdatum redan idag Kostar det något att få ett kostnadsförslag för ett projekt? Nej, alla kostnadsförslag tillhandahålls gratis, inklusive alla eventuella påföljande ändringar i dem. Har TOTAL särskilda priser för brådskande arbeten? TOTAL har en allmän tidsram som specificeras för varje servicenivå (mellan 600 och 2 000 ord per arbetsdag)…
+- **[Om oss](https://www.oversattning.se/om-oss/)** – Om oss Vi hjälper er kommunicera utan gränser Vägen som ledde fram till TOTAL översättningsbyrå har varit full av överraskningar, vändningar och anpassningar. Det har format oss till de vi är idag. Det har lärt oss att alltid ta problemen som de kommer, implementera lösningar och fortsätta erbjuda våra kunder den bästa möjliga servicen som…
+- **[Översättare](https://www.oversattning.se/oversattning/oversattare/)** – Översättare De bästa av de bästa språkproffsen Nyckeln till framgång för en bra översättningsbyrå är kvaliteten på dess översättare. Våra översättare är alltid professionellt meriterade språkexperter med målspråket som modersmål.Vi väljer ut översättare för individuella uppdrag inte bara efter språkpar utan även efter specialområden. Orsaken är att olika typer av översättning kräver olika slags kunskaper…
+- **[Översättning](https://www.oversattning.se/oversattning/)** – Översättning Till och från över 70 språk Med hjälp av ett dedikerat team av kvalificerade översättare och drivande projektledare kan vi konvertera era dokument till och från över 70 av världens språk. Våra professionella översättare är kvalificerade, tvåspråkiga personer, födda i det land där målspråket talas. De väljs ut grundat på sin erfarenhet och expertis…
+- **[Översättningsbyrå](https://www.oversattning.se/)** – TOTAL översättningsbyrå Heltäckande lösningar inom språk och texthantering 1 Kontakta oss redan idag via telefon eller e-post 2 Ni får en gratis och tydlig offert med returdatum3 En detaljerad projektplan tas fram för arbetet 4 Våra duktiga experter utför uppdraget5 Hög kvalitet, nöjda kunder, fortsatt samarbete Varför välja TOTAL översättningsbyrå? Att välja rätt översättningspartner kan…
+- **[SEO-översättning](https://www.oversattning.se/oversattning/seo-oversattning/)** – SEO-översättning Av modersmålstalande SEO-experter Professionella SEO-översättningar handlar om mer än de bokstavliga orden på sidan. Innehållet måste inte bara översättas, utan lokaliseras – med hänsyn till alla sökmotorrelevanta nyanser. På TOTAL internationaliserar vi din webbplats och gör innehållet synligt för användarna på respektive målmarknads språk.En webbplats är ett företags visitkort och en avgörande komponent i…
+- **[Språk](https://www.oversattning.se/sprak/)** – Språk Alla språk och dialekter vi översätter till och från A B C D E F G H I J K L M A Abchaziska • Acholi • Afar • Afrikaans • Akan • Albanska • Amhariska • Arabiska • Arameiska • Armeniska • Assamesiska • Asturiska • Austronesiska • Avariska • Awadhi • Aymara…
+- **[Teknologi](https://www.oversattning.se/oversattning/teknologi/)** – Teknologi Spjutspetsteknologi i översättningsbranschen Vi har under många år använt teknologier för datorstödd översättning, som hjälper till att upprätthålla en hög standard samtidigt som de minskar leveranstider och kostnader. Datorstödd översättning (CAT, Computer Aided Translation) är en typ av översättning där den professionella översättaren använder program som utvecklats speciellt för att underlätta och förbättra översättningsprocessen.…
 
 ## 2. Komplett Språkmatris – Pillar Pages (176 Språk)
 
 | Språk | Kanonisk Pillar-URL | Sammanfattning |
 | :--- | :--- | :--- |
-| **[Abchaziska](https://www.oversattning.se/sprak/abchaziska/)** | `https://www.oversattning.se/sprak/abchaziska/` |  |
-| **[Acholi](https://www.oversattning.se/sprak/acholi/)** | `https://www.oversattning.se/sprak/acholi/` |  |
-| **[Afar](https://www.oversattning.se/sprak/afar/)** | `https://www.oversattning.se/sprak/afar/` |  |
-| **[Afrikaans](https://www.oversattning.se/sprak/afrikaans/)** | `https://www.oversattning.se/sprak/afrikaans/` |  |
-| **[Akan](https://www.oversattning.se/sprak/akan/)** | `https://www.oversattning.se/sprak/akan/` |  |
-| **[Albanska](https://www.oversattning.se/sprak/albanska/)** | `https://www.oversattning.se/sprak/albanska/` |  |
-| **[Amhariska](https://www.oversattning.se/sprak/amhariska/)** | `https://www.oversattning.se/sprak/amhariska/` |  |
-| **[Arabiska](https://www.oversattning.se/sprak/arabiska/)** | `https://www.oversattning.se/sprak/arabiska/` |  |
-| **[Arameiska](https://www.oversattning.se/sprak/arameiska/)** | `https://www.oversattning.se/sprak/arameiska/` |  |
-| **[Armeniska](https://www.oversattning.se/sprak/armeniska/)** | `https://www.oversattning.se/sprak/armeniska/` |  |
-| **[Assamesiska](https://www.oversattning.se/sprak/assamesiska/)** | `https://www.oversattning.se/sprak/assamesiska/` |  |
-| **[Asturiska](https://www.oversattning.se/sprak/asturiska/)** | `https://www.oversattning.se/sprak/asturiska/` |  |
-| **[Austronesiska](https://www.oversattning.se/sprak/austronesiska/)** | `https://www.oversattning.se/sprak/austronesiska/` |  |
-| **[Avariska](https://www.oversattning.se/sprak/avariska/)** | `https://www.oversattning.se/sprak/avariska/` |  |
-| **[Awadhi](https://www.oversattning.se/sprak/awadhi/)** | `https://www.oversattning.se/sprak/awadhi/` |  |
-| **[Aymara](https://www.oversattning.se/sprak/aymara/)** | `https://www.oversattning.se/sprak/aymara/` |  |
-| **[Azerbajdzjanska](https://www.oversattning.se/sprak/azerbajdzjanska/)** | `https://www.oversattning.se/sprak/azerbajdzjanska/` |  |
-| **[Balinesiska](https://www.oversattning.se/sprak/balinesiska/)** | `https://www.oversattning.se/sprak/balinesiska/` |  |
-| **[Baluchiska](https://www.oversattning.se/sprak/baluchiska/)** | `https://www.oversattning.se/sprak/baluchiska/` |  |
-| **[Bambara](https://www.oversattning.se/sprak/bambara/)** | `https://www.oversattning.se/sprak/bambara/` |  |
-| **[Bamileke](https://www.oversattning.se/sprak/bamileke/)** | `https://www.oversattning.se/sprak/bamileke/` |  |
-| **[Bantuspråk](https://www.oversattning.se/sprak/bantusprak/)** | `https://www.oversattning.se/sprak/bantusprak/` |  |
-| **[Basjkiriska](https://www.oversattning.se/sprak/basjkiriska/)** | `https://www.oversattning.se/sprak/basjkiriska/` |  |
-| **[Baskiska](https://www.oversattning.se/sprak/baskiska/)** | `https://www.oversattning.se/sprak/baskiska/` |  |
-| **[Bemba](https://www.oversattning.se/sprak/bemba/)** | `https://www.oversattning.se/sprak/bemba/` |  |
-| **[Bengali](https://www.oversattning.se/sprak/bengali/)** | `https://www.oversattning.se/sprak/bengali/` |  |
-| **[Berber](https://www.oversattning.se/sprak/berber/)** | `https://www.oversattning.se/sprak/berber/` |  |
-| **[Bhojpuri](https://www.oversattning.se/sprak/bhojpuri/)** | `https://www.oversattning.se/sprak/bhojpuri/` |  |
-| **[Bihari](https://www.oversattning.se/sprak/bihari/)** | `https://www.oversattning.se/sprak/bihari/` |  |
-| **[Bikol](https://www.oversattning.se/sprak/bikol/)** | `https://www.oversattning.se/sprak/bikol/` |  |
-| **[Bislama](https://www.oversattning.se/sprak/bislama/)** | `https://www.oversattning.se/sprak/bislama/` |  |
-| **[Bodo](https://www.oversattning.se/sprak/bodo/)** | `https://www.oversattning.se/sprak/bodo/` |  |
-| **[Bosniska](https://www.oversattning.se/sprak/bosniska/)** | `https://www.oversattning.se/sprak/bosniska/` |  |
-| **[Brasiliansk portugisiska](https://www.oversattning.se/sprak/brasiliansk-portugisiska/)** | `https://www.oversattning.se/sprak/brasiliansk-portugisiska/` |  |
-| **[Bretonska](https://www.oversattning.se/sprak/bretonska/)** | `https://www.oversattning.se/sprak/bretonska/` |  |
-| **[Bulgariska](https://www.oversattning.se/sprak/bulgariska/)** | `https://www.oversattning.se/sprak/bulgariska/` |  |
-| **[Burmesiska](https://www.oversattning.se/sprak/burmesiska/)** | `https://www.oversattning.se/sprak/burmesiska/` |  |
-| **[Cebuano](https://www.oversattning.se/sprak/cebuano/)** | `https://www.oversattning.se/sprak/cebuano/` |  |
-| **[Chichewa](https://www.oversattning.se/sprak/chichewa/)** | `https://www.oversattning.se/sprak/chichewa/` |  |
-| **[Danska](https://www.oversattning.se/sprak/danska/)** | `https://www.oversattning.se/sprak/danska/` |  |
-| **[Dari](https://www.oversattning.se/sprak/dari/)** | `https://www.oversattning.se/sprak/dari/` |  |
-| **[Divehi](https://www.oversattning.se/sprak/divehi/)** | `https://www.oversattning.se/sprak/divehi/` |  |
-| **[Dogri](https://www.oversattning.se/sprak/dogri/)** | `https://www.oversattning.se/sprak/dogri/` |  |
-| **[Engelska](https://www.oversattning.se/sprak/engelska/)** | `https://www.oversattning.se/sprak/engelska/` |  |
-| **[Esperanto](https://www.oversattning.se/sprak/esperanto/)** | `https://www.oversattning.se/sprak/esperanto/` |  |
-| **[Estniska](https://www.oversattning.se/sprak/estniska/)** | `https://www.oversattning.se/sprak/estniska/` |  |
-| **[Ewe](https://www.oversattning.se/sprak/ewe/)** | `https://www.oversattning.se/sprak/ewe/` |  |
-| **[Färöiska](https://www.oversattning.se/sprak/faroiska/)** | `https://www.oversattning.se/sprak/faroiska/` |  |
-| **[Fijianska](https://www.oversattning.se/sprak/fijianska/)** | `https://www.oversattning.se/sprak/fijianska/` |  |
-| **[Finska](https://www.oversattning.se/sprak/finska/)** | `https://www.oversattning.se/sprak/finska/` |  |
-| **[Flamländska](https://www.oversattning.se/sprak/flamlandska/)** | `https://www.oversattning.se/sprak/flamlandska/` |  |
-| **[Franska](https://www.oversattning.se/sprak/franska/)** | `https://www.oversattning.se/sprak/franska/` |  |
-| **[Frisiska](https://www.oversattning.se/sprak/frisiska/)** | `https://www.oversattning.se/sprak/frisiska/` |  |
-| **[Gaeliska](https://www.oversattning.se/sprak/gaeliska/)** | `https://www.oversattning.se/sprak/gaeliska/` |  |
-| **[Galiciska](https://www.oversattning.se/sprak/galiciska/)** | `https://www.oversattning.se/sprak/galiciska/` |  |
-| **[Georgiska](https://www.oversattning.se/sprak/georgiska/)** | `https://www.oversattning.se/sprak/georgiska/` |  |
-| **[Grekiska](https://www.oversattning.se/sprak/grekiska/)** | `https://www.oversattning.se/sprak/grekiska/` |  |
-| **[Grönländska](https://www.oversattning.se/sprak/gronlandska/)** | `https://www.oversattning.se/sprak/gronlandska/` |  |
-| **[Guarani](https://www.oversattning.se/sprak/guarani/)** | `https://www.oversattning.se/sprak/guarani/` |  |
-| **[Gujarati](https://www.oversattning.se/sprak/gujarati/)** | `https://www.oversattning.se/sprak/gujarati/` |  |
-| **[Haitiska](https://www.oversattning.se/sprak/haitiska/)** | `https://www.oversattning.se/sprak/haitiska/` |  |
-| **[Hausa](https://www.oversattning.se/sprak/hausa/)** | `https://www.oversattning.se/sprak/hausa/` |  |
-| **[Hawaiiska](https://www.oversattning.se/sprak/hawaiiska/)** | `https://www.oversattning.se/sprak/hawaiiska/` |  |
-| **[Hebreiska](https://www.oversattning.se/sprak/hebreiska/)** | `https://www.oversattning.se/sprak/hebreiska/` |  |
-| **[Hindi](https://www.oversattning.se/sprak/hindi/)** | `https://www.oversattning.se/sprak/hindi/` |  |
-| **[Igbo](https://www.oversattning.se/sprak/igbo/)** | `https://www.oversattning.se/sprak/igbo/` |  |
-| **[Ilokano](https://www.oversattning.se/sprak/ilokano/)** | `https://www.oversattning.se/sprak/ilokano/` |  |
-| **[Indonesiska](https://www.oversattning.se/sprak/indonesiska/)** | `https://www.oversattning.se/sprak/indonesiska/` |  |
-| **[Irländska](https://www.oversattning.se/sprak/irlandska/)** | `https://www.oversattning.se/sprak/irlandska/` |  |
-| **[Isländska](https://www.oversattning.se/sprak/islandska/)** | `https://www.oversattning.se/sprak/islandska/` |  |
-| **[Italienska](https://www.oversattning.se/sprak/italienska/)** | `https://www.oversattning.se/sprak/italienska/` |  |
-| **[Japanska](https://www.oversattning.se/sprak/japanska/)** | `https://www.oversattning.se/sprak/japanska/` |  |
-| **[Javanesiska](https://www.oversattning.se/sprak/javanesiska/)** | `https://www.oversattning.se/sprak/javanesiska/` |  |
-| **[Jiddisch](https://www.oversattning.se/sprak/jiddisch/)** | `https://www.oversattning.se/sprak/jiddisch/` |  |
-| **[Kannada](https://www.oversattning.se/sprak/kannada/)** | `https://www.oversattning.se/sprak/kannada/` |  |
-| **[Katalanska](https://www.oversattning.se/sprak/katalanska/)** | `https://www.oversattning.se/sprak/katalanska/` |  |
-| **[Kazakiska](https://www.oversattning.se/sprak/kazakiska/)** | `https://www.oversattning.se/sprak/kazakiska/` |  |
-| **[Khmer](https://www.oversattning.se/sprak/khmer/)** | `https://www.oversattning.se/sprak/khmer/` |  |
-| **[Kinesiska](https://www.oversattning.se/sprak/kinesiska/)** | `https://www.oversattning.se/sprak/kinesiska/` |  |
-| **[Kirgiziska](https://www.oversattning.se/sprak/kirgiziska/)** | `https://www.oversattning.se/sprak/kirgiziska/` |  |
-| **[Kirundi](https://www.oversattning.se/sprak/kirundi/)** | `https://www.oversattning.se/sprak/kirundi/` |  |
-| **[Konkani](https://www.oversattning.se/sprak/konkani/)** | `https://www.oversattning.se/sprak/konkani/` |  |
-| **[Koreanska](https://www.oversattning.se/sprak/koreanska/)** | `https://www.oversattning.se/sprak/koreanska/` |  |
-| **[Korsikanska](https://www.oversattning.se/sprak/korsikanska/)** | `https://www.oversattning.se/sprak/korsikanska/` |  |
-| **[Kreol](https://www.oversattning.se/sprak/kreol/)** | `https://www.oversattning.se/sprak/kreol/` |  |
-| **[Krio](https://www.oversattning.se/sprak/krio/)** | `https://www.oversattning.se/sprak/krio/` |  |
-| **[Kroatiska](https://www.oversattning.se/sprak/kroatiska/)** | `https://www.oversattning.se/sprak/kroatiska/` |  |
-| **[Kurdiska](https://www.oversattning.se/sprak/kurdiska/)** | `https://www.oversattning.se/sprak/kurdiska/` |  |
-| **[Lao](https://www.oversattning.se/sprak/lao/)** | `https://www.oversattning.se/sprak/lao/` |  |
-| **[Lettiska](https://www.oversattning.se/sprak/lettiska/)** | `https://www.oversattning.se/sprak/lettiska/` |  |
-| **[Lingala](https://www.oversattning.se/sprak/lingala/)** | `https://www.oversattning.se/sprak/lingala/` |  |
-| **[Litauiska](https://www.oversattning.se/sprak/litauiska/)** | `https://www.oversattning.se/sprak/litauiska/` |  |
-| **[Luganda](https://www.oversattning.se/sprak/luganda/)** | `https://www.oversattning.se/sprak/luganda/` |  |
-| **[Luxemburgiska](https://www.oversattning.se/sprak/luxemburgiska/)** | `https://www.oversattning.se/sprak/luxemburgiska/` |  |
-| **[Maithili](https://www.oversattning.se/sprak/maithili/)** | `https://www.oversattning.se/sprak/maithili/` |  |
-| **[Makedonska](https://www.oversattning.se/sprak/makedonska/)** | `https://www.oversattning.se/sprak/makedonska/` |  |
-| **[Malagassiska](https://www.oversattning.se/sprak/malagassiska/)** | `https://www.oversattning.se/sprak/malagassiska/` |  |
-| **[Malajiska](https://www.oversattning.se/sprak/malajiska/)** | `https://www.oversattning.se/sprak/malajiska/` |  |
-| **[Malayalam](https://www.oversattning.se/sprak/malayalam/)** | `https://www.oversattning.se/sprak/malayalam/` |  |
-| **[Maltesiska](https://www.oversattning.se/sprak/maltesiska/)** | `https://www.oversattning.se/sprak/maltesiska/` |  |
-| **[Maori](https://www.oversattning.se/sprak/maori/)** | `https://www.oversattning.se/sprak/maori/` |  |
-| **[Marathi](https://www.oversattning.se/sprak/marathi/)** | `https://www.oversattning.se/sprak/marathi/` |  |
-| **[Marshallesiska](https://www.oversattning.se/sprak/marshallesiska/)** | `https://www.oversattning.se/sprak/marshallesiska/` |  |
-| **[Meänkieli](https://www.oversattning.se/sprak/meankieli/)** | `https://www.oversattning.se/sprak/meankieli/` |  |
-| **[Meitei](https://www.oversattning.se/sprak/meitei/)** | `https://www.oversattning.se/sprak/meitei/` |  |
-| **[Mizo](https://www.oversattning.se/sprak/mizo/)** | `https://www.oversattning.se/sprak/mizo/` |  |
-| **[Mongoliska](https://www.oversattning.se/sprak/mongoliska/)** | `https://www.oversattning.se/sprak/mongoliska/` |  |
-| **[Nederländska](https://www.oversattning.se/sprak/nederlandska/)** | `https://www.oversattning.se/sprak/nederlandska/` |  |
-| **[Nepalesiska](https://www.oversattning.se/sprak/nepalesiska/)** | `https://www.oversattning.se/sprak/nepalesiska/` |  |
-| **[Norska](https://www.oversattning.se/sprak/norska/)** | `https://www.oversattning.se/sprak/norska/` |  |
-| **[Occitanska](https://www.oversattning.se/sprak/occitanska/)** | `https://www.oversattning.se/sprak/occitanska/` |  |
-| **[Oriya](https://www.oversattning.se/sprak/oriya/)** | `https://www.oversattning.se/sprak/oriya/` |  |
-| **[Oromo](https://www.oversattning.se/sprak/oromo/)** | `https://www.oversattning.se/sprak/oromo/` |  |
-| **[Pashto](https://www.oversattning.se/sprak/pashto/)** | `https://www.oversattning.se/sprak/pashto/` |  |
-| **[Persiska](https://www.oversattning.se/sprak/persiska/)** | `https://www.oversattning.se/sprak/persiska/` |  |
-| **[Polska](https://www.oversattning.se/sprak/polska/)** | `https://www.oversattning.se/sprak/polska/` |  |
-| **[Portugisiska](https://www.oversattning.se/sprak/portugisiska/)** | `https://www.oversattning.se/sprak/portugisiska/` |  |
-| **[Punjabi](https://www.oversattning.se/sprak/punjabi/)** | `https://www.oversattning.se/sprak/punjabi/` |  |
-| **[Quechua](https://www.oversattning.se/sprak/quechua/)** | `https://www.oversattning.se/sprak/quechua/` |  |
-| **[Rapa nui](https://www.oversattning.se/sprak/rapa-nui/)** | `https://www.oversattning.se/sprak/rapa-nui/` |  |
-| **[Romani](https://www.oversattning.se/sprak/romani/)** | `https://www.oversattning.se/sprak/romani/` |  |
-| **[Rumänska](https://www.oversattning.se/sprak/rumanska/)** | `https://www.oversattning.se/sprak/rumanska/` |  |
-| **[Rwanda](https://www.oversattning.se/sprak/rwanda/)** | `https://www.oversattning.se/sprak/rwanda/` |  |
-| **[Ryska](https://www.oversattning.se/sprak/ryska/)** | `https://www.oversattning.se/sprak/ryska/` |  |
-| **[Samiska](https://www.oversattning.se/sprak/samiska/)** | `https://www.oversattning.se/sprak/samiska/` |  |
-| **[Samoanska](https://www.oversattning.se/sprak/samoanska/)** | `https://www.oversattning.se/sprak/samoanska/` |  |
-| **[Sango](https://www.oversattning.se/sprak/sango/)** | `https://www.oversattning.se/sprak/sango/` |  |
-| **[Sepedi](https://www.oversattning.se/sprak/sepedi/)** | `https://www.oversattning.se/sprak/sepedi/` |  |
-| **[Serbiska](https://www.oversattning.se/sprak/serbiska/)** | `https://www.oversattning.se/sprak/serbiska/` |  |
-| **[Sesotho](https://www.oversattning.se/sprak/sesotho/)** | `https://www.oversattning.se/sprak/sesotho/` |  |
-| **[Setswana](https://www.oversattning.se/sprak/setswana/)** | `https://www.oversattning.se/sprak/setswana/` |  |
-| **[Shona](https://www.oversattning.se/sprak/shona/)** | `https://www.oversattning.se/sprak/shona/` |  |
-| **[Sindhi](https://www.oversattning.se/sprak/sindhi/)** | `https://www.oversattning.se/sprak/sindhi/` |  |
-| **[Singalesiska](https://www.oversattning.se/sprak/singalesiska/)** | `https://www.oversattning.se/sprak/singalesiska/` |  |
-| **[Siswati](https://www.oversattning.se/sprak/siswati/)** | `https://www.oversattning.se/sprak/siswati/` |  |
-| **[Slovakiska](https://www.oversattning.se/sprak/slovakiska/)** | `https://www.oversattning.se/sprak/slovakiska/` |  |
-| **[Slovenska](https://www.oversattning.se/sprak/slovenska/)** | `https://www.oversattning.se/sprak/slovenska/` |  |
-| **[Somaliska](https://www.oversattning.se/sprak/somaliska/)** | `https://www.oversattning.se/sprak/somaliska/` |  |
-| **[Spanska](https://www.oversattning.se/sprak/spanska/)** | `https://www.oversattning.se/sprak/spanska/` |  |
-| **[Sranan](https://www.oversattning.se/sprak/sranan/)** | `https://www.oversattning.se/sprak/sranan/` |  |
-| **[Sundanesiska](https://www.oversattning.se/sprak/sundanesiska/)** | `https://www.oversattning.se/sprak/sundanesiska/` |  |
-| **[Svenska](https://www.oversattning.se/sprak/svenska/)** | `https://www.oversattning.se/sprak/svenska/` |  |
-| **[Swahili](https://www.oversattning.se/sprak/swahili/)** | `https://www.oversattning.se/sprak/swahili/` |  |
-| **[Tadzjikiska](https://www.oversattning.se/sprak/tadzjikiska/)** | `https://www.oversattning.se/sprak/tadzjikiska/` |  |
-| **[Tagalog](https://www.oversattning.se/sprak/tagalog/)** | `https://www.oversattning.se/sprak/tagalog/` |  |
-| **[Tahitiska](https://www.oversattning.se/sprak/tahitiska/)** | `https://www.oversattning.se/sprak/tahitiska/` |  |
-| **[Tamil](https://www.oversattning.se/sprak/tamil/)** | `https://www.oversattning.se/sprak/tamil/` |  |
-| **[Tatariska](https://www.oversattning.se/sprak/tatariska/)** | `https://www.oversattning.se/sprak/tatariska/` |  |
-| **[Telugu](https://www.oversattning.se/sprak/telugu/)** | `https://www.oversattning.se/sprak/telugu/` |  |
-| **[Thailändska](https://www.oversattning.se/sprak/thailandska/)** | `https://www.oversattning.se/sprak/thailandska/` |  |
-| **[Tibetanska](https://www.oversattning.se/sprak/tibetanska/)** | `https://www.oversattning.se/sprak/tibetanska/` |  |
-| **[Tigrinska](https://www.oversattning.se/sprak/tigrinska/)** | `https://www.oversattning.se/sprak/tigrinska/` |  |
-| **[Tjeckiska](https://www.oversattning.se/sprak/tjeckiska/)** | `https://www.oversattning.se/sprak/tjeckiska/` |  |
-| **[Tjetjenska](https://www.oversattning.se/sprak/tjetjenska/)** | `https://www.oversattning.se/sprak/tjetjenska/` |  |
-| **[Tonganska](https://www.oversattning.se/sprak/tonganska/)** | `https://www.oversattning.se/sprak/tonganska/` |  |
-| **[Tsonga](https://www.oversattning.se/sprak/tsonga/)** | `https://www.oversattning.se/sprak/tsonga/` |  |
-| **[Turkiska](https://www.oversattning.se/sprak/turkiska/)** | `https://www.oversattning.se/sprak/turkiska/` |  |
-| **[Turkmeniska](https://www.oversattning.se/sprak/turkmeniska/)** | `https://www.oversattning.se/sprak/turkmeniska/` |  |
-| **[Twi](https://www.oversattning.se/sprak/twi/)** | `https://www.oversattning.se/sprak/twi/` |  |
-| **[Tyska](https://www.oversattning.se/sprak/tyska/)** | `https://www.oversattning.se/sprak/tyska/` |  |
-| **[Uiguriska](https://www.oversattning.se/sprak/uiguriska/)** | `https://www.oversattning.se/sprak/uiguriska/` |  |
-| **[Ukrainska](https://www.oversattning.se/sprak/ukrainska/)** | `https://www.oversattning.se/sprak/ukrainska/` |  |
-| **[Ungerska](https://www.oversattning.se/sprak/ungerska/)** | `https://www.oversattning.se/sprak/ungerska/` |  |
-| **[Urdu](https://www.oversattning.se/sprak/urdu/)** | `https://www.oversattning.se/sprak/urdu/` |  |
-| **[Utrotningshotade](https://www.oversattning.se/sprak/utrotningshotade/)** | `https://www.oversattning.se/sprak/utrotningshotade/` |  |
-| **[Uzbekiska](https://www.oversattning.se/sprak/uzbekiska/)** | `https://www.oversattning.se/sprak/uzbekiska/` |  |
-| **[Valencianska](https://www.oversattning.se/sprak/valencianska/)** | `https://www.oversattning.se/sprak/valencianska/` |  |
-| **[Vallonska](https://www.oversattning.se/sprak/vallonska/)** | `https://www.oversattning.se/sprak/vallonska/` |  |
-| **[Vietnamesiska](https://www.oversattning.se/sprak/vietnamesiska/)** | `https://www.oversattning.se/sprak/vietnamesiska/` |  |
-| **[Vitryska](https://www.oversattning.se/sprak/vitryska/)** | `https://www.oversattning.se/sprak/vitryska/` |  |
-| **[Walesiska](https://www.oversattning.se/sprak/walesiska/)** | `https://www.oversattning.se/sprak/walesiska/` |  |
-| **[Wolof](https://www.oversattning.se/sprak/wolof/)** | `https://www.oversattning.se/sprak/wolof/` |  |
-| **[Xhosa](https://www.oversattning.se/sprak/xhosa/)** | `https://www.oversattning.se/sprak/xhosa/` |  |
-| **[Yaghan](https://www.oversattning.se/sprak/yaghan/)** | `https://www.oversattning.se/sprak/yaghan/` |  |
-| **[Yoruba](https://www.oversattning.se/sprak/yoruba/)** | `https://www.oversattning.se/sprak/yoruba/` |  |
-| **[Zulu](https://www.oversattning.se/sprak/zulu/)** | `https://www.oversattning.se/sprak/zulu/` |  |
+| **[Abchaziska](https://www.oversattning.se/sprak/abchaziska/)** | `https://www.oversattning.se/sprak/abchaziska/` | Professionell översättning till och från abchaziska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Acholi](https://www.oversattning.se/sprak/acholi/)** | `https://www.oversattning.se/sprak/acholi/` | Professionell översättning till och från acholi. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Afar](https://www.oversattning.se/sprak/afar/)** | `https://www.oversattning.se/sprak/afar/` | Professionell översättning till och från afar. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Afrikaans](https://www.oversattning.se/sprak/afrikaans/)** | `https://www.oversattning.se/sprak/afrikaans/` | Professionell översättning till och från afrikaans. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Akan](https://www.oversattning.se/sprak/akan/)** | `https://www.oversattning.se/sprak/akan/` | Professionell översättning till och från akan. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Albanska](https://www.oversattning.se/sprak/albanska/)** | `https://www.oversattning.se/sprak/albanska/` | Professionell översättning till och från albanska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Amhariska](https://www.oversattning.se/sprak/amhariska/)** | `https://www.oversattning.se/sprak/amhariska/` | Professionell översättning till och från amhariska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Arabiska](https://www.oversattning.se/sprak/arabiska/)** | `https://www.oversattning.se/sprak/arabiska/` | Professionell översättning till och från arabiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Arameiska](https://www.oversattning.se/sprak/arameiska/)** | `https://www.oversattning.se/sprak/arameiska/` | Professionell översättning till och från arameiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Armeniska](https://www.oversattning.se/sprak/armeniska/)** | `https://www.oversattning.se/sprak/armeniska/` | Professionell översättning till och från armeniska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Assamesiska](https://www.oversattning.se/sprak/assamesiska/)** | `https://www.oversattning.se/sprak/assamesiska/` | Professionell översättning till och från assamesiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Asturiska](https://www.oversattning.se/sprak/asturiska/)** | `https://www.oversattning.se/sprak/asturiska/` | Professionell översättning till och från asturiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Austronesiska](https://www.oversattning.se/sprak/austronesiska/)** | `https://www.oversattning.se/sprak/austronesiska/` | Professionell översättning till och från austronesiska. Auktoriserade översättare och facköversättare med modersmålsk... |
+| **[Avariska](https://www.oversattning.se/sprak/avariska/)** | `https://www.oversattning.se/sprak/avariska/` | Professionell översättning till och från avariska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Awadhi](https://www.oversattning.se/sprak/awadhi/)** | `https://www.oversattning.se/sprak/awadhi/` | Professionell översättning till och från awadhi. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Aymara](https://www.oversattning.se/sprak/aymara/)** | `https://www.oversattning.se/sprak/aymara/` | Professionell översättning till och från aymara. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Azerbajdzjanska](https://www.oversattning.se/sprak/azerbajdzjanska/)** | `https://www.oversattning.se/sprak/azerbajdzjanska/` | Professionell översättning till och från azerbajdzjanska. Auktoriserade översättare och facköversättare med modersmål... |
+| **[Balinesiska](https://www.oversattning.se/sprak/balinesiska/)** | `https://www.oversattning.se/sprak/balinesiska/` | Professionell översättning till och från balinesiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Baluchiska](https://www.oversattning.se/sprak/baluchiska/)** | `https://www.oversattning.se/sprak/baluchiska/` | Professionell översättning till och från baluchiska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Bambara](https://www.oversattning.se/sprak/bambara/)** | `https://www.oversattning.se/sprak/bambara/` | Professionell översättning till och från bambara. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Bamileke](https://www.oversattning.se/sprak/bamileke/)** | `https://www.oversattning.se/sprak/bamileke/` | Professionell översättning till och från bamileke. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Bantuspråk](https://www.oversattning.se/sprak/bantusprak/)** | `https://www.oversattning.se/sprak/bantusprak/` | Professionell översättning till och från bantuspråk. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Basjkiriska](https://www.oversattning.se/sprak/basjkiriska/)** | `https://www.oversattning.se/sprak/basjkiriska/` | Professionell översättning till och från basjkiriska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Baskiska](https://www.oversattning.se/sprak/baskiska/)** | `https://www.oversattning.se/sprak/baskiska/` | Professionell översättning till och från baskiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Bemba](https://www.oversattning.se/sprak/bemba/)** | `https://www.oversattning.se/sprak/bemba/` | Professionell översättning till och från bemba. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Bengali](https://www.oversattning.se/sprak/bengali/)** | `https://www.oversattning.se/sprak/bengali/` | Professionell översättning till och från bengali. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Berber](https://www.oversattning.se/sprak/berber/)** | `https://www.oversattning.se/sprak/berber/` | Professionell översättning till och från berber. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Bhojpuri](https://www.oversattning.se/sprak/bhojpuri/)** | `https://www.oversattning.se/sprak/bhojpuri/` | Professionell översättning till och från bhojpuri. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Bihari](https://www.oversattning.se/sprak/bihari/)** | `https://www.oversattning.se/sprak/bihari/` | Professionell översättning till och från bihari. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Bikol](https://www.oversattning.se/sprak/bikol/)** | `https://www.oversattning.se/sprak/bikol/` | Professionell översättning till och från bikol. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Bislama](https://www.oversattning.se/sprak/bislama/)** | `https://www.oversattning.se/sprak/bislama/` | Professionell översättning till och från bislama. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Bodo](https://www.oversattning.se/sprak/bodo/)** | `https://www.oversattning.se/sprak/bodo/` | Professionell översättning till och från bodo. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Bosniska](https://www.oversattning.se/sprak/bosniska/)** | `https://www.oversattning.se/sprak/bosniska/` | Professionell översättning till och från bosniska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Brasiliansk portugisiska](https://www.oversattning.se/sprak/brasiliansk-portugisiska/)** | `https://www.oversattning.se/sprak/brasiliansk-portugisiska/` | Professionell översättning till och från brasiliansk portugisiska. Auktoriserade översättare och facköversättare med ... |
+| **[Bretonska](https://www.oversattning.se/sprak/bretonska/)** | `https://www.oversattning.se/sprak/bretonska/` | Professionell översättning till och från bretonska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Bulgariska](https://www.oversattning.se/sprak/bulgariska/)** | `https://www.oversattning.se/sprak/bulgariska/` | Professionell översättning till och från bulgariska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Burmesiska](https://www.oversattning.se/sprak/burmesiska/)** | `https://www.oversattning.se/sprak/burmesiska/` | Professionell översättning till och från burmesiska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Cebuano](https://www.oversattning.se/sprak/cebuano/)** | `https://www.oversattning.se/sprak/cebuano/` | Professionell översättning till och från cebuano. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Chichewa](https://www.oversattning.se/sprak/chichewa/)** | `https://www.oversattning.se/sprak/chichewa/` | Professionell översättning till och från chichewa. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Danska](https://www.oversattning.se/sprak/danska/)** | `https://www.oversattning.se/sprak/danska/` | Professionell översättning till och från danska. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Dari](https://www.oversattning.se/sprak/dari/)** | `https://www.oversattning.se/sprak/dari/` | Professionell översättning till och från dari. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Divehi](https://www.oversattning.se/sprak/divehi/)** | `https://www.oversattning.se/sprak/divehi/` | Professionell översättning till och från divehi. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Dogri](https://www.oversattning.se/sprak/dogri/)** | `https://www.oversattning.se/sprak/dogri/` | Professionell översättning till och från dogri. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Engelska](https://www.oversattning.se/sprak/engelska/)** | `https://www.oversattning.se/sprak/engelska/` | Professionell översättning till och från engelska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Esperanto](https://www.oversattning.se/sprak/esperanto/)** | `https://www.oversattning.se/sprak/esperanto/` | Professionell översättning till och från esperanto. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Estniska](https://www.oversattning.se/sprak/estniska/)** | `https://www.oversattning.se/sprak/estniska/` | Professionell översättning till och från estniska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Ewe](https://www.oversattning.se/sprak/ewe/)** | `https://www.oversattning.se/sprak/ewe/` | Professionell översättning till och från ewe. Auktoriserade översättare och facköversättare med modersmålskompetens h... |
+| **[Färöiska](https://www.oversattning.se/sprak/faroiska/)** | `https://www.oversattning.se/sprak/faroiska/` | Professionell översättning till och från färöiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Fijianska](https://www.oversattning.se/sprak/fijianska/)** | `https://www.oversattning.se/sprak/fijianska/` | Professionell översättning till och från fijianska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Finska](https://www.oversattning.se/sprak/finska/)** | `https://www.oversattning.se/sprak/finska/` | Professionell översättning till och från finska. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Flamländska](https://www.oversattning.se/sprak/flamlandska/)** | `https://www.oversattning.se/sprak/flamlandska/` | Professionell översättning till och från flamländska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Franska](https://www.oversattning.se/sprak/franska/)** | `https://www.oversattning.se/sprak/franska/` | Professionell översättning till och från franska. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Frisiska](https://www.oversattning.se/sprak/frisiska/)** | `https://www.oversattning.se/sprak/frisiska/` | Professionell översättning till och från frisiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Gaeliska](https://www.oversattning.se/sprak/gaeliska/)** | `https://www.oversattning.se/sprak/gaeliska/` | Professionell översättning till och från gaeliska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Galiciska](https://www.oversattning.se/sprak/galiciska/)** | `https://www.oversattning.se/sprak/galiciska/` | Professionell översättning till och från galiciska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Georgiska](https://www.oversattning.se/sprak/georgiska/)** | `https://www.oversattning.se/sprak/georgiska/` | Professionell översättning till och från georgiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Grekiska](https://www.oversattning.se/sprak/grekiska/)** | `https://www.oversattning.se/sprak/grekiska/` | Professionell översättning till och från grekiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Grönländska](https://www.oversattning.se/sprak/gronlandska/)** | `https://www.oversattning.se/sprak/gronlandska/` | Professionell översättning till och från grönländska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Guarani](https://www.oversattning.se/sprak/guarani/)** | `https://www.oversattning.se/sprak/guarani/` | Professionell översättning till och från guarani. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Gujarati](https://www.oversattning.se/sprak/gujarati/)** | `https://www.oversattning.se/sprak/gujarati/` | Professionell översättning till och från gujarati. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Haitiska](https://www.oversattning.se/sprak/haitiska/)** | `https://www.oversattning.se/sprak/haitiska/` | Professionell översättning till och från haitiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Hausa](https://www.oversattning.se/sprak/hausa/)** | `https://www.oversattning.se/sprak/hausa/` | Professionell översättning till och från hausa. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Hawaiiska](https://www.oversattning.se/sprak/hawaiiska/)** | `https://www.oversattning.se/sprak/hawaiiska/` | Professionell översättning till och från hawaiiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Hebreiska](https://www.oversattning.se/sprak/hebreiska/)** | `https://www.oversattning.se/sprak/hebreiska/` | Professionell översättning till och från hebreiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Hindi](https://www.oversattning.se/sprak/hindi/)** | `https://www.oversattning.se/sprak/hindi/` | Professionell översättning till och från hindi. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Igbo](https://www.oversattning.se/sprak/igbo/)** | `https://www.oversattning.se/sprak/igbo/` | Professionell översättning till och från igbo. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Ilokano](https://www.oversattning.se/sprak/ilokano/)** | `https://www.oversattning.se/sprak/ilokano/` | Professionell översättning till och från ilokano. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Indonesiska](https://www.oversattning.se/sprak/indonesiska/)** | `https://www.oversattning.se/sprak/indonesiska/` | Professionell översättning till och från indonesiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Irländska](https://www.oversattning.se/sprak/irlandska/)** | `https://www.oversattning.se/sprak/irlandska/` | Professionell översättning till och från irländska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Isländska](https://www.oversattning.se/sprak/islandska/)** | `https://www.oversattning.se/sprak/islandska/` | Professionell översättning till och från isländska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Italienska](https://www.oversattning.se/sprak/italienska/)** | `https://www.oversattning.se/sprak/italienska/` | Professionell översättning till och från italienska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Japanska](https://www.oversattning.se/sprak/japanska/)** | `https://www.oversattning.se/sprak/japanska/` | Professionell översättning till och från japanska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Javanesiska](https://www.oversattning.se/sprak/javanesiska/)** | `https://www.oversattning.se/sprak/javanesiska/` | Professionell översättning till och från javanesiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Jiddisch](https://www.oversattning.se/sprak/jiddisch/)** | `https://www.oversattning.se/sprak/jiddisch/` | Professionell översättning till och från jiddisch. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Kannada](https://www.oversattning.se/sprak/kannada/)** | `https://www.oversattning.se/sprak/kannada/` | Professionell översättning till och från kannada. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Katalanska](https://www.oversattning.se/sprak/katalanska/)** | `https://www.oversattning.se/sprak/katalanska/` | Professionell översättning till och från katalanska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Kazakiska](https://www.oversattning.se/sprak/kazakiska/)** | `https://www.oversattning.se/sprak/kazakiska/` | Professionell översättning till och från kazakiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Khmer](https://www.oversattning.se/sprak/khmer/)** | `https://www.oversattning.se/sprak/khmer/` | Professionell översättning till och från khmer. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Kinesiska](https://www.oversattning.se/sprak/kinesiska/)** | `https://www.oversattning.se/sprak/kinesiska/` | Professionell översättning till och från kinesiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Kirgiziska](https://www.oversattning.se/sprak/kirgiziska/)** | `https://www.oversattning.se/sprak/kirgiziska/` | Professionell översättning till och från kirgiziska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Kirundi](https://www.oversattning.se/sprak/kirundi/)** | `https://www.oversattning.se/sprak/kirundi/` | Professionell översättning till och från kirundi. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Konkani](https://www.oversattning.se/sprak/konkani/)** | `https://www.oversattning.se/sprak/konkani/` | Professionell översättning till och från konkani. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Koreanska](https://www.oversattning.se/sprak/koreanska/)** | `https://www.oversattning.se/sprak/koreanska/` | Professionell översättning till och från koreanska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Korsikanska](https://www.oversattning.se/sprak/korsikanska/)** | `https://www.oversattning.se/sprak/korsikanska/` | Professionell översättning till och från korsikanska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Kreol](https://www.oversattning.se/sprak/kreol/)** | `https://www.oversattning.se/sprak/kreol/` | Professionell översättning till och från kreol. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Krio](https://www.oversattning.se/sprak/krio/)** | `https://www.oversattning.se/sprak/krio/` | Professionell översättning till och från krio. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Kroatiska](https://www.oversattning.se/sprak/kroatiska/)** | `https://www.oversattning.se/sprak/kroatiska/` | Professionell översättning till och från kroatiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Kurdiska](https://www.oversattning.se/sprak/kurdiska/)** | `https://www.oversattning.se/sprak/kurdiska/` | Professionell översättning till och från kurdiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Lao](https://www.oversattning.se/sprak/lao/)** | `https://www.oversattning.se/sprak/lao/` | Professionell översättning till och från lao. Auktoriserade översättare och facköversättare med modersmålskompetens h... |
+| **[Lettiska](https://www.oversattning.se/sprak/lettiska/)** | `https://www.oversattning.se/sprak/lettiska/` | Professionell översättning till och från lettiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Lingala](https://www.oversattning.se/sprak/lingala/)** | `https://www.oversattning.se/sprak/lingala/` | Professionell översättning till och från lingala. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Litauiska](https://www.oversattning.se/sprak/litauiska/)** | `https://www.oversattning.se/sprak/litauiska/` | Professionell översättning till och från litauiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Luganda](https://www.oversattning.se/sprak/luganda/)** | `https://www.oversattning.se/sprak/luganda/` | Professionell översättning till och från luganda. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Luxemburgiska](https://www.oversattning.se/sprak/luxemburgiska/)** | `https://www.oversattning.se/sprak/luxemburgiska/` | Professionell översättning till och från luxemburgiska. Auktoriserade översättare och facköversättare med modersmålsk... |
+| **[Maithili](https://www.oversattning.se/sprak/maithili/)** | `https://www.oversattning.se/sprak/maithili/` | Professionell översättning till och från maithili. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Makedonska](https://www.oversattning.se/sprak/makedonska/)** | `https://www.oversattning.se/sprak/makedonska/` | Professionell översättning till och från makedonska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Malagassiska](https://www.oversattning.se/sprak/malagassiska/)** | `https://www.oversattning.se/sprak/malagassiska/` | Professionell översättning till och från malagassiska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Malajiska](https://www.oversattning.se/sprak/malajiska/)** | `https://www.oversattning.se/sprak/malajiska/` | Professionell översättning till och från malajiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Malayalam](https://www.oversattning.se/sprak/malayalam/)** | `https://www.oversattning.se/sprak/malayalam/` | Professionell översättning till och från malayalam. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Maltesiska](https://www.oversattning.se/sprak/maltesiska/)** | `https://www.oversattning.se/sprak/maltesiska/` | Professionell översättning till och från maltesiska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Maori](https://www.oversattning.se/sprak/maori/)** | `https://www.oversattning.se/sprak/maori/` | Professionell översättning till och från maori. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Marathi](https://www.oversattning.se/sprak/marathi/)** | `https://www.oversattning.se/sprak/marathi/` | Professionell översättning till och från marathi. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Marshallesiska](https://www.oversattning.se/sprak/marshallesiska/)** | `https://www.oversattning.se/sprak/marshallesiska/` | Professionell översättning till och från marshallesiska. Auktoriserade översättare och facköversättare med modersmåls... |
+| **[Meänkieli](https://www.oversattning.se/sprak/meankieli/)** | `https://www.oversattning.se/sprak/meankieli/` | Professionell översättning till och från meänkieli. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Meitei](https://www.oversattning.se/sprak/meitei/)** | `https://www.oversattning.se/sprak/meitei/` | Professionell översättning till och från meitei. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Mizo](https://www.oversattning.se/sprak/mizo/)** | `https://www.oversattning.se/sprak/mizo/` | Professionell översättning till och från mizo. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Mongoliska](https://www.oversattning.se/sprak/mongoliska/)** | `https://www.oversattning.se/sprak/mongoliska/` | Professionell översättning till och från mongoliska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Nederländska](https://www.oversattning.se/sprak/nederlandska/)** | `https://www.oversattning.se/sprak/nederlandska/` | Professionell översättning till och från nederländska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Nepalesiska](https://www.oversattning.se/sprak/nepalesiska/)** | `https://www.oversattning.se/sprak/nepalesiska/` | Professionell översättning till och från nepalesiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Norska](https://www.oversattning.se/sprak/norska/)** | `https://www.oversattning.se/sprak/norska/` | Professionell översättning till och från norska. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Occitanska](https://www.oversattning.se/sprak/occitanska/)** | `https://www.oversattning.se/sprak/occitanska/` | Professionell översättning till och från occitanska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Oriya](https://www.oversattning.se/sprak/oriya/)** | `https://www.oversattning.se/sprak/oriya/` | Professionell översättning till och från oriya. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Oromo](https://www.oversattning.se/sprak/oromo/)** | `https://www.oversattning.se/sprak/oromo/` | Professionell översättning till och från oromo. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Pashto](https://www.oversattning.se/sprak/pashto/)** | `https://www.oversattning.se/sprak/pashto/` | Professionell översättning till och från pashto. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Persiska](https://www.oversattning.se/sprak/persiska/)** | `https://www.oversattning.se/sprak/persiska/` | Professionell översättning till och från persiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Polska](https://www.oversattning.se/sprak/polska/)** | `https://www.oversattning.se/sprak/polska/` | Professionell översättning till och från polska. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Portugisiska](https://www.oversattning.se/sprak/portugisiska/)** | `https://www.oversattning.se/sprak/portugisiska/` | Professionell översättning till och från portugisiska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Punjabi](https://www.oversattning.se/sprak/punjabi/)** | `https://www.oversattning.se/sprak/punjabi/` | Professionell översättning till och från punjabi. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Quechua](https://www.oversattning.se/sprak/quechua/)** | `https://www.oversattning.se/sprak/quechua/` | Professionell översättning till och från quechua. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Rapa nui](https://www.oversattning.se/sprak/rapa-nui/)** | `https://www.oversattning.se/sprak/rapa-nui/` | Professionell översättning till och från rapa nui. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Romani](https://www.oversattning.se/sprak/romani/)** | `https://www.oversattning.se/sprak/romani/` | Professionell översättning till och från romani. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Rumänska](https://www.oversattning.se/sprak/rumanska/)** | `https://www.oversattning.se/sprak/rumanska/` | Professionell översättning till och från rumänska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Rwanda](https://www.oversattning.se/sprak/rwanda/)** | `https://www.oversattning.se/sprak/rwanda/` | Professionell översättning till och från rwanda. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Ryska](https://www.oversattning.se/sprak/ryska/)** | `https://www.oversattning.se/sprak/ryska/` | Professionell översättning till och från ryska. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Samiska](https://www.oversattning.se/sprak/samiska/)** | `https://www.oversattning.se/sprak/samiska/` | Professionell översättning till och från samiska. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Samoanska](https://www.oversattning.se/sprak/samoanska/)** | `https://www.oversattning.se/sprak/samoanska/` | Professionell översättning till och från samoanska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Sango](https://www.oversattning.se/sprak/sango/)** | `https://www.oversattning.se/sprak/sango/` | Professionell översättning till och från sango. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Sepedi](https://www.oversattning.se/sprak/sepedi/)** | `https://www.oversattning.se/sprak/sepedi/` | Professionell översättning till och från sepedi. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Serbiska](https://www.oversattning.se/sprak/serbiska/)** | `https://www.oversattning.se/sprak/serbiska/` | Professionell översättning till och från serbiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Sesotho](https://www.oversattning.se/sprak/sesotho/)** | `https://www.oversattning.se/sprak/sesotho/` | Professionell översättning till och från sesotho. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Setswana](https://www.oversattning.se/sprak/setswana/)** | `https://www.oversattning.se/sprak/setswana/` | Professionell översättning till och från setswana. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Shona](https://www.oversattning.se/sprak/shona/)** | `https://www.oversattning.se/sprak/shona/` | Professionell översättning till och från shona. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Sindhi](https://www.oversattning.se/sprak/sindhi/)** | `https://www.oversattning.se/sprak/sindhi/` | Professionell översättning till och från sindhi. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Singalesiska](https://www.oversattning.se/sprak/singalesiska/)** | `https://www.oversattning.se/sprak/singalesiska/` | Professionell översättning till och från singalesiska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Siswati](https://www.oversattning.se/sprak/siswati/)** | `https://www.oversattning.se/sprak/siswati/` | Professionell översättning till och från siswati. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Slovakiska](https://www.oversattning.se/sprak/slovakiska/)** | `https://www.oversattning.se/sprak/slovakiska/` | Professionell översättning till och från slovakiska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Slovenska](https://www.oversattning.se/sprak/slovenska/)** | `https://www.oversattning.se/sprak/slovenska/` | Professionell översättning till och från slovenska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Somaliska](https://www.oversattning.se/sprak/somaliska/)** | `https://www.oversattning.se/sprak/somaliska/` | Professionell översättning till och från somaliska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Spanska](https://www.oversattning.se/sprak/spanska/)** | `https://www.oversattning.se/sprak/spanska/` | Professionell översättning till och från spanska. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Sranan](https://www.oversattning.se/sprak/sranan/)** | `https://www.oversattning.se/sprak/sranan/` | Professionell översättning till och från sranan. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Sundanesiska](https://www.oversattning.se/sprak/sundanesiska/)** | `https://www.oversattning.se/sprak/sundanesiska/` | Professionell översättning till och från sundanesiska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Svenska](https://www.oversattning.se/sprak/svenska/)** | `https://www.oversattning.se/sprak/svenska/` | Professionell översättning till och från svenska. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Swahili](https://www.oversattning.se/sprak/swahili/)** | `https://www.oversattning.se/sprak/swahili/` | Professionell översättning till och från swahili. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Tadzjikiska](https://www.oversattning.se/sprak/tadzjikiska/)** | `https://www.oversattning.se/sprak/tadzjikiska/` | Professionell översättning till och från tadzjikiska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Tagalog](https://www.oversattning.se/sprak/tagalog/)** | `https://www.oversattning.se/sprak/tagalog/` | Professionell översättning till och från tagalog. Auktoriserade översättare och facköversättare med modersmålskompete... |
+| **[Tahitiska](https://www.oversattning.se/sprak/tahitiska/)** | `https://www.oversattning.se/sprak/tahitiska/` | Professionell översättning till och från tahitiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Tamil](https://www.oversattning.se/sprak/tamil/)** | `https://www.oversattning.se/sprak/tamil/` | Professionell översättning till och från tamil. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Tatariska](https://www.oversattning.se/sprak/tatariska/)** | `https://www.oversattning.se/sprak/tatariska/` | Professionell översättning till och från tatariska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Telugu](https://www.oversattning.se/sprak/telugu/)** | `https://www.oversattning.se/sprak/telugu/` | Professionell översättning till och från telugu. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Thailändska](https://www.oversattning.se/sprak/thailandska/)** | `https://www.oversattning.se/sprak/thailandska/` | Professionell översättning till och från thailändska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Tibetanska](https://www.oversattning.se/sprak/tibetanska/)** | `https://www.oversattning.se/sprak/tibetanska/` | Professionell översättning till och från tibetanska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Tigrinska](https://www.oversattning.se/sprak/tigrinska/)** | `https://www.oversattning.se/sprak/tigrinska/` | Professionell översättning till och från tigrinska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Tjeckiska](https://www.oversattning.se/sprak/tjeckiska/)** | `https://www.oversattning.se/sprak/tjeckiska/` | Professionell översättning till och från tjeckiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Tjetjenska](https://www.oversattning.se/sprak/tjetjenska/)** | `https://www.oversattning.se/sprak/tjetjenska/` | Professionell översättning till och från tjetjenska. Auktoriserade översättare och facköversättare med modersmålskomp... |
+| **[Tonganska](https://www.oversattning.se/sprak/tonganska/)** | `https://www.oversattning.se/sprak/tonganska/` | Professionell översättning till och från tonganska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Tsonga](https://www.oversattning.se/sprak/tsonga/)** | `https://www.oversattning.se/sprak/tsonga/` | Professionell översättning till och från tsonga. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Turkiska](https://www.oversattning.se/sprak/turkiska/)** | `https://www.oversattning.se/sprak/turkiska/` | Professionell översättning till och från turkiska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Turkmeniska](https://www.oversattning.se/sprak/turkmeniska/)** | `https://www.oversattning.se/sprak/turkmeniska/` | Professionell översättning till och från turkmeniska. Auktoriserade översättare och facköversättare med modersmålskom... |
+| **[Twi](https://www.oversattning.se/sprak/twi/)** | `https://www.oversattning.se/sprak/twi/` | Professionell översättning till och från twi. Auktoriserade översättare och facköversättare med modersmålskompetens h... |
+| **[Tyska](https://www.oversattning.se/sprak/tyska/)** | `https://www.oversattning.se/sprak/tyska/` | Professionell översättning till och från tyska. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Uiguriska](https://www.oversattning.se/sprak/uiguriska/)** | `https://www.oversattning.se/sprak/uiguriska/` | Professionell översättning till och från uiguriska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Ukrainska](https://www.oversattning.se/sprak/ukrainska/)** | `https://www.oversattning.se/sprak/ukrainska/` | Professionell översättning till och från ukrainska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Ungerska](https://www.oversattning.se/sprak/ungerska/)** | `https://www.oversattning.se/sprak/ungerska/` | Professionell översättning till och från ungerska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Urdu](https://www.oversattning.se/sprak/urdu/)** | `https://www.oversattning.se/sprak/urdu/` | Professionell översättning till och från urdu. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
+| **[Utrotningshotade](https://www.oversattning.se/sprak/utrotningshotade/)** | `https://www.oversattning.se/sprak/utrotningshotade/` | Professionell översättning till och från utrotningshotade. Auktoriserade översättare och facköversättare med modersmå... |
+| **[Uzbekiska](https://www.oversattning.se/sprak/uzbekiska/)** | `https://www.oversattning.se/sprak/uzbekiska/` | Professionell översättning till och från uzbekiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Valencianska](https://www.oversattning.se/sprak/valencianska/)** | `https://www.oversattning.se/sprak/valencianska/` | Professionell översättning till och från valencianska. Auktoriserade översättare och facköversättare med modersmålsko... |
+| **[Vallonska](https://www.oversattning.se/sprak/vallonska/)** | `https://www.oversattning.se/sprak/vallonska/` | Professionell översättning till och från vallonska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Vietnamesiska](https://www.oversattning.se/sprak/vietnamesiska/)** | `https://www.oversattning.se/sprak/vietnamesiska/` | Professionell översättning till och från vietnamesiska. Auktoriserade översättare och facköversättare med modersmålsk... |
+| **[Vitryska](https://www.oversattning.se/sprak/vitryska/)** | `https://www.oversattning.se/sprak/vitryska/` | Professionell översättning till och från vitryska. Auktoriserade översättare och facköversättare med modersmålskompet... |
+| **[Walesiska](https://www.oversattning.se/sprak/walesiska/)** | `https://www.oversattning.se/sprak/walesiska/` | Professionell översättning till och från walesiska. Auktoriserade översättare och facköversättare med modersmålskompe... |
+| **[Wolof](https://www.oversattning.se/sprak/wolof/)** | `https://www.oversattning.se/sprak/wolof/` | Professionell översättning till och från wolof. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Xhosa](https://www.oversattning.se/sprak/xhosa/)** | `https://www.oversattning.se/sprak/xhosa/` | Professionell översättning till och från xhosa. Auktoriserade översättare och facköversättare med modersmålskompetens... |
+| **[Yaghan](https://www.oversattning.se/sprak/yaghan/)** | `https://www.oversattning.se/sprak/yaghan/` | Professionell översättning till och från yaghan. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Yoruba](https://www.oversattning.se/sprak/yoruba/)** | `https://www.oversattning.se/sprak/yoruba/` | Professionell översättning till och från yoruba. Auktoriserade översättare och facköversättare med modersmålskompeten... |
+| **[Zulu](https://www.oversattning.se/sprak/zulu/)** | `https://www.oversattning.se/sprak/zulu/` | Professionell översättning till och från zulu. Auktoriserade översättare och facköversättare med modersmålskompetens ... |
 
-## 3. Fackartiklar, Språkguider & Språkkombinationer (2387 Artiklar per Ämnessilo)
+## 3. Fackartiklar, Språkguider & Språkkombinationer (2388 Artiklar per Ämnessilo)
 
 ### Artiklar &amp; Språkguider (424 artiklar)
 
@@ -1442,6 +1442,29 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vanligaste språkmissarna på svenska företags hemsidor – har du gjort dessa fel?](https://www.oversattning.se/vanligaste-sprakmissarna-pa-svenska-foretags-hemsidor-har-du-gjort-dessa-fel/) *(Uppdaterad: 2025-09-09 | 1933 ord)*
 - [Översättning från engelska till svenska](https://www.oversattning.se/oversattning-fran-engelska-till-svenska/) *(Uppdaterad: 2025-09-09 | 1007 ord)*
 
+### Kinesiska (20 artiklar)
+
+- [Översättning av registerutdrag till kinesiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-kinesiska/) *(Uppdaterad: 2026-11-12 | 1144 ord)*
+- [Översättning av vigselbevis till kinesiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kinesiska/) *(Uppdaterad: 2026-11-04 | 1203 ord)*
+- [Översättning av pass och ID-kort till kinesiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kinesiska/) *(Uppdaterad: 2026-10-26 | 1095 ord)*
+- [Översättning av pass och ID-kort till kroatiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kroatiska/) *(Uppdaterad: 2026-10-22 | 1464 ord)*
+- [6 dolda betydelser i kinesiska affärsgåvor och visitkort](https://www.oversattning.se/6-dolda-betydelser-i-kinesiska-affarsgavor-och-visitkort/) *(Uppdaterad: 2026-10-22 | 2161 ord)*
+- [Vilka språk talar man i Singapore?](https://www.oversattning.se/vilka-sprak-talar-man-i-singapore/) *(Uppdaterad: 2025-09-22 | 922 ord)*
+- [Kinesiska - Professionell översättning till och från kinesiska](https://www.oversattning.se/kinesiska-oversattning-till-och-fran-kinesiska/) *(Uppdaterad: 2025-09-21 | 1112 ord)*
+- [Vilka språk talar man i Kina?](https://www.oversattning.se/vilka-sprak-talar-man-i-kina/) *(Uppdaterad: 2025-09-21 | 1001 ord)*
+- [Jing Tsu studerar "systematiseringen" av kinesiskan](https://www.oversattning.se/jing-tsu-studerar-systematiseringen-av-kinesiskan/) *(Uppdaterad: 2025-09-21 | 821 ord)*
+- [10 intressanta fakta om det kinesiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-kinesiska-spraket/) *(Uppdaterad: 2025-09-21 | 1588 ord)*
+- [Är kinesiska svårt att lära sig?](https://www.oversattning.se/ar-kinesiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-21 | 650 ord)*
+- [Översättning av personbevis till kinesiska](https://www.oversattning.se/oversattning-av-personbevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 780 ord)*
+- [Översättning av födelsebevis till kinesiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 803 ord)*
+- [Hur du säger hej på kinesiska: En komplett guide till Kinas artiga och mångfasetterade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-kinesiska-en-komplett-guide-till-kinas-artiga-och-mangfasetterade-halsningskultur/) *(Uppdaterad: 2025-09-21 | 1199 ord)*
+- [Kinesiska ord och fraser som är bra att kunna](https://www.oversattning.se/kinesiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1998 ord)*
+- [Översättning från svenska till kinesiska](https://www.oversattning.se/oversattning-fran-svenska-till-kinesiska/) *(Uppdaterad: 2025-09-10 | 1197 ord)*
+- [Översättning från kinesiska till svenska](https://www.oversattning.se/oversattning-fran-kinesiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 955 ord)*
+- [Översättning från kinesiska till engelska](https://www.oversattning.se/oversattning-fran-kinesiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1120 ord)*
+- [Översättning från engelska till kinesiska](https://www.oversattning.se/oversattning-fran-engelska-till-kinesiska/) *(Uppdaterad: 2025-09-09 | 984 ord)*
+- [Brist på engelska, kinesiska och arabiska tolkar och översättare i EU](https://www.oversattning.se/brist-pa-engelska-kinesiska-och-arabiska-tolkar-och-oversattare-i-eu/) *(Uppdaterad: 2025-09-06 | 437 ord)*
+
 ### Rumänska (20 artiklar)
 
 - [Översättning av registerutdrag till rumänska](https://www.oversattning.se/oversattning-av-registerutdrag-till-rumanska/) *(Uppdaterad: 2026-11-11 | 1112 ord)*
@@ -1464,29 +1487,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från moldaviska till engelska](https://www.oversattning.se/oversattning-fran-moldaviska-till-engelska/) *(Uppdaterad: 2025-09-10 | 908 ord)*
 - [Översättning från engelska till rumänska](https://www.oversattning.se/oversattning-fran-engelska-till-rumanska/) *(Uppdaterad: 2025-09-09 | 1047 ord)*
 - [Översättning från engelska till moldaviska](https://www.oversattning.se/oversattning-fran-engelska-till-moldaviska/) *(Uppdaterad: 2025-09-09 | 1076 ord)*
-
-### Kinesiska (20 artiklar)
-
-- [Översättning av vigselbevis till kinesiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-kinesiska/) *(Uppdaterad: 2026-11-04 | 1203 ord)*
-- [Översättning av pass och ID-kort till kinesiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kinesiska/) *(Uppdaterad: 2026-10-26 | 1095 ord)*
-- [Översättning av pass och ID-kort till kroatiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kroatiska/) *(Uppdaterad: 2026-10-22 | 1464 ord)*
-- [6 dolda betydelser i kinesiska affärsgåvor och visitkort](https://www.oversattning.se/6-dolda-betydelser-i-kinesiska-affarsgavor-och-visitkort/) *(Uppdaterad: 2026-10-22 | 2161 ord)*
-- [Vilka språk talar man i Singapore?](https://www.oversattning.se/vilka-sprak-talar-man-i-singapore/) *(Uppdaterad: 2025-09-22 | 922 ord)*
-- [Kinesiska - Professionell översättning till och från kinesiska](https://www.oversattning.se/kinesiska-oversattning-till-och-fran-kinesiska/) *(Uppdaterad: 2025-09-21 | 1112 ord)*
-- [Vilka språk talar man i Kina?](https://www.oversattning.se/vilka-sprak-talar-man-i-kina/) *(Uppdaterad: 2025-09-21 | 1001 ord)*
-- [Jing Tsu studerar "systematiseringen" av kinesiskan](https://www.oversattning.se/jing-tsu-studerar-systematiseringen-av-kinesiskan/) *(Uppdaterad: 2025-09-21 | 821 ord)*
-- [10 intressanta fakta om det kinesiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-kinesiska-spraket/) *(Uppdaterad: 2025-09-21 | 1588 ord)*
-- [Är kinesiska svårt att lära sig?](https://www.oversattning.se/ar-kinesiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-21 | 650 ord)*
-- [Översättning av personbevis till kinesiska](https://www.oversattning.se/oversattning-av-personbevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 780 ord)*
-- [Översättning av födelsebevis till kinesiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 803 ord)*
-- [Översättning av registerutdrag till kinesiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-kinesiska/) *(Uppdaterad: 2025-09-21 | 694 ord)*
-- [Hur du säger hej på kinesiska: En komplett guide till Kinas artiga och mångfasetterade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-kinesiska-en-komplett-guide-till-kinas-artiga-och-mangfasetterade-halsningskultur/) *(Uppdaterad: 2025-09-21 | 1199 ord)*
-- [Kinesiska ord och fraser som är bra att kunna](https://www.oversattning.se/kinesiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-21 | 1998 ord)*
-- [Översättning från svenska till kinesiska](https://www.oversattning.se/oversattning-fran-svenska-till-kinesiska/) *(Uppdaterad: 2025-09-10 | 1197 ord)*
-- [Översättning från kinesiska till svenska](https://www.oversattning.se/oversattning-fran-kinesiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 955 ord)*
-- [Översättning från kinesiska till engelska](https://www.oversattning.se/oversattning-fran-kinesiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1120 ord)*
-- [Översättning från engelska till kinesiska](https://www.oversattning.se/oversattning-fran-engelska-till-kinesiska/) *(Uppdaterad: 2025-09-09 | 984 ord)*
-- [Brist på engelska, kinesiska och arabiska tolkar och översättare i EU](https://www.oversattning.se/brist-pa-engelska-kinesiska-och-arabiska-tolkar-och-oversattare-i-eu/) *(Uppdaterad: 2025-09-06 | 437 ord)*
 
 ### Persiska (19 artiklar)
 
@@ -1571,6 +1571,63 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Vett och etikett i Brasilien - Så uppför du dig med stil i Sydamerikas största land](https://www.oversattning.se/vett-och-etikett-i-brasilien-sa-uppfor-du-dig-med-stil-i-sydamerikas-storsta-land/) *(Uppdaterad: 2025-09-03 | 1830 ord)*
 - [Vett och etikett i Argentina - Din utförliga guide till landets alla hörn](https://www.oversattning.se/vett-och-etikett-i-argentina/) *(Uppdaterad: 2025-09-03 | 1712 ord)*
 - [Vett och etikett i Albanien - En guide till vardagsliv, högtider och affärer](https://www.oversattning.se/vett-och-etikett-i-albanien-en-guide-till-vardagsliv-hogtider-och-affarer/) *(Uppdaterad: 2025-09-03 | 1456 ord)*
+
+### Italienska (16 artiklar)
+
+- [Översättning av registerutdrag till italienska](https://www.oversattning.se/oversattning-av-registerutdrag-till-italienska/) *(Uppdaterad: 2026-11-12 | 1694 ord)*
+- [Översättning av vigselbevis till italienska](https://www.oversattning.se/oversattning-av-vigselbevis-till-italienska/) *(Uppdaterad: 2026-11-05 | 1496 ord)*
+- [Översättning av pass och ID-kort till italienska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-italienska/) *(Uppdaterad: 2026-10-27 | 1087 ord)*
+- [Italienska - Professionell översättning till och från italienska](https://www.oversattning.se/italienska-oversattning-till-och-fran-italienska/) *(Uppdaterad: 2025-09-19 | 736 ord)*
+- [Vilka språk talar man i Italien?](https://www.oversattning.se/vilka-sprak-talar-man-i-italien/) *(Uppdaterad: 2025-09-19 | 1194 ord)*
+- [Vilka språk talar man i San Marino?](https://www.oversattning.se/vilka-sprak-talar-man-i-san-marino/) *(Uppdaterad: 2025-09-19 | 637 ord)*
+- [10 intressanta fakta om det italienska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-italienska-spraket/) *(Uppdaterad: 2025-09-19 | 1727 ord)*
+- [Är italienska svårt att lära sig?](https://www.oversattning.se/ar-italienska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-19 | 856 ord)*
+- [Översättning av personbevis till italienska](https://www.oversattning.se/oversattning-av-personbevis-till-italienska/) *(Uppdaterad: 2025-09-19 | 682 ord)*
+- [Översättning av födelsebevis till italienska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-italienska/) *(Uppdaterad: 2025-09-19 | 940 ord)*
+- [Hur du säger hej på italienska: En komplett guide till Italiens livliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-italienska-en-komplett-guide-till-italiens-livliga-halsningskultur/) *(Uppdaterad: 2025-09-19 | 1147 ord)*
+- [Italienska ord och fraser som är bra att kunna](https://www.oversattning.se/italienska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-19 | 1760 ord)*
+- [Översättning från svenska till italienska](https://www.oversattning.se/oversattning-fran-svenska-till-italienska/) *(Uppdaterad: 2025-09-10 | 1100 ord)*
+- [Översättning från italienska till svenska](https://www.oversattning.se/oversattning-fran-italienska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1029 ord)*
+- [Översättning från italienska till engelska](https://www.oversattning.se/oversattning-fran-italienska-till-engelska/) *(Uppdaterad: 2025-09-10 | 926 ord)*
+- [Översättning från engelska till italienska](https://www.oversattning.se/oversattning-fran-engelska-till-italienska/) *(Uppdaterad: 2025-09-09 | 1114 ord)*
+
+### Japanska (16 artiklar)
+
+- [Översättning av registerutdrag till japanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-japanska/) *(Uppdaterad: 2026-11-12 | 1365 ord)*
+- [Översättning av vigselbevis till japanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-japanska/) *(Uppdaterad: 2026-11-04 | 1154 ord)*
+- [Översättning av pass och ID-kort till japanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-japanska/) *(Uppdaterad: 2026-10-27 | 1060 ord)*
+- [Japanska - Professionell översättning till och från japanska](https://www.oversattning.se/japanska-oversattning-till-och-fran-japanska/) *(Uppdaterad: 2025-09-20 | 796 ord)*
+- [Vilka språk talar man i Japan?](https://www.oversattning.se/vilka-sprak-talar-man-i-japan/) *(Uppdaterad: 2025-09-20 | 1125 ord)*
+- [10 intressanta fakta om det japanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-japanska-spraket/) *(Uppdaterad: 2025-09-20 | 1270 ord)*
+- [Riktig översättning med Word Lens på japanska](https://www.oversattning.se/riktig-oversattning-med-word-lens-pa-japanska/) *(Uppdaterad: 2025-09-20 | 609 ord)*
+- [Är japanska svårt att lära sig?](https://www.oversattning.se/ar-japanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-20 | 959 ord)*
+- [Översättning av personbevis till japanska](https://www.oversattning.se/oversattning-av-personbevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 745 ord)*
+- [Översättning av födelsebevis till japanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 686 ord)*
+- [Hur du säger hej på japanska: En komplett guide till Japans artiga och nyanserade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-japanska-en-komplett-guide-till-japans-artiga-och-nyanserade-halsningskultur/) *(Uppdaterad: 2025-09-20 | 1276 ord)*
+- [Japanska ord och fraser som är bra att kunna](https://www.oversattning.se/japanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-20 | 2085 ord)*
+- [Översättning från svenska till japanska](https://www.oversattning.se/oversattning-fran-svenska-till-japanska/) *(Uppdaterad: 2025-09-10 | 1185 ord)*
+- [Översättning från japanska till svenska](https://www.oversattning.se/oversattning-fran-japanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1065 ord)*
+- [Översättning från japanska till engelska](https://www.oversattning.se/oversattning-fran-japanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 961 ord)*
+- [Översättning från engelska till japanska](https://www.oversattning.se/oversattning-fran-engelska-till-japanska/) *(Uppdaterad: 2025-09-09 | 1149 ord)*
+
+### Serbiska (16 artiklar)
+
+- [Översättning av registerutdrag till serbiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-serbiska/) *(Uppdaterad: 2026-11-12 | 1511 ord)*
+- [Översättning av vigselbevis till serbiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-serbiska/) *(Uppdaterad: 2026-11-05 | 1162 ord)*
+- [Översättning av pass och ID-kort till serbiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-serbiska/) *(Uppdaterad: 2026-10-27 | 1365 ord)*
+- [Serbiska - Professionell översättning till och från serbiska](https://www.oversattning.se/serbiska-oversattning-till-och-fran-serbiska/) *(Uppdaterad: 2025-09-27 | 873 ord)*
+- [Vilka språk talar man i Serbien?](https://www.oversattning.se/vilka-sprak-talar-man-i-serbien/) *(Uppdaterad: 2025-09-26 | 820 ord)*
+- [10 intressanta fakta om det serbiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-serbiska-spraket/) *(Uppdaterad: 2025-09-26 | 1227 ord)*
+- [Är serbiska svårt att lära sig?](https://www.oversattning.se/ar-serbiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-26 | 882 ord)*
+- [Översättning av personbevis till serbiska](https://www.oversattning.se/oversattning-av-personbevis-till-serbiska/) *(Uppdaterad: 2025-09-26 | 727 ord)*
+- [Översättning av födelsebevis till serbiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-serbiska/) *(Uppdaterad: 2025-09-26 | 878 ord)*
+- [Hur du säger hej på serbiska: En komplett guide till Serbiens hjärtliga och respektfulla hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-serbiska-en-komplett-guide-till-serbiens-hjartliga-och-respektfulla-halsningskultur/) *(Uppdaterad: 2025-09-26 | 1056 ord)*
+- [Serbiska ord och fraser som är bra att kunna](https://www.oversattning.se/serbiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-26 | 1692 ord)*
+- [Vilka språk talar man i Montenegro?](https://www.oversattning.se/vilka-sprak-talar-man-i-montenegro/) *(Uppdaterad: 2025-09-16 | 789 ord)*
+- [Översättning från svenska till serbiska](https://www.oversattning.se/oversattning-fran-svenska-till-serbiska/) *(Uppdaterad: 2025-09-10 | 997 ord)*
+- [Översättning från serbiska till svenska](https://www.oversattning.se/oversattning-fran-serbiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 932 ord)*
+- [Översättning från serbiska till engelska](https://www.oversattning.se/oversattning-fran-serbiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1009 ord)*
+- [Översättning från engelska till serbiska](https://www.oversattning.se/oversattning-fran-engelska-till-serbiska/) *(Uppdaterad: 2025-09-09 | 1121 ord)*
 
 ### Polska (16 artiklar)
 
@@ -1667,62 +1724,23 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från grekiska till engelska](https://www.oversattning.se/oversattning-fran-grekiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1091 ord)*
 - [Översättning från engelska till grekiska](https://www.oversattning.se/oversattning-fran-engelska-till-grekiska/) *(Uppdaterad: 2025-09-09 | 1170 ord)*
 
-### Italienska (16 artiklar)
+### Slovakiska (15 artiklar)
 
-- [Översättning av vigselbevis till italienska](https://www.oversattning.se/oversattning-av-vigselbevis-till-italienska/) *(Uppdaterad: 2026-11-05 | 1496 ord)*
-- [Översättning av pass och ID-kort till italienska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-italienska/) *(Uppdaterad: 2026-10-27 | 1087 ord)*
-- [Italienska - Professionell översättning till och från italienska](https://www.oversattning.se/italienska-oversattning-till-och-fran-italienska/) *(Uppdaterad: 2025-09-19 | 736 ord)*
-- [Vilka språk talar man i Italien?](https://www.oversattning.se/vilka-sprak-talar-man-i-italien/) *(Uppdaterad: 2025-09-19 | 1194 ord)*
-- [Vilka språk talar man i San Marino?](https://www.oversattning.se/vilka-sprak-talar-man-i-san-marino/) *(Uppdaterad: 2025-09-19 | 637 ord)*
-- [10 intressanta fakta om det italienska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-italienska-spraket/) *(Uppdaterad: 2025-09-19 | 1727 ord)*
-- [Är italienska svårt att lära sig?](https://www.oversattning.se/ar-italienska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-19 | 856 ord)*
-- [Översättning av personbevis till italienska](https://www.oversattning.se/oversattning-av-personbevis-till-italienska/) *(Uppdaterad: 2025-09-19 | 682 ord)*
-- [Översättning av födelsebevis till italienska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-italienska/) *(Uppdaterad: 2025-09-19 | 940 ord)*
-- [Översättning av registerutdrag till italienska](https://www.oversattning.se/oversattning-av-registerutdrag-till-italienska/) *(Uppdaterad: 2025-09-19 | 760 ord)*
-- [Hur du säger hej på italienska: En komplett guide till Italiens livliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-italienska-en-komplett-guide-till-italiens-livliga-halsningskultur/) *(Uppdaterad: 2025-09-19 | 1147 ord)*
-- [Italienska ord och fraser som är bra att kunna](https://www.oversattning.se/italienska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-19 | 1760 ord)*
-- [Översättning från svenska till italienska](https://www.oversattning.se/oversattning-fran-svenska-till-italienska/) *(Uppdaterad: 2025-09-10 | 1100 ord)*
-- [Översättning från italienska till svenska](https://www.oversattning.se/oversattning-fran-italienska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1029 ord)*
-- [Översättning från italienska till engelska](https://www.oversattning.se/oversattning-fran-italienska-till-engelska/) *(Uppdaterad: 2025-09-10 | 926 ord)*
-- [Översättning från engelska till italienska](https://www.oversattning.se/oversattning-fran-engelska-till-italienska/) *(Uppdaterad: 2025-09-09 | 1114 ord)*
-
-### Serbiska (16 artiklar)
-
-- [Översättning av vigselbevis till serbiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-serbiska/) *(Uppdaterad: 2026-11-05 | 1162 ord)*
-- [Översättning av pass och ID-kort till serbiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-serbiska/) *(Uppdaterad: 2026-10-27 | 1365 ord)*
-- [Serbiska - Professionell översättning till och från serbiska](https://www.oversattning.se/serbiska-oversattning-till-och-fran-serbiska/) *(Uppdaterad: 2025-09-27 | 873 ord)*
-- [Vilka språk talar man i Serbien?](https://www.oversattning.se/vilka-sprak-talar-man-i-serbien/) *(Uppdaterad: 2025-09-26 | 820 ord)*
-- [10 intressanta fakta om det serbiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-serbiska-spraket/) *(Uppdaterad: 2025-09-26 | 1227 ord)*
-- [Är serbiska svårt att lära sig?](https://www.oversattning.se/ar-serbiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-26 | 882 ord)*
-- [Översättning av personbevis till serbiska](https://www.oversattning.se/oversattning-av-personbevis-till-serbiska/) *(Uppdaterad: 2025-09-26 | 727 ord)*
-- [Översättning av födelsebevis till serbiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-serbiska/) *(Uppdaterad: 2025-09-26 | 878 ord)*
-- [Översättning av registerutdrag till serbiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-serbiska/) *(Uppdaterad: 2025-09-26 | 760 ord)*
-- [Hur du säger hej på serbiska: En komplett guide till Serbiens hjärtliga och respektfulla hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-serbiska-en-komplett-guide-till-serbiens-hjartliga-och-respektfulla-halsningskultur/) *(Uppdaterad: 2025-09-26 | 1056 ord)*
-- [Serbiska ord och fraser som är bra att kunna](https://www.oversattning.se/serbiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-26 | 1692 ord)*
-- [Vilka språk talar man i Montenegro?](https://www.oversattning.se/vilka-sprak-talar-man-i-montenegro/) *(Uppdaterad: 2025-09-16 | 789 ord)*
-- [Översättning från svenska till serbiska](https://www.oversattning.se/oversattning-fran-svenska-till-serbiska/) *(Uppdaterad: 2025-09-10 | 997 ord)*
-- [Översättning från serbiska till svenska](https://www.oversattning.se/oversattning-fran-serbiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 932 ord)*
-- [Översättning från serbiska till engelska](https://www.oversattning.se/oversattning-fran-serbiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1009 ord)*
-- [Översättning från engelska till serbiska](https://www.oversattning.se/oversattning-fran-engelska-till-serbiska/) *(Uppdaterad: 2025-09-09 | 1121 ord)*
-
-### Japanska (16 artiklar)
-
-- [Översättning av vigselbevis till japanska](https://www.oversattning.se/oversattning-av-vigselbevis-till-japanska/) *(Uppdaterad: 2026-11-04 | 1154 ord)*
-- [Översättning av pass och ID-kort till japanska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-japanska/) *(Uppdaterad: 2026-10-27 | 1060 ord)*
-- [Japanska - Professionell översättning till och från japanska](https://www.oversattning.se/japanska-oversattning-till-och-fran-japanska/) *(Uppdaterad: 2025-09-20 | 796 ord)*
-- [Vilka språk talar man i Japan?](https://www.oversattning.se/vilka-sprak-talar-man-i-japan/) *(Uppdaterad: 2025-09-20 | 1125 ord)*
-- [10 intressanta fakta om det japanska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-japanska-spraket/) *(Uppdaterad: 2025-09-20 | 1270 ord)*
-- [Riktig översättning med Word Lens på japanska](https://www.oversattning.se/riktig-oversattning-med-word-lens-pa-japanska/) *(Uppdaterad: 2025-09-20 | 609 ord)*
-- [Är japanska svårt att lära sig?](https://www.oversattning.se/ar-japanska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-20 | 959 ord)*
-- [Översättning av personbevis till japanska](https://www.oversattning.se/oversattning-av-personbevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 745 ord)*
-- [Översättning av födelsebevis till japanska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-japanska/) *(Uppdaterad: 2025-09-20 | 686 ord)*
-- [Översättning av registerutdrag till japanska](https://www.oversattning.se/oversattning-av-registerutdrag-till-japanska/) *(Uppdaterad: 2025-09-20 | 697 ord)*
-- [Hur du säger hej på japanska: En komplett guide till Japans artiga och nyanserade hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-japanska-en-komplett-guide-till-japans-artiga-och-nyanserade-halsningskultur/) *(Uppdaterad: 2025-09-20 | 1276 ord)*
-- [Japanska ord och fraser som är bra att kunna](https://www.oversattning.se/japanska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-20 | 2085 ord)*
-- [Översättning från svenska till japanska](https://www.oversattning.se/oversattning-fran-svenska-till-japanska/) *(Uppdaterad: 2025-09-10 | 1185 ord)*
-- [Översättning från japanska till svenska](https://www.oversattning.se/oversattning-fran-japanska-till-svenska/) *(Uppdaterad: 2025-09-10 | 1065 ord)*
-- [Översättning från japanska till engelska](https://www.oversattning.se/oversattning-fran-japanska-till-engelska/) *(Uppdaterad: 2025-09-10 | 961 ord)*
-- [Översättning från engelska till japanska](https://www.oversattning.se/oversattning-fran-engelska-till-japanska/) *(Uppdaterad: 2025-09-09 | 1149 ord)*
+- [Översättning av registerutdrag till slovakiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-slovakiska/) *(Uppdaterad: 2026-11-12 | 1155 ord)*
+- [Översättning av vigselbevis till slovakiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-slovakiska/) *(Uppdaterad: 2026-11-05 | 1213 ord)*
+- [Översättning av pass och ID-kort till slovakiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-slovakiska/) *(Uppdaterad: 2026-10-28 | 1099 ord)*
+- [Slovakiska - Professionell översättning till och från slovakiska](https://www.oversattning.se/slovakiska-oversattning-till-och-fran-slovakiska/) *(Uppdaterad: 2025-09-28 | 770 ord)*
+- [Vilka språk talar man i Slovakien?](https://www.oversattning.se/vilka-sprak-talar-man-i-slovakien/) *(Uppdaterad: 2025-09-28 | 1021 ord)*
+- [10 intressanta fakta om det slovakiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-slovakiska-spraket/) *(Uppdaterad: 2025-09-28 | 1181 ord)*
+- [Är slovakiska svårt att lära sig?](https://www.oversattning.se/ar-slovakiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-27 | 985 ord)*
+- [Översättning av personbevis till slovakiska](https://www.oversattning.se/oversattning-av-personbevis-till-slovakiska/) *(Uppdaterad: 2025-09-27 | 712 ord)*
+- [Översättning av födelsebevis till slovakiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-slovakiska/) *(Uppdaterad: 2025-09-27 | 749 ord)*
+- [Hur du säger hej på slovakiska: En komplett guide till Slovakiens artiga och hjärtliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-slovakiska-en-komplett-guide-till-slovakiens-artiga-och-hjartliga-halsningskultur/) *(Uppdaterad: 2025-09-27 | 1209 ord)*
+- [Slovakiska ord och fraser som är bra att kunna](https://www.oversattning.se/slovakiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-27 | 1375 ord)*
+- [Översättning från svenska till slovakiska](https://www.oversattning.se/oversattning-fran-svenska-till-slovakiska/) *(Uppdaterad: 2025-09-10 | 983 ord)*
+- [Översättning från slovakiska till svenska](https://www.oversattning.se/oversattning-fran-slovakiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 939 ord)*
+- [Översättning från slovakiska till engelska](https://www.oversattning.se/oversattning-fran-slovakiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1075 ord)*
+- [Översättning från engelska till slovakiska](https://www.oversattning.se/oversattning-fran-engelska-till-slovakiska/) *(Uppdaterad: 2025-09-09 | 924 ord)*
 
 ### Lettiska (15 artiklar)
 
@@ -1886,24 +1904,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från somaliska till engelska](https://www.oversattning.se/oversattning-fran-somaliska-till-engelska/) *(Uppdaterad: 2025-09-10 | 839 ord)*
 - [Översättning från engelska till somaliska](https://www.oversattning.se/oversattning-fran-engelska-till-somaliska/) *(Uppdaterad: 2025-09-09 | 1037 ord)*
 
-### Slovakiska (15 artiklar)
-
-- [Översättning av vigselbevis till slovakiska](https://www.oversattning.se/oversattning-av-vigselbevis-till-slovakiska/) *(Uppdaterad: 2026-11-05 | 1213 ord)*
-- [Översättning av pass och ID-kort till slovakiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-slovakiska/) *(Uppdaterad: 2026-10-28 | 1099 ord)*
-- [Slovakiska - Professionell översättning till och från slovakiska](https://www.oversattning.se/slovakiska-oversattning-till-och-fran-slovakiska/) *(Uppdaterad: 2025-09-28 | 770 ord)*
-- [Vilka språk talar man i Slovakien?](https://www.oversattning.se/vilka-sprak-talar-man-i-slovakien/) *(Uppdaterad: 2025-09-28 | 1021 ord)*
-- [10 intressanta fakta om det slovakiska språket](https://www.oversattning.se/10-intressanta-fakta-om-det-slovakiska-spraket/) *(Uppdaterad: 2025-09-28 | 1181 ord)*
-- [Är slovakiska svårt att lära sig?](https://www.oversattning.se/ar-slovakiska-svart-att-lara-sig/) *(Uppdaterad: 2025-09-27 | 985 ord)*
-- [Översättning av personbevis till slovakiska](https://www.oversattning.se/oversattning-av-personbevis-till-slovakiska/) *(Uppdaterad: 2025-09-27 | 712 ord)*
-- [Översättning av födelsebevis till slovakiska](https://www.oversattning.se/oversattning-av-fodelsebevis-till-slovakiska/) *(Uppdaterad: 2025-09-27 | 749 ord)*
-- [Översättning av registerutdrag till slovakiska](https://www.oversattning.se/oversattning-av-registerutdrag-till-slovakiska/) *(Uppdaterad: 2025-09-27 | 736 ord)*
-- [Hur du säger hej på slovakiska: En komplett guide till Slovakiens artiga och hjärtliga hälsningskultur](https://www.oversattning.se/hur-du-sager-hej-pa-slovakiska-en-komplett-guide-till-slovakiens-artiga-och-hjartliga-halsningskultur/) *(Uppdaterad: 2025-09-27 | 1209 ord)*
-- [Slovakiska ord och fraser som är bra att kunna](https://www.oversattning.se/slovakiska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2025-09-27 | 1375 ord)*
-- [Översättning från svenska till slovakiska](https://www.oversattning.se/oversattning-fran-svenska-till-slovakiska/) *(Uppdaterad: 2025-09-10 | 983 ord)*
-- [Översättning från slovakiska till svenska](https://www.oversattning.se/oversattning-fran-slovakiska-till-svenska/) *(Uppdaterad: 2025-09-10 | 939 ord)*
-- [Översättning från slovakiska till engelska](https://www.oversattning.se/oversattning-fran-slovakiska-till-engelska/) *(Uppdaterad: 2025-09-10 | 1075 ord)*
-- [Översättning från engelska till slovakiska](https://www.oversattning.se/oversattning-fran-engelska-till-slovakiska/) *(Uppdaterad: 2025-09-09 | 924 ord)*
-
 ### Turkiska (15 artiklar)
 
 - [Översättning av pass och ID-kort till turkiska](https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-turkiska/) *(Uppdaterad: 2026-10-30 | 1236 ord)*
@@ -2039,6 +2039,21 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från amhariska till svenska](https://www.oversattning.se/oversattning-fran-amhariska-till-svenska/) *(Uppdaterad: 2025-09-09 | 868 ord)*
 - [Översättning från amhariska till engelska](https://www.oversattning.se/oversattning-fran-amhariska-till-engelska/) *(Uppdaterad: 2025-09-09 | 1075 ord)*
 
+### Allmänt (12 artiklar)
+
+- [8 fascinerande drag hos det baskiska språket som förbryllar lingvister](https://www.oversattning.se/8-fascinerande-drag-hos-det-baskiska-spraket-som-forbryllar-lingvister/) *(Uppdaterad: 2026-11-12 | 2679 ord)*
+- [Från sanskrit till modern hindi: Den indoeuropeiska språkfamiljens rötter](https://www.oversattning.se/fran-sanskrit-till-modern-hindi-den-indoeuropeiska-sprakfamiljens-rotter/) *(Uppdaterad: 2026-11-11 | 1208 ord)*
+- [Hur påverkar egentligen språklig artighet och hierarkier digital kundkommunikation i Sydostasien?](https://www.oversattning.se/hur-paverkar-egentligen-spraklig-artighet-och-hierarkier-digital-kundkommunikation-i-sydostasien/) *(Uppdaterad: 2026-11-10 | 1230 ord)*
+- [Hur påverkar egentligen grammatiskt genus vårt logiska tänkande?](https://www.oversattning.se/hur-paverkar-egentligen-grammatiskt-genus-vart-logiska-tankande/) *(Uppdaterad: 2026-11-08 | 1230 ord)*
+- [Navigera språkliga nyanser i Centralasien: Navigera affärskultur och lokalisering längs den moderna Sidenvägen](https://www.oversattning.se/navigera-sprakliga-nyanser-i-centralasien-navigera-affarskultur-och-lokalisering-langs-den-moderna-sidenvagen/) *(Uppdaterad: 2026-11-06 | 1324 ord)*
+- [Arbetsgången vid auktoriserad översättning av adoptionshandlingar och personbevis](https://www.oversattning.se/arbetsgangen-vid-auktoriserad-oversattning-av-adoptionshandlingar-och-personbevis/) *(Uppdaterad: 2026-11-06 | 1105 ord)*
+- [Varför isländskans purism är unik i en digitaliserad värld](https://www.oversattning.se/varfor-islandskans-purism-ar-unik-i-en-digitaliserad-varld/) *(Uppdaterad: 2026-11-05 | 1539 ord)*
+- [Hur grammatiska genus formar vår syn på objekt](https://www.oversattning.se/hur-grammatiska-genus-formar-var-syn-pa-objekt/) *(Uppdaterad: 2026-11-04 | 1472 ord)*
+- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
+- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
+- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
+- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
+
 ### Tigrinska (12 artiklar)
 
 - [Tigrinska ord och fraser som är bra att kunna](https://www.oversattning.se/tigrinska-ord-och-fraser-som-ar-bra-att-kunna/) *(Uppdaterad: 2026-10-13 | 2787 ord)*
@@ -2098,20 +2113,6 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - [Översättning från engelska till afrikaans](https://www.oversattning.se/oversattning-fran-engelska-till-afrikaans/) *(Uppdaterad: 2025-09-09 | 1058 ord)*
 - [Översättning från afrikaans till svenska](https://www.oversattning.se/oversattning-fran-afrikaans-till-svenska/) *(Uppdaterad: 2025-09-09 | 1073 ord)*
 - [Översättning från afrikaans till engelska](https://www.oversattning.se/oversattning-fran-afrikaans-till-engelska/) *(Uppdaterad: 2025-09-09 | 923 ord)*
-
-### Allmänt (11 artiklar)
-
-- [Från sanskrit till modern hindi: Den indoeuropeiska språkfamiljens rötter](https://www.oversattning.se/fran-sanskrit-till-modern-hindi-den-indoeuropeiska-sprakfamiljens-rotter/) *(Uppdaterad: 2026-11-11 | 1208 ord)*
-- [Hur påverkar egentligen språklig artighet och hierarkier digital kundkommunikation i Sydostasien?](https://www.oversattning.se/hur-paverkar-egentligen-spraklig-artighet-och-hierarkier-digital-kundkommunikation-i-sydostasien/) *(Uppdaterad: 2026-11-10 | 1230 ord)*
-- [Hur påverkar egentligen grammatiskt genus vårt logiska tänkande?](https://www.oversattning.se/hur-paverkar-egentligen-grammatiskt-genus-vart-logiska-tankande/) *(Uppdaterad: 2026-11-08 | 1230 ord)*
-- [Navigera språkliga nyanser i Centralasien: Navigera affärskultur och lokalisering längs den moderna Sidenvägen](https://www.oversattning.se/navigera-sprakliga-nyanser-i-centralasien-navigera-affarskultur-och-lokalisering-langs-den-moderna-sidenvagen/) *(Uppdaterad: 2026-11-06 | 1324 ord)*
-- [Arbetsgången vid auktoriserad översättning av adoptionshandlingar och personbevis](https://www.oversattning.se/arbetsgangen-vid-auktoriserad-oversattning-av-adoptionshandlingar-och-personbevis/) *(Uppdaterad: 2026-11-06 | 1105 ord)*
-- [Varför isländskans purism är unik i en digitaliserad värld](https://www.oversattning.se/varfor-islandskans-purism-ar-unik-i-en-digitaliserad-varld/) *(Uppdaterad: 2026-11-05 | 1539 ord)*
-- [Hur grammatiska genus formar vår syn på objekt](https://www.oversattning.se/hur-grammatiska-genus-formar-var-syn-pa-objekt/) *(Uppdaterad: 2026-11-04 | 1472 ord)*
-- [Från polkagris till fika: Konsten att marknadsföra svenska kulturbegrepp utomlands](https://www.oversattning.se/fran-polkagris-till-fika-konsten-att-marknadsfora-svenska-kulturbegrepp-utomlands/) *(Uppdaterad: 2026-11-03 | 1635 ord)*
-- [När teknisk dokumentation möter lokala säkerhetsföreskrifter vid export till Brasilien](https://www.oversattning.se/nar-teknisk-dokumentation-moter-lokala-sakerhetsforeskrifter-vid-export-till-brasilien/) *(Uppdaterad: 2026-11-02 | 1566 ord)*
-- [Navigera språkliga nyanser i indiska affärskontrakt](https://www.oversattning.se/navigera-sprakliga-nyanser-i-indiska-affarskontrakt/) *(Uppdaterad: 2026-10-30 | 1686 ord)*
-- [7 bortglömda lånord från romani som fortfarande lever i svenskan](https://www.oversattning.se/7-bortglomda-lanord-fran-romani-som-fortfarande-lever-i-svenskan/) *(Uppdaterad: 2026-10-29 | 1544 ord)*
 
 ### Bengali (11 artiklar)
 

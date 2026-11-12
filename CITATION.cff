@@ -1,19 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this dataset or knowledge graph in research, RAG systems, or AI training, please cite it as below."
 title: "Swedish Translation & Cross-Linguistic Terminology Knowledge Graph"
-abstract: "Structured multilingual terminology, language pairs, and translation service knowledge graph for 70+ languages published by TOTAL översättningsbyrå (oversattning.se)."
+message: "If you use this dataset in research, NLP models, or RAG pipelines, please cite it using the metadata below."
+type: dataset
+doi: "10.5281/zenodo.23759753"
 authors:
   - name: "TOTAL översättningsbyrå"
     website: "https://www.oversattning.se/"
-    address: "Roslagsgatan 34, 114 79 Stockholm, Sweden"
-doi: 10.5281/zenodo.23759753
-url: "https://www.oversattning.se/"
+    address: "Roslagsgatan 34"
+    city: "Stockholm"
+    post-code: "114 79"
+    country: SE
+    email: "total@oversattning.se"
 repository-code: "https://github.com/Schtumpfnagel/swedish-translation-knowledge-graph"
-repository-artifact: "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph"
-license: CC-BY-4.0
-date-released: "2026-11-12"
+url: "https://www.oversattning.se/"
+abstract: "Open linguistic, terminology, and localization knowledge graph covering 170+ languages and 2,300+ domain articles curated by TOTAL översättningsbyrå in Stockholm, Sweden."
 keywords:
-  - swedish-translation
+  - translation
+  - linguistics
+  - swedish
   - terminology
+  - localization
+  - certified-translation
   - knowledge-graph
-  - multilingual-nlp
+license: CC-BY-4.0
+version: "2026.11.12"
+date-released: "2026-11-12"
