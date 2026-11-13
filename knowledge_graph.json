@@ -11,11 +11,11 @@
         "hf": "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph",
         "doi": "https://doi.org/10.5281/zenodo.23759753"
     },
-    "generated_at": "2026-11-12T15:18:52Z",
+    "generated_at": "2026-11-13T05:49:19Z",
     "counts": {
         "languages": 176,
         "service_pages": 15,
-        "articles": 2388,
+        "articles": 2389,
         "silos": 11
     },
     "silos": [
@@ -29,7 +29,7 @@
             "id": 1,
             "name": "Allmänt",
             "slug": "allmant",
-            "count": 12
+            "count": 13
         },
         {
             "id": 118,
@@ -97,7 +97,7 @@
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-abchaziska-spraket/"
             ],
             "faqs": [],
-            "modified_at": "2025-07-26"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 358136,
@@ -220,6 +220,10 @@
             "url": "https://www.oversattning.se/sprak/arabiska/",
             "summary": "Professionell översättning till och från arabiska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-arabiska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-arabiska/",
+                "https://www.oversattning.se/oversattning-fran-arabiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-arabiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-arabiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-arabiska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-syrien/",
@@ -227,11 +231,7 @@
                 "https://www.oversattning.se/5-av-de-svaraste-spraken-att-oversatta-och-vad-som-gor-dem-svara/",
                 "https://www.oversattning.se/storsta-spraken-efter-bruttonationalprodukt-vad-du-ska-valja-for-din-webbplats/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-algeriet/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-bahrain/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-egypten/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-eritrea/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-forenade-arabemiraten/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-irak/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-bahrain/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -836,18 +836,18 @@
             "url": "https://www.oversattning.se/sprak/engelska/",
             "summary": "Professionell översättning till och från engelska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-burmesiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-vitryska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-vietnamesiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-uzbekiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-ungerska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-ukrainska-till-engelska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-engelska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-engelska/",
                 "https://www.oversattning.se/sprakliga-lan-som-formade-svenskan-fran-medeltida-tyska-till-modern-tech-engelska/",
                 "https://www.oversattning.se/den-mexikanska-staten-tamaulipas-ar-den-forsta-att-deklarera-tvasprakighet/",
                 "https://www.oversattning.se/google-utokar-webbplatsnamn-for-underdomaner-pa-alla-enheter-pa-fyra-sprak/",
-                "https://www.oversattning.se/fordelar-med-att-oversatta-en-webbsajt-till-engelska/",
-                "https://www.oversattning.se/oversatt-en-engelsk-webbplats-till-vilket-sprak-som-helst-den-ultimata-guiden/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-antigua-och-barbuda/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-australien/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-bahamas/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-barbados/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-belize/"
+                "https://www.oversattning.se/fordelar-med-att-oversatta-en-webbsajt-till-engelska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -983,6 +983,10 @@
             "url": "https://www.oversattning.se/sprak/franska/",
             "summary": "Professionell översättning till och från franska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-franska/",
+                "https://www.oversattning.se/oversattning-fran-franska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-franska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-franska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-franska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-franska/",
                 "https://www.oversattning.se/nar-franska-lanord-definierar-svensk-lyx-och-gastronomi/",
@@ -990,11 +994,7 @@
                 "https://www.oversattning.se/franska-oversattning-till-och-fran-franska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-belgien/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-benin/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-burkina-faso/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-centralafrikanska-republiken/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-ekvatorialguinea/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-elfenbenskusten/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-guinea/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-burkina-faso/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1348,6 +1348,8 @@
             "cluster_urls": [
                 "https://www.oversattning.se/oversattning-fran-svenska-till-italienska/",
                 "https://www.oversattning.se/oversattning-fran-italienska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-italienska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-italienska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-italienska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-italienska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-italienska/",
@@ -1355,9 +1357,7 @@
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-italien/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-san-marino/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-italienska-spraket/",
-                "https://www.oversattning.se/ar-italienska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-italienska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-italienska/"
+                "https://www.oversattning.se/ar-italienska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1370,6 +1370,9 @@
             "summary": "Professionell översättning till och från japanska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
                 "https://www.oversattning.se/oversattning-fran-svenska-till-japanska/",
+                "https://www.oversattning.se/oversattning-fran-japanska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-japanska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-japanska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-japanska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-japanska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-japanska/",
@@ -1377,10 +1380,7 @@
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-japan/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-japanska-spraket/",
                 "https://www.oversattning.se/riktig-oversattning-med-word-lens-pa-japanska/",
-                "https://www.oversattning.se/ar-japanska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-japanska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-japanska/",
-                "https://www.oversattning.se/hur-du-sager-hej-pa-japanska-en-komplett-guide-till-japans-artiga-och-nyanserade-halsningskultur/"
+                "https://www.oversattning.se/ar-japanska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1510,6 +1510,10 @@
             "url": "https://www.oversattning.se/sprak/kinesiska/",
             "summary": "Professionell översättning till och från kinesiska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-kinesiska/",
+                "https://www.oversattning.se/oversattning-fran-kinesiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-kinesiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-kinesiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-kinesiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-kinesiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kinesiska/",
@@ -1517,11 +1521,7 @@
                 "https://www.oversattning.se/6-dolda-betydelser-i-kinesiska-affarsgavor-och-visitkort/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-singapore/",
                 "https://www.oversattning.se/kinesiska-oversattning-till-och-fran-kinesiska/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-kina/",
-                "https://www.oversattning.se/jing-tsu-studerar-systematiseringen-av-kinesiskan/",
-                "https://www.oversattning.se/utmaningar-vid-lokalisering-av-kinesiska/",
-                "https://www.oversattning.se/10-intressanta-fakta-om-det-kinesiska-spraket/",
-                "https://www.oversattning.se/ar-kinesiska-svart-att-lara-sig/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-kina/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1662,6 +1662,7 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-kroatiska/",
                 "https://www.oversattning.se/oversattning-fran-kroatiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-kroatiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-kroatiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-kroatiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-kroatiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-kroatiska/",
@@ -1669,8 +1670,7 @@
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-bosnien/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-kroatien/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-kroatiska-spraket/",
-                "https://www.oversattning.se/ar-kroatiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-kroatiska/"
+                "https://www.oversattning.se/ar-kroatiska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1684,6 +1684,8 @@
             "cluster_urls": [
                 "https://www.oversattning.se/oversattning-fran-svenska-till-kurdiska/",
                 "https://www.oversattning.se/oversattning-fran-kurdiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-kurdiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-kurdiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-sorani/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-sorani/",
                 "https://www.oversattning.se/fran-amhariska-till-xhosa-nu-introduceras-oversattning-pa-13-nya-sprak/",
@@ -1691,9 +1693,7 @@
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-kurdiska-spraket/",
                 "https://www.oversattning.se/ar-kurdiska-svart-att-lara-sig/",
                 "https://www.oversattning.se/oversattning-av-personbevis-till-sorani/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-sorani/",
-                "https://www.oversattning.se/oversattning-av-registerutdrag-till-sorani/",
-                "https://www.oversattning.se/hur-du-sager-hej-pa-kurdiska-en-komplett-guide-till-det-mangfacetterade-halsningsbruket-i-kurdistan/"
+                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-sorani/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2042,14 +2042,14 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-hollandska/",
                 "https://www.oversattning.se/oversattning-fran-nederlandska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-nederlandska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-nederlandska/",
                 "https://www.oversattning.se/nederlandska-oversattning-till-och-fran-hollandska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-nederlanderna/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-surinam/",
                 "https://www.oversattning.se/hollandska-kostnadsfria-oversattningstjanster-pa-internet-missvisande/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-nederlandska-spraket/",
                 "https://www.oversattning.se/surinam-ett-samspel-av-sprak/",
-                "https://www.oversattning.se/ar-nederlandska-svart-att-lara-sig/",
-                "https://www.oversattning.se/hur-du-sager-hej-pa-nederlandska-en-komplett-guide-till-nederlandernas-artiga-och-informella-halsningskultur/"
+                "https://www.oversattning.se/ar-nederlandska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2178,14 +2178,14 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-farsi/",
                 "https://www.oversattning.se/oversattning-fran-persiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-persiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-persiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-persiska-farsi/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-persiska-farsi/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-persiska-farsi/",
                 "https://www.oversattning.se/persiska-oversattning-till-och-fran-farsi/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-iran/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-persiska-spraket/",
-                "https://www.oversattning.se/ar-persiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-persiska-farsi/"
+                "https://www.oversattning.se/ar-persiska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2200,6 +2200,7 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-polska/",
                 "https://www.oversattning.se/oversattning-fran-polska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-polska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-polska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-polska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-polska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-polska/",
@@ -2207,8 +2208,7 @@
                 "https://www.oversattning.se/3-anledningar-till-varfor-polska-ar-svart-att-lara-sig/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-polen/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-polska-spraket/",
-                "https://www.oversattning.se/ar-polska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-polska/"
+                "https://www.oversattning.se/ar-polska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2220,6 +2220,10 @@
             "url": "https://www.oversattning.se/sprak/portugisiska/",
             "summary": "Professionell översättning till och från portugisiska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-portugisiska/",
+                "https://www.oversattning.se/oversattning-fran-portugisiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-portugisiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-portugisiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-portugisiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-portugisiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-portugisiska/",
@@ -2227,11 +2231,7 @@
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-guinea-bissau/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-mocambique/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-portugal/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-osttimor/",
-                "https://www.oversattning.se/10-intressanta-fakta-om-det-portugisiska-spraket/",
-                "https://www.oversattning.se/ar-portugisiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-portugisiska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-portugisiska/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-osttimor/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2319,14 +2319,14 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-moldaviska/",
                 "https://www.oversattning.se/oversattning-fran-rumanska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-rumanska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-rumanska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-rumanska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-rumanska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-rumanska/",
                 "https://www.oversattning.se/rumanska-oversattning-till-och-fran-rumanska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-moldavien/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-rumanien/",
-                "https://www.oversattning.se/10-intressanta-fakta-om-det-rumanska-spraket/",
-                "https://www.oversattning.se/ar-rumanska-svart-att-lara-sig/"
+                "https://www.oversattning.se/10-intressanta-fakta-om-det-rumanska-spraket/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2356,6 +2356,10 @@
             "url": "https://www.oversattning.se/sprak/ryska/",
             "summary": "Professionell översättning till och från ryska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-ryska/",
+                "https://www.oversattning.se/oversattning-fran-ryska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-ryska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-ryska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-ryska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-ryska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-ryska/",
@@ -2363,11 +2367,7 @@
                 "https://www.oversattning.se/ryska-oversattning-till-och-fran-ryska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-tadzjikistan/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-ryska-spraket/",
-                "https://www.oversattning.se/ar-ryska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-ryska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-ryska/",
-                "https://www.oversattning.se/hur-du-sager-hej-pa-ryska-en-komplett-guide-till-rysslands-artiga-och-traditionsrika-halsningskultur/",
-                "https://www.oversattning.se/ryska-ord-och-fraser-som-ar-bra-att-kunna/"
+                "https://www.oversattning.se/ar-ryska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2442,6 +2442,7 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-serbiska/",
                 "https://www.oversattning.se/oversattning-fran-serbiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-serbiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-serbiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-serbiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-serbiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-serbiska/",
@@ -2449,8 +2450,7 @@
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-serbien/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-serbiska-spraket/",
                 "https://www.oversattning.se/ar-serbiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-serbiska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-serbiska/"
+                "https://www.oversattning.se/oversattning-av-personbevis-till-serbiska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2613,6 +2613,7 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-somaliska/",
                 "https://www.oversattning.se/oversattning-fran-somaliska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-somaliska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-somaliska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-somaliska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-somaliska/",
                 "https://www.oversattning.se/somaliska-oversattning-till-och-fran-somaliska/",
@@ -2620,8 +2621,7 @@
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-somaliska-spraket/",
                 "https://www.oversattning.se/ar-somaliska-svart-att-lara-sig/",
                 "https://www.oversattning.se/oversattning-av-personbevis-till-somaliska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-somaliska/",
-                "https://www.oversattning.se/oversattning-av-registerutdrag-till-somaliska/"
+                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-somaliska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2633,6 +2633,10 @@
             "url": "https://www.oversattning.se/sprak/spanska/",
             "summary": "Professionell översättning till och från spanska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-svenska-till-spanska/",
+                "https://www.oversattning.se/oversattning-fran-spanska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-spanska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-spanska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-spanska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-spanska/",
                 "https://www.oversattning.se/spanska-oversattning-till-och-fran-spanska/",
@@ -2640,11 +2644,7 @@
                 "https://www.oversattning.se/5-viktiga-skillnader-mellan-europeisk-och-latinamerikansk-spanska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-chile/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-colombia/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-costa-rica/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-dominikanska-republiken/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-ecuador/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-el-salvador/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-guatemala/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-costa-rica/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2685,18 +2685,18 @@
             "url": "https://www.oversattning.se/sprak/svenska/",
             "summary": "Professionell översättning till och från svenska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-cebuano-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-bosniska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-vitryska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-vietnamesiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-uzbekiska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-ungerska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-ukrainska-till-svenska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-svenska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-svenska/",
                 "https://www.oversattning.se/svenska-oversattning-till-och-fran-svenska/",
                 "https://www.oversattning.se/esquire-tillkannager-den-senaste-tekniken-inom-pennskanning/",
-                "https://www.oversattning.se/skanska-spraket-pa-utdoende-enligt-unesco/",
-                "https://www.oversattning.se/engelskt-plural-ger-svenskan-battre-flyt/",
-                "https://www.oversattning.se/sprak-skapar-ambassadorer/",
-                "https://www.oversattning.se/forskare-svenska-valdigt-kant-sprak-i-varlden/",
-                "https://www.oversattning.se/svenska-ar-nast-storsta-spraket-pa-wikipedia/",
-                "https://www.oversattning.se/svart-att-vara-artig-pa-svenska/",
-                "https://www.oversattning.se/tre-roster-om-svenska-sprakets-framtid/",
-                "https://www.oversattning.se/amazon-hanas-pa-grund-av-knapphandig-oversattning-vid-lansering-av-den-svenska-hemsidan/"
+                "https://www.oversattning.se/skanska-spraket-pa-utdoende-enligt-unesco/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2973,6 +2973,7 @@
                 "https://www.oversattning.se/oversattning-fran-turkiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-turkiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-turkiska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-turkiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-turkiska/",
                 "https://www.oversattning.se/turkiska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/turkiska-oversattning-till-och-fran-turkiska/",
@@ -2980,8 +2981,7 @@
                 "https://www.oversattning.se/ar-turkiska-svart-att-lara-sig/",
                 "https://www.oversattning.se/oversattning-av-personbevis-till-turkiska/",
                 "https://www.oversattning.se/oversattning-av-fodelsebevis-till-turkiska/",
-                "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/",
-                "https://www.oversattning.se/oversattning-av-vigselbevis-till-turkiska/"
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -3027,6 +3027,10 @@
             "url": "https://www.oversattning.se/sprak/tyska/",
             "summary": "Professionell översättning till och från tyska. Auktoriserade översättare och facköversättare med modersmålskompetens hos TOTAL översättningsbyrå.",
             "cluster_urls": [
+                "https://www.oversattning.se/oversattning-fran-tyska-till-svenska/",
+                "https://www.oversattning.se/oversattning-fran-tyska-till-engelska/",
+                "https://www.oversattning.se/oversattning-fran-svenska-till-tyska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-tyska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-tyska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-tyska/",
                 "https://www.oversattning.se/tyska-ord-och-fraser-som-ar-bra-att-kunna/",
@@ -3034,11 +3038,7 @@
                 "https://www.oversattning.se/tyska-oversattning-till-och-fran-tyska/",
                 "https://www.oversattning.se/3-fantastiska-och-billiga-tyska-lyssningsovningar/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-osterrike/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-liechtenstein/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-tyskland/",
-                "https://www.oversattning.se/tyska-haller-pa-att-do-som-ett-vetenskapligt-sprak-varnar-kulturministeriet/",
-                "https://www.oversattning.se/10-intressanta-fakta-om-det-tyska-spraket/",
-                "https://www.oversattning.se/du-skulle-inte-haja-tyska-skamt-ar-inget-att-skratta-at/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-liechtenstein/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -3070,6 +3070,7 @@
                 "https://www.oversattning.se/oversattning-fran-ukrainska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-ukrainska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-ukrainska/",
+                "https://www.oversattning.se/oversattning-fran-engelska-till-ukrainska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-ukrainska/",
                 "https://www.oversattning.se/ukrainska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/ukrainska-oversattning-till-och-fran-ukrainska/",
@@ -3077,8 +3078,7 @@
                 "https://www.oversattning.se/ukrainska-har-blivit-en-symbol-intresset-for-spraket-okar-i-samband-med-rysslands-invasion/",
                 "https://www.oversattning.se/talar-ukrainare-och-ryssar-samma-sprak/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-ukrainska-spraket/",
-                "https://www.oversattning.se/ar-ukrainska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-ukrainska/"
+                "https://www.oversattning.se/ar-ukrainska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -4585,7 +4585,7 @@
             "url": "https://www.oversattning.se/artiklar/",
             "summary": "Kunskapsbanken En inblick i vårt ovärderliga artikelarkiv",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 332543,
@@ -4605,7 +4605,7 @@
             "url": "https://www.oversattning.se/oversattning/branscher/",
             "summary": "Branscher Branscher och ämnesområden vi specialiserar oss på Bilindustri Våra översättare är medvetna om kommunikationens kommersiella värde för bilindustrin och kan hantera alla slags tekniska dokument på fordonsområdet med hög kvalitet. Ekonomi Våra projekt inom ekonomiöversättning täcker allt från marknadsföringsmaterial och webbinnehåll till årsredovisningar, intern kommunikation, broschyrer, presentationer och kontrakt. Energi Våra översättningstjänster inbegriper det…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 1256,
@@ -4613,9 +4613,9 @@
             "slug": "kontakt",
             "type": "core_service",
             "url": "https://www.oversattning.se/kontakt/",
-            "summary": "Kontakt Ta det första steget till nya framgångar TOTAL Översättning Roslagsgatan 34113 55 Stockholm 08-55 11 07 00total@oversattning.se Har du något på hjärtat? Låt oss veta! Kontakta oss redan idag Vi ser fram emot att höra från dig!",
+            "summary": "Kontakt Ta det första steget till nya framgångar TOTAL Översättning Roslagsgatan 34113 55 Stockholm 08-55 11 07 00total@oversattning.se Kontakta oss redan idag Vi ser fram emot att höra från dig!",
             "faqs": [],
-            "modified_at": "2026-10-29"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 332555,
@@ -4623,9 +4623,9 @@
             "slug": "kvalitetssakring",
             "type": "core_service",
             "url": "https://www.oversattning.se/oversattning/kvalitetssakring/",
-            "summary": "Kvalitetssäkring En inblick i vårt ovärderliga artikelarkiv På TOTAL översättningsbyrå är vi fast beslutna att leverera språktjänster av högsta kvalitet till våra kunder. Vi förstår att korrekta och kulturellt känsliga översättningar och andra språkrelaterade lösningar är avgörande för att företag och individer ska lyckas i dagens globaliserade värld. Därför har vi etablerat ett omfattande kvalitetsledningssystem…",
+            "summary": "Kvalitetssäkring 100 % detaljnoggrannhet På TOTAL översättningsbyrå är vi fast beslutna att leverera språktjänster av högsta kvalitet till våra kunder. Vi förstår att korrekta och kulturellt känsliga översättningar och andra språkrelaterade lösningar är avgörande för att företag och individer ska lyckas i dagens globaliserade värld. Därför har vi etablerat ett omfattande kvalitetsledningssystem som omfattar alla…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 2164,
@@ -4635,7 +4635,7 @@
             "url": "https://www.oversattning.se/oversattning/lokalisering/",
             "summary": "Lokalisering Tänk globalt, agera lokalt Fullständig lokal anpassning Nå ut till de utländska marknaderna",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 359692,
@@ -4645,7 +4645,7 @@
             "url": "https://www.oversattning.se/oversattning/maskinoversattning/",
             "summary": "Maskinöversättning Har artificiell intelligens en plats i språkbranschen? Fullständig lokal anpassning Nå ut till de utländska marknaderna",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 333046,
@@ -4653,7 +4653,7 @@
             "slug": "offert",
             "type": "core_service",
             "url": "https://www.oversattning.se/offert/",
-            "summary": "Gratis offert Få prisförslag och leveransdatum redan idag Har du ett projekt? Låt oss veta! Kostar det något att få ett kostnadsförslag för ett projekt? Nej, alla kostnadsförslag tillhandahålls gratis, inklusive alla eventuella påföljande ändringar i dem. Har TOTAL särskilda priser för brådskande arbeten? TOTAL har en allmän tidsram som specificeras för varje servicenivå (mellan…",
+            "summary": "Gratis offert Få prisförslag och leveransdatum redan idag Kostar det något att få ett kostnadsförslag för ett projekt? Nej, alla kostnadsförslag tillhandahålls gratis, inklusive alla eventuella påföljande ändringar i dem. Har TOTAL särskilda priser för brådskande arbeten? TOTAL har en allmän tidsram som specificeras för varje servicenivå (mellan 600 och 2 000 ord per arbetsdag)…",
             "faqs": [],
             "modified_at": "2026-11-12"
         },
@@ -4665,7 +4665,7 @@
             "url": "https://www.oversattning.se/om-oss/",
             "summary": "Om oss Vi hjälper er kommunicera utan gränser Vägen som ledde fram till TOTAL översättningsbyrå har varit full av överraskningar, vändningar och anpassningar. Det har format oss till de vi är idag. Det har lärt oss att alltid ta problemen som de kommer, implementera lösningar och fortsätta erbjuda våra kunder den bästa möjliga servicen som…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 2181,
@@ -4675,7 +4675,7 @@
             "url": "https://www.oversattning.se/oversattning/oversattare/",
             "summary": "Översättare De bästa av de bästa språkproffsen Nyckeln till framgång för en bra översättningsbyrå är kvaliteten på dess översättare. Våra översättare är alltid professionellt meriterade språkexperter med målspråket som modersmål.Vi väljer ut översättare för individuella uppdrag inte bara efter språkpar utan även efter specialområden. Orsaken är att olika typer av översättning kräver olika slags kunskaper…",
             "faqs": [],
-            "modified_at": "2026-10-29"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 334323,
@@ -4695,7 +4695,7 @@
             "url": "https://www.oversattning.se/",
             "summary": "TOTAL översättningsbyrå Heltäckande lösningar inom språk och texthantering 1 Kontakta oss redan idag via telefon eller e-post 2 Ni får en gratis och tydlig offert med returdatum3 En detaljerad projektplan tas fram för arbetet 4 Våra duktiga experter utför uppdraget5 Hög kvalitet, nöjda kunder, fortsatt samarbete Varför välja TOTAL översättningsbyrå? Att välja rätt översättningspartner kan…",
             "faqs": [],
-            "modified_at": "2026-10-29"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 1106,
@@ -4705,7 +4705,7 @@
             "url": "https://www.oversattning.se/oversattning/seo-oversattning/",
             "summary": "SEO-översättning Av modersmålstalande SEO-experter Professionella SEO-översättningar handlar om mer än de bokstavliga orden på sidan. Innehållet måste inte bara översättas, utan lokaliseras – med hänsyn till alla sökmotorrelevanta nyanser. På TOTAL internationaliserar vi din webbplats och gör innehållet synligt för användarna på respektive målmarknads språk.En webbplats är ett företags visitkort och en avgörande komponent i…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 2172,
@@ -4715,7 +4715,7 @@
             "url": "https://www.oversattning.se/sprak/",
             "summary": "Språk Alla språk och dialekter vi översätter till och från A B C D E F G H I J K L M A Abchaziska • Acholi • Afar • Afrikaans • Akan • Albanska • Amhariska • Arabiska • Arameiska • Armeniska • Assamesiska • Asturiska • Austronesiska • Avariska • Awadhi • Aymara…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         },
         {
             "id": 2177,
@@ -4725,10 +4725,27 @@
             "url": "https://www.oversattning.se/oversattning/teknologi/",
             "summary": "Teknologi Spjutspetsteknologi i översättningsbranschen Vi har under många år använt teknologier för datorstödd översättning, som hjälper till att upprätthålla en hög standard samtidigt som de minskar leveranstider och kostnader. Datorstödd översättning (CAT, Computer Aided Translation) är en typ av översättning där den professionella översättaren använder program som utvecklats speciellt för att underlätta och förbättra översättningsprocessen.…",
             "faqs": [],
-            "modified_at": "2025-07-30"
+            "modified_at": "2026-11-12"
         }
     ],
     "articles": [
+        {
+            "id": 390582,
+            "title": "Så navigerar internationella logistikjättar genom tullens snåriga terminologikrav",
+            "slug": "sa-navigerar-internationella-logistikjattar-genom-tullens-snariga-terminologikrav",
+            "url": "https://www.oversattning.se/sa-navigerar-internationella-logistikjattar-genom-tullens-snariga-terminologikrav/",
+            "primary_silo": "Allmänt",
+            "categories": [
+                "Allmänt"
+            ],
+            "languages": [],
+            "pillar_urls": [],
+            "published_at": "2026-11-13",
+            "modified_at": "2026-11-13",
+            "word_count": 1287,
+            "summary": "En felaktig nyans i en tulldeklaration kan i värsta fall kosta ett internationellt logistikföretag miljontals kronor i förseningsavgifter, lagerhyror och straffavgifter. När en sändning av precisionskomponenter når en tullgräns är det inte den fysiska varan som granskas först, utan den språkliga representationen i fraktsedeln. En språklig glidning mellan teknisk fackterminologi och juridisk tullnomenklatur – till…",
+            "faqs": []
+        },
         {
             "id": 371283,
             "title": "Översättning av registerutdrag till italienska",
