@@ -11,11 +11,11 @@
         "hf": "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph",
         "doi": "https://doi.org/10.5281/zenodo.23759753"
     },
-    "generated_at": "2026-11-16T05:49:02Z",
+    "generated_at": "2026-11-17T05:49:50Z",
     "counts": {
         "languages": 176,
         "service_pages": 15,
-        "articles": 2390,
+        "articles": 2391,
         "silos": 11
     },
     "silos": [
@@ -29,7 +29,7 @@
             "id": 1,
             "name": "Allmänt",
             "slug": "allmant",
-            "count": 14
+            "count": 15
         },
         {
             "id": 118,
@@ -842,12 +842,12 @@
                 "https://www.oversattning.se/oversattning-fran-uzbekiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-ungerska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-ukrainska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-engelska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-engelska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-engelska/",
                 "https://www.oversattning.se/sprakliga-lan-som-formade-svenskan-fran-medeltida-tyska-till-modern-tech-engelska/",
                 "https://www.oversattning.se/den-mexikanska-staten-tamaulipas-ar-den-forsta-att-deklarera-tvasprakighet/",
-                "https://www.oversattning.se/google-utokar-webbplatsnamn-for-underdomaner-pa-alla-enheter-pa-fyra-sprak/",
-                "https://www.oversattning.se/fordelar-med-att-oversatta-en-webbsajt-till-engelska/"
+                "https://www.oversattning.se/google-utokar-webbplatsnamn-for-underdomaner-pa-alla-enheter-pa-fyra-sprak/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -879,14 +879,14 @@
                 "https://www.oversattning.se/oversattning-fran-estniska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-estniska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-estniska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-estniska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-estniska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-estniska/",
                 "https://www.oversattning.se/estniska-oversattning-till-och-fran-estniska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-estland/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-estniska-spraket/",
                 "https://www.oversattning.se/ar-estniska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-estniska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-estniska/"
+                "https://www.oversattning.se/oversattning-av-personbevis-till-estniska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -947,14 +947,14 @@
                 "https://www.oversattning.se/oversattning-fran-finska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-finska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-finska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-finska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-finska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-finska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-finland/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-sverige/",
                 "https://www.oversattning.se/nytt-lyft-for-sveriges-minoritetssprak/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-finska-spraket/",
-                "https://www.oversattning.se/ar-finska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-finska/"
+                "https://www.oversattning.se/ar-finska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2692,11 +2692,11 @@
                 "https://www.oversattning.se/oversattning-fran-uzbekiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-ungerska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-ukrainska-till-svenska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-svenska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-svenska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-svenska/",
                 "https://www.oversattning.se/svenska-oversattning-till-och-fran-svenska/",
-                "https://www.oversattning.se/esquire-tillkannager-den-senaste-tekniken-inom-pennskanning/",
-                "https://www.oversattning.se/skanska-spraket-pa-utdoende-enligt-unesco/"
+                "https://www.oversattning.se/esquire-tillkannager-den-senaste-tekniken-inom-pennskanning/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2906,14 +2906,14 @@
                 "https://www.oversattning.se/oversattning-fran-tjeckiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-tjeckiska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-tjeckiska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-tjeckiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-tjeckiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-tjeckiska/",
                 "https://www.oversattning.se/tjeckiska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/tjeckiska-professionell-oversattning-till-och-fran-tjeckiska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-tjeckien/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-tjeckiska-spraket/",
-                "https://www.oversattning.se/ar-tjeckiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-tjeckiska/"
+                "https://www.oversattning.se/ar-tjeckiska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -4729,6 +4729,128 @@
         }
     ],
     "articles": [
+        {
+            "id": 390622,
+            "title": "Strategier för att bevara hotade arktiska ursprungsspråk i en digital era",
+            "slug": "strategier-for-att-bevara-hotade-arktiska-ursprungssprak-i-en-digital-era",
+            "url": "https://www.oversattning.se/strategier-for-att-bevara-hotade-arktiska-ursprungssprak-i-en-digital-era/",
+            "primary_silo": "Allmänt",
+            "categories": [
+                "Allmänt"
+            ],
+            "languages": [],
+            "pillar_urls": [],
+            "published_at": "2026-11-17",
+            "modified_at": "2026-11-17",
+            "word_count": 1635,
+            "summary": "De arktiska ursprungsspråken befinner sig i en kritisk brytpunkt där den digitala dominansen från globala majoritetsspråk utmanar deras existens samtidigt som ny teknik erbjuder unika verktyg för revitalisering. Språk som nordsamiska, inuktitut och tjuktjiska fungerar som levande arkiv för traditionell ekologisk kunskap, där den lexikala precisionen kring isformationer, snöförhållanden och biologisk mångfald är direkt kopplad…",
+            "faqs": []
+        },
+        {
+            "id": 371264,
+            "title": "Översättning av registerutdrag till engelska",
+            "slug": "oversattning-av-registerutdrag-till-engelska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-engelska/",
+            "primary_silo": "Engelska",
+            "categories": [
+                "Engelska"
+            ],
+            "languages": [
+                "Engelska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/engelska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-16",
+            "word_count": 1343,
+            "summary": "Registerutdrag från svenska myndigheter, såsom belastningsregistret eller utdrag ur folkbokföringen, utgör den juridiska grunden för individers behörighet och status vid internationella ansökningsprocesser. Vid ansökan om arbetsvisum, utlandsstudier eller vid gränsöverskridande juridiska prövningar kräver mottagande part att dokumentets bevisvärde förblir intakt trots språkbytet. Ett registerutdrag är inte enbart en informativ text, utan ett officiellt certifikat vars…",
+            "faqs": []
+        },
+        {
+            "id": 371262,
+            "title": "Översättning av registerutdrag till tjeckiska",
+            "slug": "oversattning-av-registerutdrag-till-tjeckiska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-tjeckiska/",
+            "primary_silo": "Tjeckiska",
+            "categories": [
+                "Tjeckiska"
+            ],
+            "languages": [
+                "Tjeckiska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/tjeckiska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-16",
+            "word_count": 1432,
+            "summary": "Juridisk precision i tjeckiska myndighetskontakter kräver mer än en lingvistisk överföring; det förutsätter en djup förståelse för det tjeckiska rättssystemets specifika terminologi och formaliakrav. När ett svenskt bolag expanderar till Prag eller Brno, eller när en privatperson ska styrka sin vandel inför tjeckiska rättsvårdande instanser, utgör registerutdraget fundamentet för den juridiska personens eller individens status.…",
+            "faqs": []
+        },
+        {
+            "id": 371266,
+            "title": "Översättning av registerutdrag till estniska",
+            "slug": "oversattning-av-registerutdrag-till-estniska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-estniska/",
+            "primary_silo": "Estniska",
+            "categories": [
+                "Estniska"
+            ],
+            "languages": [
+                "Estniska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/estniska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-16",
+            "word_count": 1073,
+            "summary": "Etablering på den estniska marknaden eller deltagande i rättsliga processer i landet kräver att svenska registerutdrag från Bolagsverket eller Skatteverket översätts med absolut juridisk precision. Estland har utvecklat en av världens mest avancerade digitala förvaltningar, där e-Äriregister (det estniska företagsregistret) fungerar som navet för all affärsverksamhet. För att ett svenskt aktiebolag ska kunna registrera en…",
+            "faqs": []
+        },
+        {
+            "id": 371268,
+            "title": "Översättning av registerutdrag till svenska",
+            "slug": "oversattning-av-registerutdrag-till-svenska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-svenska/",
+            "primary_silo": "Svenska",
+            "categories": [
+                "Svenska"
+            ],
+            "languages": [
+                "Svenska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/svenska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-16",
+            "word_count": 1270,
+            "summary": "Registerutdrag utgör den juridiska grunden för en individs civila status och personuppgifter vid kontakt med svenska myndigheter och finansiella institutioner. Vid ansökan om personnummer, registrering av utländska äktenskap eller öppnande av bankkonto kräver instanser som Skatteverket och svenska affärsbanker att dokumentationen är språkligt oklanderlig och juridiskt korrekt återgiven. En felaktig tolkning av ett födelsebevis, ett…",
+            "faqs": []
+        },
+        {
+            "id": 371270,
+            "title": "Översättning av registerutdrag till finska",
+            "slug": "oversattning-av-registerutdrag-till-finska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-finska/",
+            "primary_silo": "Finska",
+            "categories": [
+                "Finska"
+            ],
+            "languages": [
+                "Finska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/finska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-16",
+            "word_count": 1038,
+            "summary": "När privatpersoner flyttar, studenter påbörjar utbildningar eller företag etablerar sig på den finska marknaden utgör registerutdraget det juridiska beviset för individens eller organisationens status. Eftersom dessa dokument fungerar som officiella intyg i rättsliga och administrativa sammanhang, är kraven på språklig exakthet absoluta. En bristfällig översättning riskerar att ogiltigförklaras av mottagande instanser, vilket kan stoppa allt…",
+            "faqs": []
+        },
         {
             "id": 390600,
             "title": "Varför misslyckas AI med att fånga ironi och sarkasm i marknadsföringstexter?",
@@ -10318,27 +10440,6 @@
             "faqs": []
         },
         {
-            "id": 371262,
-            "title": "Översättning av registerutdrag till tjeckiska",
-            "slug": "oversattning-av-registerutdrag-till-tjeckiska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-tjeckiska/",
-            "primary_silo": "Tjeckiska",
-            "categories": [
-                "Tjeckiska"
-            ],
-            "languages": [
-                "Tjeckiska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/tjeckiska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-30",
-            "word_count": 755,
-            "summary": "Auktoriserad översättning av registerutdrag till tjeckiska I en alltmer globaliserad värld blir kontakterna mellan Sverige och Tjeckien allt vanligare, både för företag och privatpersoner. Oavsett om det handlar om att starta en företagsfilial i Prag, köpa en fastighet eller ansöka om ett arbetstillstånd, är behovet av juridiskt korrekta dokument avgörande. Här spelar översättningen av officiella…",
-            "faqs": []
-        },
-        {
             "id": 372835,
             "title": "Så hälsar du på tjeckiska – lär dig säga \"hej\" med rätt ton, artighet och känsla",
             "slug": "sa-halsar-du-pa-tjeckiska-lar-dig-saga-hej-med-ratt-ton-artighet-och-kansla",
@@ -11570,27 +11671,6 @@
             "modified_at": "2025-09-28",
             "word_count": 593,
             "summary": "Auktoriserad översättning av födelsebevis till svenska Ett födelsebevis är ett av de mest grundläggande och viktiga personliga dokumenten. När du behöver använda ett utländskt födelsebevis i Sverige, till exempel vid en ansökan om medborgarskap, uppehållstillstånd, eller i arvs- och familjerättsliga ärenden, är det avgörande att det är korrekt översatt. Det räcker inte med en enkel…",
-            "faqs": []
-        },
-        {
-            "id": 371268,
-            "title": "Översättning av registerutdrag till svenska",
-            "slug": "oversattning-av-registerutdrag-till-svenska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-svenska/",
-            "primary_silo": "Svenska",
-            "categories": [
-                "Svenska"
-            ],
-            "languages": [
-                "Svenska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/svenska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-28",
-            "word_count": 786,
-            "summary": "Säkra juridisk giltighet med auktoriserad översättning av registerutdrag I en alltmer globaliserad värld uppstår behovet av att översätta officiella dokument som registerutdrag i många olika sammanhang. Det kan gälla allt från internationella anställningar och juridiska processer till studier utomlands eller immigrationsärenden. För att ett översatt dokument ska accepteras av myndigheter och andra formella instanser är…",
             "faqs": []
         },
         {
@@ -22714,27 +22794,6 @@
             "faqs": []
         },
         {
-            "id": 371270,
-            "title": "Översättning av registerutdrag till finska",
-            "slug": "oversattning-av-registerutdrag-till-finska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-finska/",
-            "primary_silo": "Finska",
-            "categories": [
-                "Finska"
-            ],
-            "languages": [
-                "Finska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/finska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-18",
-            "word_count": 768,
-            "summary": "Auktoriserad översättning av registerutdrag till finska I den ständigt växande interaktionen mellan Sverige och Finland ökar behovet av professionella och juridiskt giltiga översättningar. Allt fler individer och företag navigerar mellan ländernas administrativa och rättsliga system, vilket ställer höga krav på korrekt dokumentation. Registerutdrag är centrala i denna process. Dessa officiella dokument innehåller väsentlig information och…",
-            "faqs": []
-        },
-        {
             "id": 372618,
             "title": "Hur du säger hej på finska: En grundlig guide till Finlands hälsningskultur",
             "slug": "hur-du-sager-hej-pa-finska-en-grundlig-guide-till-finlands-halsningskultur",
@@ -23116,27 +23175,6 @@
             "modified_at": "2025-09-18",
             "word_count": 885,
             "summary": "Auktoriserad översättning av födelsebevis till estniska Ett födelsebevis är mer än bara ett papper; det är en juridisk nyckel som öppnar dörrar till nya möjligheter i andra länder. När destinationen är Estland är det avgörande att denna nyckel passar perfekt i de officiella låsen. För att studera, arbeta, ansöka om medborgarskap eller hantera familjeärenden kräver…",
-            "faqs": []
-        },
-        {
-            "id": 371266,
-            "title": "Översättning av registerutdrag till estniska",
-            "slug": "oversattning-av-registerutdrag-till-estniska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-estniska/",
-            "primary_silo": "Estniska",
-            "categories": [
-                "Estniska"
-            ],
-            "languages": [
-                "Estniska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/estniska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-18",
-            "word_count": 835,
-            "summary": "Översättning till estniska – en brygga över Östersjön De affärsmässiga och privata banden mellan Sverige och Estland är starka och växer ständigt. Företag expanderar över Östersjön, familjer flyttar och juridiska processer sträcker sig över landsgränserna. I denna dynamiska miljö blir behovet av precisa och juridiskt giltiga dokumentöversättningar allt viktigare. Att översätta ett svenskt registerutdrag till…",
             "faqs": []
         },
         {
@@ -24007,27 +24045,6 @@
             "modified_at": "2025-09-18",
             "word_count": 934,
             "summary": "Ditt födelsebevis: En nyckel till en global värld Födelsebeviset är ett av de mest grundläggande och personliga dokument vi äger. Det är det officiella beviset på vår existens, var vi föddes och när. I en alltmer sammankopplad och globaliserad värld har detta dokument fått en ny och utökad betydelse. Det är inte längre bara ett…",
-            "faqs": []
-        },
-        {
-            "id": 371264,
-            "title": "Översättning av registerutdrag till engelska",
-            "slug": "oversattning-av-registerutdrag-till-engelska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-engelska/",
-            "primary_silo": "Engelska",
-            "categories": [
-                "Engelska"
-            ],
-            "languages": [
-                "Engelska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/engelska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-18",
-            "word_count": 927,
-            "summary": "Auktoriserad översättning av registerutdrag till engelska I en alltmer globaliserad värld är behovet av att kunna presentera officiella dokument i olika länder en självklarhet. För företag som expanderar internationellt och för privatpersoner som flyttar, studerar eller arbetar utomlands är en professionell och auktoriserad översättning av registerutdrag till engelska en kritisk komponent för framgång. En korrekt…",
             "faqs": []
         },
         {
