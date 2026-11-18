@@ -11,11 +11,11 @@
         "hf": "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph",
         "doi": "https://doi.org/10.5281/zenodo.23759753"
     },
-    "generated_at": "2026-11-17T05:49:50Z",
+    "generated_at": "2026-11-18T05:49:08Z",
     "counts": {
         "languages": 176,
         "service_pages": 15,
-        "articles": 2391,
+        "articles": 2392,
         "silos": 11
     },
     "silos": [
@@ -29,7 +29,7 @@
             "id": 1,
             "name": "Allmänt",
             "slug": "allmant",
-            "count": 15
+            "count": 16
         },
         {
             "id": 118,
@@ -635,14 +635,14 @@
                 "https://www.oversattning.se/oversattning-fran-svenska-till-bosniska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-bosniska/",
                 "https://www.oversattning.se/oversattning-fran-bosniska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-bosniska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-bosniska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bosniska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-bosnien/",
                 "https://www.oversattning.se/bosniska-oversattning-till-och-fran-bosniska/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-bosniska-spraket/",
                 "https://www.oversattning.se/ar-bosniska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-bosniska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-bosniska/"
+                "https://www.oversattning.se/oversattning-av-personbevis-till-bosniska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -690,14 +690,14 @@
                 "https://www.oversattning.se/oversattning-fran-engelska-till-bulgariska/",
                 "https://www.oversattning.se/oversattning-fran-bulgariska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-bulgariska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-bulgariska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-bulgariska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-bulgariska/",
                 "https://www.oversattning.se/hur-du-sager-hej-pa-bulgariska-din-fullstandiga-guide-till-bulgariens-halsningskultur/",
                 "https://www.oversattning.se/bulgariska-oversattning-till-och-fran-bulgariska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-bulgarien/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-bulgariska-spraket/",
-                "https://www.oversattning.se/ar-bulgariska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-bulgariska/"
+                "https://www.oversattning.se/ar-bulgariska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -771,14 +771,14 @@
                 "https://www.oversattning.se/oversattning-fran-engelska-till-danska/",
                 "https://www.oversattning.se/oversattning-fran-danska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-danska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-danska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-danska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-danska/",
                 "https://www.oversattning.se/danska-oversattning-till-och-fran-danska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-danmark/",
                 "https://www.oversattning.se/danska-ar-mycket-svarare-an-norska-och-svenska-sager-sprakexperter/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-danska-spraket/",
-                "https://www.oversattning.se/ar-danska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-danska/"
+                "https://www.oversattning.se/ar-danska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -2974,14 +2974,14 @@
                 "https://www.oversattning.se/oversattning-fran-turkiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-turkiska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-turkiska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-turkiska/",
                 "https://www.oversattning.se/turkiska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/turkiska-oversattning-till-och-fran-turkiska/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-turkiska-spraket/",
                 "https://www.oversattning.se/ar-turkiska-svart-att-lara-sig/",
                 "https://www.oversattning.se/oversattning-av-personbevis-till-turkiska/",
-                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-turkiska/",
-                "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/"
+                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-turkiska/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -3031,14 +3031,14 @@
                 "https://www.oversattning.se/oversattning-fran-tyska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-tyska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-tyska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-tyska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-tyska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-tyska/",
                 "https://www.oversattning.se/tyska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/sprakliga-lan-som-formade-svenskan-fran-medeltida-tyska-till-modern-tech-engelska/",
                 "https://www.oversattning.se/tyska-oversattning-till-och-fran-tyska/",
                 "https://www.oversattning.se/3-fantastiska-och-billiga-tyska-lyssningsovningar/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-osterrike/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-liechtenstein/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-osterrike/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -4729,6 +4729,128 @@
         }
     ],
     "articles": [
+        {
+            "id": 390642,
+            "title": "Så anpassar du din mjukvaras gränssnitt för läsriktning från höger till vänster",
+            "slug": "sa-anpassar-du-din-mjukvaras-granssnitt-for-lasriktning-fran-hoger-till-vanster",
+            "url": "https://www.oversattning.se/sa-anpassar-du-din-mjukvaras-granssnitt-for-lasriktning-fran-hoger-till-vanster/",
+            "primary_silo": "Allmänt",
+            "categories": [
+                "Allmänt"
+            ],
+            "languages": [],
+            "pillar_urls": [],
+            "published_at": "2026-11-18",
+            "modified_at": "2026-11-18",
+            "word_count": 1708,
+            "summary": "Implementering av stöd för skriftsystem som löper från höger till vänster (RTL) kräver en fundamental omställning av den digitala arkitekturen som sträcker sig långt bortom enkel strängöversättning. För användare i regioner där arabiska, hebreiska, persiska eller urdu dominerar, är den visuella hierarkin och den kognitiva bearbetningen av information spegelvänd jämfört med det latinska alfabetets konventioner.…",
+            "faqs": []
+        },
+        {
+            "id": 371252,
+            "title": "Översättning av registerutdrag till bosniska",
+            "slug": "oversattning-av-registerutdrag-till-bosniska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-bosniska/",
+            "primary_silo": "Bosniska",
+            "categories": [
+                "Bosniska"
+            ],
+            "languages": [
+                "Bosniska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/bosniska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-17",
+            "word_count": 1311,
+            "summary": "Registerutdrag från Skatteverket utgör den juridiska hörnstenen vid ärenden som rör medborgarskap, fastighetsförvärv och arvsskiften i Bosnien och Hercegovina. För att ett svenskt dokument ska erkännas som en giltig rättshandling av bosniska myndigheter krävs en översättning som förenar lingvistisk exakthet med en djupgående förståelse för landets administrativa praxis. Varje enskild term, från personuppgifter till civilstånd,…",
+            "faqs": []
+        },
+        {
+            "id": 371254,
+            "title": "Översättning av registerutdrag till tyska",
+            "slug": "oversattning-av-registerutdrag-till-tyska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-tyska/",
+            "primary_silo": "Tyska",
+            "categories": [
+                "Tyska"
+            ],
+            "languages": [
+                "Tyska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/tyska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-17",
+            "word_count": 1409,
+            "summary": "Tyska myndigheter, från lokala Standesamt till det federala Handelsregister, upprätthåller en rigorös standard för dokumentation där varje juridisk term måste korrespondera exakt med det tyska förvaltningssystemet. En felaktig översättning av ett svenskt registerutdrag, såsom ett personbevis eller ett utdrag ur belastningsregistret, kan leda till omedelbara administrativa avslag, försenade arbetstillstånd eller komplicerade rättsprocesser i Tyskland, Österrike…",
+            "faqs": []
+        },
+        {
+            "id": 371256,
+            "title": "Översättning av registerutdrag till bulgariska",
+            "slug": "oversattning-av-registerutdrag-till-bulgariska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-bulgariska/",
+            "primary_silo": "Bulgariska",
+            "categories": [
+                "Bulgariska"
+            ],
+            "languages": [
+                "Bulgariska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/bulgariska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-17",
+            "word_count": 1403,
+            "summary": "Ett svenskt registerutdrag utgör fundamentet för juridisk legitimitet när verksamheter expanderar till den bulgariska marknaden eller när privatpersoner genomför betydande transaktioner i landet. Vid registrering av ett dotterbolag, såsom ett EOOD (enmansbolag med begränsat ansvar) eller OOD (bolag med begränsat ansvar), hos den bulgariska registreringsmyndigheten Agentsiya po vpisvaniyata, krävs dokumentation som med absolut exakthet speglar…",
+            "faqs": []
+        },
+        {
+            "id": 371258,
+            "title": "Översättning av registerutdrag till turkiska",
+            "slug": "oversattning-av-registerutdrag-till-turkiska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/",
+            "primary_silo": "Turkiska",
+            "categories": [
+                "Turkiska"
+            ],
+            "languages": [
+                "Turkiska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/turkiska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-17",
+            "word_count": 1033,
+            "summary": "Turkiska myndigheter, såsom folkbokföringsmyndigheten Nüfus Müdürlüğü eller lokala domstolar, ställer rigorösa krav på att svenska registerutdrag presenteras med absolut terminologisk precision. Ett till synes enkelt dokument som ett personbevis från Skatteverket eller ett utdrag ur belastningsregistret fungerar som en juridisk identitetshandling vid fastighetsaffärer, vigslar eller ansökningar om uppehållstillstånd i Turkiet. Minsta avvikelse i översättningen av…",
+            "faqs": []
+        },
+        {
+            "id": 371260,
+            "title": "Översättning av registerutdrag till danska",
+            "slug": "oversattning-av-registerutdrag-till-danska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-danska/",
+            "primary_silo": "Danska",
+            "categories": [
+                "Danska"
+            ],
+            "languages": [
+                "Danska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/danska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-17",
+            "word_count": 1101,
+            "summary": "Etablering i Danmark för arbete, studier eller bosättning kräver ofta att svenska registerutdrag presenteras för danska myndigheter i en språklig form som speglar det lokala rättssystemets specifika terminologi. Trots den ömsesidiga begripligheten mellan svenska och danska finns betydande skillnader i hur juridiska fakta kodas språkligt. Ett svenskt personbevis från Skatteverket motsvaras inte rakt av i…",
+            "faqs": []
+        },
         {
             "id": 390622,
             "title": "Strategier för att bevara hotade arktiska ursprungsspråk i en digital era",
@@ -9786,27 +9908,6 @@
             "faqs": []
         },
         {
-            "id": 371254,
-            "title": "Översättning av registerutdrag till tyska",
-            "slug": "oversattning-av-registerutdrag-till-tyska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-tyska/",
-            "primary_silo": "Tyska",
-            "categories": [
-                "Tyska"
-            ],
-            "languages": [
-                "Tyska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/tyska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-10-01",
-            "word_count": 798,
-            "summary": "Auktoriserad översättning av registerutdrag till tyska En professionell och auktoriserad översättning av registerutdrag till tyska är en oumbärlig tjänst. Den är avgörande för företag, organisationer och privatpersoner som behöver säkerställa en felfri kommunikation med myndigheter, arbetsgivare eller utbildningsinstitutioner i Tyskland, Österrike och Schweiz. Denna typ av översättning kräver exceptionell precision, djupgående språkkunskaper och en gedigen…",
-            "faqs": []
-        },
-        {
             "id": 372844,
             "title": "Så hälsar du på tyska – en komplett guide till att säga \"hej\" med stil, respekt och kulturell träffsäkerhet",
             "slug": "sa-halsar-du-pa-tyska-en-komplett-guide-till-att-saga-hej-med-stil-respekt-och-kulturell-traffsakerhet",
@@ -10079,27 +10180,6 @@
             "modified_at": "2025-09-30",
             "word_count": 1029,
             "summary": "Auktoriserad översättning av födelsebevis – En komplett guide Att hantera officiella dokument över landsgränser kan vara en komplex process. Ett av de mest grundläggande och viktiga dokumenten är födelsebeviset, som fungerar som en primär identitetshandling för ditt barn. Behovet av att översätta detta dokument uppstår i en mängd olika situationer, särskilt när en familj har…",
-            "faqs": []
-        },
-        {
-            "id": 371258,
-            "title": "Översättning av registerutdrag till turkiska",
-            "slug": "oversattning-av-registerutdrag-till-turkiska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-turkiska/",
-            "primary_silo": "Turkiska",
-            "categories": [
-                "Turkiska"
-            ],
-            "languages": [
-                "Turkiska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/turkiska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-30",
-            "word_count": 811,
-            "summary": "Auktoriserad översättning till turkiska – En komplett guide för registerutdrag De starka banden mellan Sverige och Turkiet, både genom familjerelationer och affärsverksamhet, innebär att många behöver presentera svenska dokument för turkiska myndigheter. För att ett svenskt registerutdrag ska vara giltigt i Turkiet krävs nästan alltid en professionell och juridiskt bindande översättning. Denna process kräver exceptionell…",
             "faqs": []
         },
         {
@@ -24496,27 +24576,6 @@
             "faqs": []
         },
         {
-            "id": 371260,
-            "title": "Översättning av registerutdrag till danska",
-            "slug": "oversattning-av-registerutdrag-till-danska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-danska/",
-            "primary_silo": "Danska",
-            "categories": [
-                "Danska"
-            ],
-            "languages": [
-                "Danska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/danska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-18",
-            "word_count": 859,
-            "summary": "Auktoriserad översättning av registerutdrag till danska När du behöver presentera svenska dokument för danska myndigheter, företag eller institutioner är en korrekt översättning helt avgörande. Ett registerutdrag, som är ett officiellt bevis på information från ett statligt register, kräver exceptionell noggrannhet för att vara juridiskt giltigt i Danmark. Att välja en professionell översättningstjänst är därför inte…",
-            "faqs": []
-        },
-        {
             "id": 372605,
             "title": "Hur du säger hej på danska: En fullständig guide till Danmarks vänliga hälsningskultur",
             "slug": "hur-du-sager-hej-pa-danska-en-fullstandig-guide-till-danmarks-vanliga-halsningskultur",
@@ -25008,27 +25067,6 @@
             "faqs": []
         },
         {
-            "id": 371256,
-            "title": "Översättning av registerutdrag till bulgariska",
-            "slug": "oversattning-av-registerutdrag-till-bulgariska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-bulgariska/",
-            "primary_silo": "Bulgariska",
-            "categories": [
-                "Bulgariska"
-            ],
-            "languages": [
-                "Bulgariska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/bulgariska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-17",
-            "word_count": 775,
-            "summary": "Auktoriserad översättning av registerutdrag till bulgariska I en alltmer globaliserad värld är behovet av korrekta och juridiskt giltiga dokumentöversättningar större än någonsin. När du behöver presentera ett svenskt registerutdrag för bulgariska myndigheter, arbetsgivare eller utbildningsinstitutioner är det avgörande att översättningen är felfri och officiellt godkänd. Bulgarien, som medlem i Europeiska unionen, ställer specifika och höga…",
-            "faqs": []
-        },
-        {
             "id": 374974,
             "title": "Bulgariska ord och fraser som är bra att kunna",
             "slug": "bulgariska-ord-och-fraser-som-ar-bra-att-kunna",
@@ -25365,27 +25403,6 @@
             "modified_at": "2025-09-17",
             "word_count": 814,
             "summary": "Översättning av födelsebevis till bosniska En komplett guide för en juridiskt giltig översättning När du står inför internationella processer som kräver personlig identifiering, är ditt födelsebevis en av de mest grundläggande och viktiga handlingarna. Oavsett om du planerar att flytta, arbeta, gifta dig eller hantera ett arv i Bosnien och Hercegovina, kommer du att behöva…",
-            "faqs": []
-        },
-        {
-            "id": 371252,
-            "title": "Översättning av registerutdrag till bosniska",
-            "slug": "oversattning-av-registerutdrag-till-bosniska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-bosniska/",
-            "primary_silo": "Bosniska",
-            "categories": [
-                "Bosniska"
-            ],
-            "languages": [
-                "Bosniska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/bosniska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-17",
-            "word_count": 960,
-            "summary": "Auktoriserad översättning av registerutdrag till bosniska I en alltmer globaliserad värld är behovet av att kunna navigera mellan olika länders byråkrati och rättssystem större än någonsin. För företag och individer med koppling till Bosnien-Hercegovina är en professionell översättning av officiella dokument, såsom registerutdrag, inte bara en rekommendation – det är ofta ett absolut krav. När…",
             "faqs": []
         },
         {
