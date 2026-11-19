@@ -11,11 +11,11 @@
         "hf": "https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph",
         "doi": "https://doi.org/10.5281/zenodo.23759753"
     },
-    "generated_at": "2026-11-18T05:49:08Z",
+    "generated_at": "2026-11-19T05:49:31Z",
     "counts": {
         "languages": 176,
         "service_pages": 15,
-        "articles": 2392,
+        "articles": 2393,
         "silos": 11
     },
     "silos": [
@@ -29,7 +29,7 @@
             "id": 1,
             "name": "Allmänt",
             "slug": "allmant",
-            "count": 16
+            "count": 17
         },
         {
             "id": 118,
@@ -178,14 +178,14 @@
                 "https://www.oversattning.se/oversattning-fran-engelska-till-albanska/",
                 "https://www.oversattning.se/oversattning-fran-albanska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-albanska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-albanska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-albanska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-albanska/",
                 "https://www.oversattning.se/albanska-oversattning-till-och-fran-albanska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-albanien/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-montenegro/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-albanska-spraket/",
-                "https://www.oversattning.se/ar-albanska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-albanska/"
+                "https://www.oversattning.se/ar-albanska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -224,14 +224,14 @@
                 "https://www.oversattning.se/oversattning-fran-engelska-till-arabiska/",
                 "https://www.oversattning.se/oversattning-fran-arabiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-arabiska-till-engelska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-arabiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-arabiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-arabiska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-syrien/",
                 "https://www.oversattning.se/arabiska-oversattning-till-och-fran-arabiska/",
                 "https://www.oversattning.se/5-av-de-svaraste-spraken-att-oversatta-och-vad-som-gor-dem-svara/",
                 "https://www.oversattning.se/storsta-spraken-efter-bruttonationalprodukt-vad-du-ska-valja-for-din-webbplats/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-algeriet/",
-                "https://www.oversattning.se/vilka-sprak-talar-man-i-bahrain/"
+                "https://www.oversattning.se/vilka-sprak-talar-man-i-algeriet/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -1724,14 +1724,14 @@
                 "https://www.oversattning.se/oversattning-fran-lettiska-till-svenska/",
                 "https://www.oversattning.se/oversattning-fran-lettiska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-lettiska/",
+                "https://www.oversattning.se/oversattning-av-fodelsebevis-till-lettiska/",
                 "https://www.oversattning.se/oversattning-av-registerutdrag-till-lettiska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-lettiska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-lettiska/",
                 "https://www.oversattning.se/lettiska-oversattning-till-och-fran-lettiska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-lettland/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-lettiska-spraket/",
-                "https://www.oversattning.se/ar-lettiska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-lettiska/"
+                "https://www.oversattning.se/ar-lettiska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -3071,14 +3071,14 @@
                 "https://www.oversattning.se/oversattning-fran-ukrainska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-ukrainska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-ukrainska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-ukrainska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-ukrainska/",
                 "https://www.oversattning.se/ukrainska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/ukrainska-oversattning-till-och-fran-ukrainska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-ukraina/",
                 "https://www.oversattning.se/ukrainska-har-blivit-en-symbol-intresset-for-spraket-okar-i-samband-med-rysslands-invasion/",
                 "https://www.oversattning.se/talar-ukrainare-och-ryssar-samma-sprak/",
-                "https://www.oversattning.se/10-intressanta-fakta-om-det-ukrainska-spraket/",
-                "https://www.oversattning.se/ar-ukrainska-svart-att-lara-sig/"
+                "https://www.oversattning.se/10-intressanta-fakta-om-det-ukrainska-spraket/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -3094,14 +3094,14 @@
                 "https://www.oversattning.se/oversattning-fran-ungerska-till-engelska/",
                 "https://www.oversattning.se/oversattning-fran-svenska-till-ungerska/",
                 "https://www.oversattning.se/oversattning-fran-engelska-till-ungerska/",
+                "https://www.oversattning.se/oversattning-av-registerutdrag-till-ungerska/",
                 "https://www.oversattning.se/oversattning-av-vigselbevis-till-ungerska/",
                 "https://www.oversattning.se/oversattning-av-pass-och-id-kort-till-ungerska/",
                 "https://www.oversattning.se/ungerska-ord-och-fraser-som-ar-bra-att-kunna/",
                 "https://www.oversattning.se/ungerska-oversattning-till-och-fran-ungerska/",
                 "https://www.oversattning.se/vilka-sprak-talar-man-i-ungern/",
                 "https://www.oversattning.se/10-intressanta-fakta-om-det-ungerska-spraket/",
-                "https://www.oversattning.se/ar-ungerska-svart-att-lara-sig/",
-                "https://www.oversattning.se/oversattning-av-personbevis-till-ungerska/"
+                "https://www.oversattning.se/ar-ungerska-svart-att-lara-sig/"
             ],
             "faqs": [],
             "modified_at": "2025-07-26"
@@ -4729,6 +4729,128 @@
         }
     ],
     "articles": [
+        {
+            "id": 390664,
+            "title": "Säkra er mjukvarulokalisering genom att implementera kontextbaserad stränghantering",
+            "slug": "sakra-er-mjukvarulokalisering-genom-att-implementera-kontextbaserad-stranghantering",
+            "url": "https://www.oversattning.se/sakra-er-mjukvarulokalisering-genom-att-implementera-kontextbaserad-stranghantering/",
+            "primary_silo": "Allmänt",
+            "categories": [
+                "Allmänt"
+            ],
+            "languages": [],
+            "pillar_urls": [],
+            "published_at": "2026-11-19",
+            "modified_at": "2026-11-19",
+            "word_count": 1454,
+            "summary": "Mjukvarulokalisering kräver en precision som sträcker sig långt bortom lingvistisk korrekthet; det handlar om att navigera i ett komplext ekosystem där källkod möter mänsklig semantik. När utvecklare exporterar isolerade textsträngar till kalkylblad utan att bifoga metadata eller visuell kontext, tvingas översättaren att arbeta i ett semantiskt vakuum. Detta leder oundvikligen till felaktiga ordval där polysema…",
+            "faqs": []
+        },
+        {
+            "id": 371242,
+            "title": "Översättning av födelsebevis till lettiska",
+            "slug": "oversattning-av-fodelsebevis-till-lettiska",
+            "url": "https://www.oversattning.se/oversattning-av-fodelsebevis-till-lettiska/",
+            "primary_silo": "Lettiska",
+            "categories": [
+                "Lettiska"
+            ],
+            "languages": [
+                "Lettiska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/lettiska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-18",
+            "word_count": 1216,
+            "summary": "Ett födelsebevis utgör den juridiska grunden för en individs identitet och är det mest kritiska dokumentet vid kontakt med lettiska myndigheter, såsom Pilsonības un migrācijas lietu pārvalde (PMLP). Vid ansökan om uppehållstillstånd, registrering av medborgarskap eller civilrättsliga ärenden i Lettland krävs en översättning som inte bara är språkligt korrekt utan även juridiskt oantastlig. Varje detalj,…",
+            "faqs": []
+        },
+        {
+            "id": 371245,
+            "title": "Översättning av registerutdrag till albanska",
+            "slug": "oversattning-av-registerutdrag-till-albanska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-albanska/",
+            "primary_silo": "Albanska",
+            "categories": [
+                "Albanska"
+            ],
+            "languages": [
+                "Albanska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/albanska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-18",
+            "word_count": 1490,
+            "summary": "Juridisk validering av svenska registerutdrag inför albanska instanser kräver en exakt kalibrering mellan två fundamentalt olika administrativa system. När ett personbevis eller ett utdrag ur belastningsregistret ska presenteras för myndigheter i Albanien eller Kosovo räcker det inte med en ordagrann överföring; dokumentet måste transformeras så att dess rättsliga verkan bibehålls i den mottagande rättsordningen. Felaktig…",
+            "faqs": []
+        },
+        {
+            "id": 371246,
+            "title": "Översättning av registerutdrag till ungerska",
+            "slug": "oversattning-av-registerutdrag-till-ungerska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-ungerska/",
+            "primary_silo": "Ungerska",
+            "categories": [
+                "Ungerska"
+            ],
+            "languages": [
+                "Ungerska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/ungerska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-18",
+            "word_count": 1398,
+            "summary": "Ungerska myndighetskrav vid hantering av utländska handlingar präglas av en rigorös formalism där precisionen i den juridiska terminologin är direkt avgörande för dokumentets giltighet. Vid etablering av ett ungerskt dotterbolag (Kft), ansökan om uppehållstillstånd eller registrering av äktenskap krävs nästan uteslutande att svenska registerutdrag presenteras i en form som möter landets strikta krav på auktorisation.…",
+            "faqs": []
+        },
+        {
+            "id": 371248,
+            "title": "Översättning av registerutdrag till arabiska",
+            "slug": "oversattning-av-registerutdrag-till-arabiska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-arabiska/",
+            "primary_silo": "Arabiska",
+            "categories": [
+                "Arabiska"
+            ],
+            "languages": [
+                "Arabiska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/arabiska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-18",
+            "word_count": 1382,
+            "summary": "Ett registerutdrag från Polismyndigheten eller Skatteverket utgör ofta den juridiska hörnstenen vid ansökningar om arbetstillstånd, visum eller vid internationella familjerättsliga ärenden i arabisktalande länder. Precisionen i översättningen är direkt avgörande för dokumentets rättsverkan, då minsta diskrepans mellan källtextens juridiska termer och målspråkets administrativa motsvarigheter kan resultera i att en ansökan avslås eller fördröjs av mottagande…",
+            "faqs": []
+        },
+        {
+            "id": 371250,
+            "title": "Översättning av registerutdrag till ukrainska",
+            "slug": "oversattning-av-registerutdrag-till-ukrainska",
+            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-ukrainska/",
+            "primary_silo": "Ukrainska",
+            "categories": [
+                "Ukrainska"
+            ],
+            "languages": [
+                "Ukrainska"
+            ],
+            "pillar_urls": [
+                "https://www.oversattning.se/sprak/ukrainska/"
+            ],
+            "published_at": "2025-01-28",
+            "modified_at": "2026-11-18",
+            "word_count": 1174,
+            "summary": "Den kraftiga ökningen av rörlighet mellan Sverige och Ukraina har skapat ett akut behov av precision vid översättning av officiella dokument, där minsta avvikelse i terminologi kan leda till att ett registerutdrag ogiltigförklaras av ukrainska myndigheter. Vid hantering av juridiska handlingar som personbevis, vigselbevis eller utdrag ur belastningsregistret räcker det inte med en ordagrann överföring;…",
+            "faqs": []
+        },
         {
             "id": 390642,
             "title": "Så anpassar du din mjukvaras gränssnitt för läsriktning från höger till vänster",
@@ -9309,27 +9431,6 @@
             "faqs": []
         },
         {
-            "id": 371246,
-            "title": "Översättning av registerutdrag till ungerska",
-            "slug": "oversattning-av-registerutdrag-till-ungerska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-ungerska/",
-            "primary_silo": "Ungerska",
-            "categories": [
-                "Ungerska"
-            ],
-            "languages": [
-                "Ungerska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/ungerska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-10-02",
-            "word_count": 768,
-            "summary": "Auktoriserad översättning till ungerska – När ditt registerutdrag måste vara korrekt Ska du studera, arbeta, eller kanske starta företag i Ungern? Då kommer du med största sannolikhet att behöva presentera svenska, officiella dokument för ungerska myndigheter, banker eller universitet. Ett av de vanligaste dokumenten som efterfrågas är ett registerutdrag. För att ett svenskt dokument ska…",
-            "faqs": []
-        },
-        {
             "id": 372851,
             "title": "Så hälsar du på ungerska – en guide till artighet, vardag och värme i Centraleuropas unika språk",
             "slug": "sa-halsar-du-pa-ungerska-en-guide-till-artighet-vardag-och-varme-i-centraleuropas-unika-sprak",
@@ -9522,27 +9623,6 @@
             "modified_at": "2025-10-01",
             "word_count": 780,
             "summary": "Översättning av födelsebevis till ukrainska – En komplett guide Att översätta ett födelsebevis från svenska till ukrainska är en process som kräver mer än bara språklig kunskap. Det handlar om juridisk precision, förståelse för myndighetskrav och kulturella nyanser. Ett födelsebevis är en fundamental handling som verifierar en persons identitet och ursprung, och en korrekt översättning…",
-            "faqs": []
-        },
-        {
-            "id": 371250,
-            "title": "Översättning av registerutdrag till ukrainska",
-            "slug": "oversattning-av-registerutdrag-till-ukrainska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-ukrainska/",
-            "primary_silo": "Ukrainska",
-            "categories": [
-                "Ukrainska"
-            ],
-            "languages": [
-                "Ukrainska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/ukrainska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-10-01",
-            "word_count": 901,
-            "summary": "Auktoriserad översättning av registerutdrag till ukrainska Behovet av professionella och juridiskt giltiga översättningar till ukrainska har ökat kraftigt. I en värld där allt fler människor rör sig över gränserna är korrekta och auktoriserade dokument en absolut nödvändighet. Detta gäller inte minst för ukrainska medborgare i Sverige och för svenskar med koppling till Ukraina. Dokument som…",
             "faqs": []
         },
         {
@@ -17740,27 +17820,6 @@
             "modified_at": "2025-09-21",
             "word_count": 790,
             "summary": "Behöver du översätta ett personbevis till lettiska? Att översätta ett personbevis från svenska till lettiska är ofta ett avgörande steg i många viktiga livshändelser och administrativa processer. Det kan handla om en flytt, en ansökan om medborgarskap, ett giftermål eller ett arvsärende som sträcker sig över landsgränserna. Eftersom ett personbevis är en officiell juridisk handling…",
-            "faqs": []
-        },
-        {
-            "id": 371242,
-            "title": "Översättning av födelsebevis till lettiska",
-            "slug": "oversattning-av-fodelsebevis-till-lettiska",
-            "url": "https://www.oversattning.se/oversattning-av-fodelsebevis-till-lettiska/",
-            "primary_silo": "Lettiska",
-            "categories": [
-                "Lettiska"
-            ],
-            "languages": [
-                "Lettiska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/lettiska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-21",
-            "word_count": 656,
-            "summary": "Att översätta ett födelsebevis till lettiska är en process som kräver absolut noggrannhet och juridisk giltighet. Födelsebeviset är ett fundamentalt juridiskt dokument som används i många officiella sammanhang, från ansökningar om medborgarskap och uppehållstillstånd till registrering för studier eller arbete i Lettland. För att säkerställa att ditt dokument accepteras av lettiska myndigheter utan fördröjning är…",
             "faqs": []
         },
         {
@@ -28711,27 +28770,6 @@
             "faqs": []
         },
         {
-            "id": 371248,
-            "title": "Översättning av registerutdrag till arabiska",
-            "slug": "oversattning-av-registerutdrag-till-arabiska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-arabiska/",
-            "primary_silo": "Arabiska",
-            "categories": [
-                "Arabiska"
-            ],
-            "languages": [
-                "Arabiska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/arabiska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-16",
-            "word_count": 925,
-            "summary": "Auktoriserad översättning av registerutdrag till arabiska Att översätta officiella dokument som registerutdrag till arabiska är en process där precision och juridisk korrekthet är av yttersta vikt. Denna typ av översättning är långt mer komplex än en vanlig textöversättning och ställer höga krav på både lingvistisk expertis och kulturell förståelse. Registerutdrag, såsom personbevis, äktenskapsbevis eller utdrag…",
-            "faqs": []
-        },
-        {
             "id": 372565,
             "title": "Så hälsar du på arabiska: En guide till första intrycket",
             "slug": "sa-halsar-du-pa-arabiska-en-guide-till-forsta-intrycket",
@@ -29034,27 +29072,6 @@
             "modified_at": "2025-09-16",
             "word_count": 848,
             "summary": "Översättning av födelsebevis till albanska – Säkert, korrekt och auktoriserat I en alltmer globaliserad värld där människor flyttar, gifter sig och studerar över gränserna, ökar behovet av officiella dokumentöversättningar. En professionell och auktoriserad översättning av ett födelsebevis från svenska till albanska är ofta ett avgörande steg i viktiga livsprocesser. Att säkerställa att översättningen är helt…",
-            "faqs": []
-        },
-        {
-            "id": 371245,
-            "title": "Översättning av registerutdrag till albanska",
-            "slug": "oversattning-av-registerutdrag-till-albanska",
-            "url": "https://www.oversattning.se/oversattning-av-registerutdrag-till-albanska/",
-            "primary_silo": "Albanska",
-            "categories": [
-                "Albanska"
-            ],
-            "languages": [
-                "Albanska"
-            ],
-            "pillar_urls": [
-                "https://www.oversattning.se/sprak/albanska/"
-            ],
-            "published_at": "2025-01-28",
-            "modified_at": "2025-09-16",
-            "word_count": 879,
-            "summary": "Varför behövs en auktoriserad översättning till albanska? Att översätta officiella dokument som registerutdrag är en process där noggrannhet och juridisk giltighet är helt avgörande. För privatpersoner och företag med koppling till Albanien blir en professionell översättning ofta en nödvändighet i kontakten med myndigheter och andra officiella instanser. Registerutdrag är ett samlingsnamn för flera typer av…",
             "faqs": []
         },
         {
