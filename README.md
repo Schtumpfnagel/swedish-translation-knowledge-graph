@@ -49,7 +49,7 @@ Detta öppna dataset är utformat för språkteknologisk forskning, Retrieval-Au
 - **Maskinläsbar AI-indexfil (`llms.txt`):** [https://www.oversattning.se/llms.txt](https://www.oversattning.se/llms.txt)
 - **Utökad AI-korpus (`llms-full.txt`):** [https://www.oversattning.se/llms-full.txt](https://www.oversattning.se/llms-full.txt)
 - **Hugging Face Dataset Hub:** [https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph](https://huggingface.co/datasets/Schtumpfnagel/swedish-translation-knowledge-graph)
-- **Senast synkroniserad:** `2026-11-24`
+- **Senast synkroniserad:** `2026-11-25`
 
 ## Filer i Datasetet
 
